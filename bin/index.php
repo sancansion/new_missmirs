@@ -99,23 +99,22 @@
 								<a href="access.php">Access</a>
 								<ul class="dropdown">
 									<li>
-										<a href="#">天神橋六丁目</a>
+										<a href="#tenroku">天神橋六丁目</a>
 									</li>
 									<li>
-										<a href="#">扇町</a>
+										<a href="#ougi">扇町</a>
 									</li>
 									<li>
-										<a href="#">南森町</a>
+										<a href="#nanmori">南森町</a>
 									</li>
 									<li>
-										<a href="#">長堀橋</a>
+										<a href="#nagahori">長堀橋</a>
 									</li>
 								</ul>
 							</li>
 						</ul>
 					</div>
 				</div>
-
 			</div>
 		</nav>
 		<!-- START:header -->
@@ -194,7 +193,8 @@
 
 
 						<a href="http://blog.livedoor.jp/missmrs02/" target="_blank" class="more">
-							Mrs.Miss Blogはこちら <span>▲</span>
+							Mrs.Miss Blogはこちら
+							<span>▲</span>
 						</a>
 					</div>
 
@@ -227,7 +227,8 @@
                         ?>
 
 						<a href="http://missmrs01.blog.fc2.com/" target="_blank" class="more">
-							出勤情報Blogはこちら <span>▲</span>
+							出勤情報Blogはこちら
+							<span>▲</span>
 						</a>
 					</div>
 				</div>
