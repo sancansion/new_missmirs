@@ -146,11 +146,11 @@
 					<div class="col-md-12 col-md-offset-0">
 						<ul class="timeline animate-box">
 							<li class="animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-1.jpg);"></div>
+								<div class="timeline-badge" style="background-image: url(images/recruit.png);"></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">First We Meet</h3>
-										<span class="date">December 25, 2015</span>
+										<h3 class="timeline-title">セラピスト大募集</h3>
+										
 									</div>
 									<div class="timeline-body">
 										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.

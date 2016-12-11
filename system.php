@@ -189,7 +189,7 @@
 								<i class="icon-heart"></i>
 							</span>
 							<div class="icon-heart">
-								<h3>セラピスト指名料 ・・・50円</h3>
+								<h3>セラピスト指名料 ・・・0円</h3>
 							</div>
 						</div>
 
@@ -263,34 +263,34 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- END: -->
-	<!-- END:Main -->
-	<!-- START:footer -->
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
-					</p>
-					<ul class="fh5co-social-icons">
-						<li>
-							<a href="https://www.instagram.com/missmrs01/">
-								<i class="icon-instagram"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
-								<i class="icon-facebook"></i>
-							</a>
-						</li>
-					</ul>
+
+		<!-- END: -->
+		<!-- END:Main -->
+		<!-- START:footer -->
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="container">
+				<div class="row copyright">
+					<div class="col-md-12 text-center">
+						<p>
+							<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
+						</p>
+						<ul class="fh5co-social-icons">
+							<li>
+								<a href="https://www.instagram.com/missmrs01/">
+									<i class="icon-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
+									<i class="icon-facebook"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
-	<!-- END:footer -->
+		</footer>
+		<!-- END:footer -->
 	</div>
 
 	<div class="gototop js-top">
