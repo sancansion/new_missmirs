@@ -127,8 +127,32 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6  text-left fh5co-heading animate-box">right</div>
-					<div class="col-md-6  text-left fh5co-heading animate-box">left</div>
+					<div class="col-md-6  text-left fh5co-heading animate-box">
+						<h2>求人詳細</h2>
+						<h3>勤務日</h3>
+						<p>シフト制なので事前予約が入りやすく指名も取りやすい。</p>
+						<p>勤務日・時間等、相談に応じます。</p>
+						<p>週１～でもOKです。</p>
+
+						<h3>勤務地</h3>
+						<p>天六、扇町、南森町、長堀橋という最高の立地条件でお出迎え致します。</p>
+						<p>当店は最寄駅から近くで通勤にも超便利！！</p>
+
+
+						<h3>お仕事内容</h3>
+						<p>優しい女性セラピストと優秀なスタッフが全力でアナタをサポート致します。</p>
+						<p>オイルを使用してのボディトリートメント、簡単なお掃除。</p>
+					</div>
+					<div class="col-md-6  text-left fh5co-heading animate-box">
+						<h3>お問い合わせ</h3>
+						<p>電話受付:午前9:00〜翌3:00 /p>
+						<h3>≪メール・LINE 24時間受付中≫</h3>
+						<p>TEL:090-3053-0184</p>
+						<p>メール:missmrs@docomo.ne.jp</p>
+						<p>LINE ID:missmrs</p>
+						<p>質問だけでも気軽にお問い合わせください。</p>
+
+					</div>
 				</div>
 			</div>
 		</div>
@@ -150,11 +174,9 @@
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h3 class="timeline-title">セラピスト大募集</h3>
-										
 									</div>
 									<div class="timeline-body">
-										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-											Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										<p>天六、扇町、南森町、長堀橋の有名優良店だから出来る業界トップクラスの高待遇＆高額なバック率</p>
 									</div>
 								</div>
 							</li>
@@ -162,12 +184,11 @@
 								<div class="timeline-badge" style="background-image: url(images/couple-2.jpg);"></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">First Date</h3>
-										<span class="date">December 28, 2015</span>
+										<h3 class="timeline-title">圧倒的な集客力に自信あり</h3>
+
 									</div>
 									<div class="timeline-body">
-										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-											Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										<p>当店は天六から長堀橋にかけて幅広く店舗を展開しているため、他店より幅広い集客に自信があります！ また、ブログ更新や広告宣伝費にも力を入れていますので、リピーター様や新規のお客様のご予約に直結しています。</p>
 									</div>
 								</div>
 							</li>
@@ -175,12 +196,89 @@
 								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">In A Relationship</h3>
-										<span class="date">January 1, 2016</span>
+										<h3 class="timeline-title">1日体験入店OK</h3>
+
 									</div>
 									<div class="timeline-body">
-										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-											Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										<p>もちろん体験入店できます。当店の稼ぎやすさを実感してください！ 誰もが最初は不安です、まずは体験入店してみて下さい。</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">未経験でも安心</h3>
+
+									</div>
+									<div class="timeline-body">
+										<p>80％が未経験からのスタート。 未経験者の方は不安でいっぱいだと思います。ご安心下さい。 当店では未経験者の方にも安心して働いて頂けるように女性講師による丁寧な研修システムをご用意しています。 優しい女性スタッフが親身になって相談に乗ります。</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">経験者の方は優遇K</h3>
+
+									</div>
+									<div class="timeline-body">
+										<p>経験者の方は他店で抱えていた悩み等ご相談頂ければ、優秀なスタッフが全力でサポートします！！ 人間関係良好で働きやすく、女性としてセラピストとして成長出来る職場です。皆で目標を叶えましょう。</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">清潔でキレイな施術ルーム</h3>
+
+									</div>
+									<div class="timeline-body">
+										<p>お客様はもちろん、セラピストさんにも気持ち良く働いて頂きたいので、施術ルームの清潔さにこだわっています。</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">友達紹介キャンペーン</h3>
+									</div>
+									<div class="timeline-body">
+										<p>手数料奮発</p>
+										<p>手数料奮発</p>
+										<p>手数料奮発</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">各種手当</h3>
+									</div>
+									<div class="timeline-body">
+										<p>皆勤手当</p>
+										<p>皆勤手当</p>
+										<p>皆勤手当</p>
+									</div>
+								</div>
+							</li>
+
+
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">収入例</h3>
+
+									</div>
+									<div class="timeline-body">
+										<p>90分 5,500～8,000円</p>
+										<p>120分 7,500～10,000円</p>
 									</div>
 								</div>
 							</li>

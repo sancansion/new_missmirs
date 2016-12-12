@@ -545,12 +545,12 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 16px;
   left: 50%;
   margin-left: -80px;
-  background-color: #999999;
+ background-color: #fb9cd0;
   z-index: 100;
-/*   -webkit-border-radius: 50%;
+    -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%; */
+  border-radius: 55%; 
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
