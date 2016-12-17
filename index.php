@@ -158,7 +158,7 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6  text-left fh5co-heading animate-box">
+					<div class="col-md-6  text-left fh5co-heading animate-box blog">
 						<h2>Mrs.Miss Blog</h2>
 						<?php
                                 // モジュールを読み込む
@@ -182,7 +182,7 @@
                                 foreach ($rss->items as $item) {
                                 $link = mb_convert_encoding($item['link'],"UTF-8","auto");
                                 $title = mb_convert_encoding($item['title'],"UTF-8","auto");
-                                $date = date("Y/m/d H:i", strtotime($item['modified']));
+                                $date = date("Y.m.d H:i", strtotime($item['modified']));
                                 if (preg_match("/PR$/", $title) != 0) continue;
                                 if (preg_match("/^PR:.+$/", $title) != 0) continue;
                                 if ($line++ == $max_lines) break;
@@ -198,8 +198,8 @@
 						</a>
 					</div>
 
-					<div class="col-md-6  text-left fh5co-heading animate-box">
-						<h2>出勤情報</h2>
+					<div class="col-md-6  text-left fh5co-heading animate-box blog">
+						<h2>Schedule</h2>
 						<?php
                         // モジュールを読み込む
                         require_once("./magpierss/rss_fetch.inc");
@@ -217,11 +217,11 @@
                         $link = mb_convert_encoding($item['link'],"UTF-8","auto");
                         $title = mb_convert_encoding($item['title'],"UTF-8","auto");
                         $description = mb_convert_encoding($item['description'],"UTF-8","auto");
-                        //$date = date("Y/m/d H:i", intval($item['date_timestamp']));
+                         $date = date('Y.m.d' ,strtotime(substr($item['dc']['date'],0,10)));
                         if (preg_match("/PR$/", $title) != 0) continue;
                         if (preg_match("/^PR:.+$/", $title) != 0) continue;
                         if ($line++ == $max_lines) break;
-                        //echo "<a href=$link>$title</a><br />$description";
+                        //echo "<a href=$link">$title</a><br />$description";
                         echo "<dl><dt>$date</dt><dd><a href=\"$link\" target=\"_blank\">$title</a></dd></dl>";
                         }
                         ?>
