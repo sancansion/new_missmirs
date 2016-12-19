@@ -113,8 +113,7 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<h1>Miss.Mrs</h1>
-								<h2>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</h2>
+								<h1>Therapist</h1>
 							</div>
 						</div>
 					</div>
@@ -123,158 +122,139 @@
 		</header>
 		<!-- END:header -->
 		<!-- START:Main -->
-		<!-- START: -->
-		<div id="fh5co-couple">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6  text-left fh5co-heading animate-box">right</div>
-					<div class="col-md-6  text-left fh5co-heading animate-box">left</div>
-				</div>
-			</div>
-		</div>
-
-
+		<!-- START: Miss-->
 		<div id="fh5co-gallery">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<span>Our Memories</span>
-						<h2>Wedding Gallery</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h2>Miss</h2>
 					</div>
 				</div>
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg);">
-								<a href="images/gallery-1.jpg">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/aikawa.jpg);">
+								<a href="" class="">
 									<div class="case-studies-summary">
-										<span>14 Photos</span>
-										<h2>Two Glas of Juice</h2>
+										<h2>Miss.哀川ひかり(25)</h2>
 									</div>
 								</a>
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg);">
-								<a href="#" class="color-2">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/aoe.jpg);">
+								<a href="" class="color-2">
 									<div class="case-studies-summary">
-										<span>30 Photos</span>
-										<h2>Timer starts now!</h2>
-									</div>
-								</a>
-							</li>
-
-
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg);">
-								<a href="#" class="color-3">
-									<div class="case-studies-summary">
-										<span>90 Photos</span>
-										<h2>Beautiful sunset</h2>
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg);">
-								<a href="#" class="color-4">
-									<div class="case-studies-summary">
-										<span>12 Photos</span>
-										<h2>Company's Conference Room</h2>
-									</div>
-								</a>
-							</li>
-
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg);">
-								<a href="#" class="color-3">
-									<div class="case-studies-summary">
-										<span>50 Photos</span>
-										<h2>Useful baskets</h2>
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg);">
-								<a href="#" class="color-4">
-									<div class="case-studies-summary">
-										<span>45 Photos</span>
-										<h2>Skater man in the road</h2>
-									</div>
-								</a>
-							</li>
-
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg);">
-								<a href="#" class="color-4">
-									<div class="case-studies-summary">
-										<span>35 Photos</span>
-										<h2>Two Glas of Juice</h2>
-									</div>
-								</a>
-							</li>
-
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg);">
-								<a href="#" class="color-5">
-									<div class="case-studies-summary">
-										<span>90 Photos</span>
-										<h2>Timer starts now!</h2>
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg);">
-								<a href="#" class="color-6">
-									<div class="case-studies-summary">
-										<span>56 Photos</span>
-										<h2>Beautiful sunset</h2>
+										<h2>Miss.青江リナ(27)</h2>
 									</div>
 								</a>
 							</li>
 
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg);">
-								<a href="#" class="color-4">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/ayukawa.jpg);">
+								<a href="" class="color-3">
 									<div class="case-studies-summary">
-										<span>35 Photos</span>
-										<h2>Two Glas of Juice</h2>
+										<h2>Miss.鮎川小春(25)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/ichioka.jpg);">
+								<a href="" class="color-4">
+									<div class="case-studies-summary">
+										<h2>Miss.一岡さやか(21)</h2>
 									</div>
 								</a>
 							</li>
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg);">
-								<a href="#" class="color-5">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/kobayashi.jpg);">
+								<a href="" class="color-3">
 									<div class="case-studies-summary">
-										<span>90 Photos</span>
-										<h2>Timer starts now!</h2>
+
+										<h2>Miss.小林ゆか(31)</h2>
 									</div>
 								</a>
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg);">
-								<a href="#" class="color-6">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/shirakawa.jpg);">
+								<a href="" class="color-4">
 									<div class="case-studies-summary">
-										<span>56 Photos</span>
-										<h2>Beautiful sunset</h2>
+										<h2>Miss.白川華(27)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/takeuchi.jpg);">
+								<a href="" class="color-4">
+									<div class="case-studies-summary">
+										<h2>Miss.竹内ゆうか(27)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/nakamura.jpg);">
+								<a href="" class="color-5">
+									<div class="case-studies-summary">
+										<h2>Miss.中村さり(20)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/hashimoto.jpg);">
+								<a href="" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Miss.橋本結衣(29)</h2>
 									</div>
 								</a>
 							</li>
 
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg);">
-								<a href="#" class="color-4">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/hatsune.jpg);">
+								<a href="" class="color-4">
 									<div class="case-studies-summary">
-										<span>35 Photos</span>
-										<h2>Two Glas of Juice</h2>
+										<h2>Miss.初音里沙(21)</h2>
 									</div>
 								</a>
 							</li>
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg);">
-								<a href="#" class="color-5">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/hayashi.jpg);">
+								<a href="" class="color-5">
 									<div class="case-studies-summary">
-										<span>90 Photos</span>
-										<h2>Timer starts now!</h2>
+										<h2>Miss.林あい(27)</h2>
 									</div>
 								</a>
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg);">
-								<a href="#" class="color-6">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/hirai.jpg);">
+								<a href="" class="color-6">
 									<div class="case-studies-summary">
-										<span>56 Photos</span>
-										<h2>Beautiful sunset</h2>
+										<h2>Miss.平井らい(25)</h2>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/fujiwara.jpg);">
+								<a href="" class="color-4">
+									<div class="case-studies-summary">
+										<h2>Miss.藤原 葵(21)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/matsuura.jpg);">
+								<a href="" class="color-5">
+									<div class="case-studies-summary">
+										<h2>Miss.松浦なな(23)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/mifuji.jpg);">
+								<a href="" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Miss.美藤玲奈(22)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/watanabe.jpg);">
+								<a href="" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Miss.渡辺あかり(21)</h2>
 									</div>
 								</a>
 							</li>
@@ -283,63 +263,191 @@
 				</div>
 			</div>
 		</div>
-		<!-- END: -->
-		<!-- END:Main -->
-		<!-- START:footer -->
-		<footer id="fh5co-footer" role="contentinfo">
+		<!-- END:Miss -->
+
+		<!-- START: Mrs-->
+		<div id="fh5co-gallery">
 			<div class="container">
-				<div class="row copyright">
-					<div class="col-md-12 text-center">
-						<p>
-							<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
-						</p>
-						<ul class="fh5co-social-icons">
-							<li>
-								<a href="https://www.instagram.com/missmrs01/">
-									<i class="icon-instagram"></i>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>Mrs</h2>
+					</div>
+				</div>
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<ul id="fh5co-gallery-list">
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/aizawa.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.相沢明日香(37)</h2>
+									</div>
 								</a>
 							</li>
-							<li>
-								<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
-									<i class="icon-facebook"></i>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/amano.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.天野ここみ(41)</h2>
+									</div>
 								</a>
 							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/ishida.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.石田真奈(35)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/kobayashi.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.小林ゆか(31)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/sakurai.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.櫻井理子(38)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/suzuhara.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.鈴原美帆(35)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/takaoka2.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.高岡もえ(35)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/takei.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.竹井ゆま(48)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/tsukishiro.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.月城冴(33)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/hatayama.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.畑山ゆりこ(39)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/fujisaki.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.藤崎いずみ(46)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/hoshino.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.星野ゆり(43)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/matsushima.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.松嶋結衣(38)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/mizuta1.jpg);">
+								<a href="" class="color-2">
+									<div class="case-studies-summary">
+										<h2>Mrs.水田れいか(43)</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/yamamoto.jpg);">
+								<a href="">
+									<div class="case-studies-summary">
+										<h2>Mrs.山本美保(45)</h2>
+									</div>
+								</a>
+							</li>
+
 						</ul>
 					</div>
 				</div>
 			</div>
-		</footer>
-		<!-- END:footer -->
-	</div>
+			<!-- End: Mrs-->
+			<!-- END:Main -->
+			<!-- START:footer -->
+			<footer id="fh5co-footer" role="contentinfo">
+				<div class="container">
+					<div class="row copyright">
+						<div class="col-md-12 text-center">
+							<p>
+								<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
+							</p>
+							<ul class="fh5co-social-icons">
+								<li>
+									<a href="https://www.instagram.com/missmrs01/">
+										<i class="icon-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
+										<i class="icon-facebook"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- END:footer -->
+		</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop">
-			<i class="icon-arrow-up"></i>
-		</a>
-	</div>
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop">
+				<i class="icon-arrow-up"></i>
+			</a>
+		</div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- countTo -->
+		<script src="js/jquery.countTo.js"></script>
 
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+		<!-- Stellar -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Magnific Popup -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/magnific-popup-options.js"></script>
 
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+		<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+		<script src="js/simplyCountdown.js"></script>
+		<!-- Main -->
+		<script src="js/main.js"></script>
 </body>
 </html>

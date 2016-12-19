@@ -44,7 +44,7 @@
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="css/style_line.css">
 <!-- Modernizr JS -->
 <script src="js/modernizr-2.6.2.min.js"></script>
 <!-- FOR IE9 below -->
@@ -141,14 +141,20 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<img src="images/tel.png" class="sns-image">
+						<a href="tel:090-3053-0184">
+							<img src="images/tel.png" class="sns-image">
+						</a>
 					</div>
 					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<img src="images/line.png" class="sns-image">
+						<a href="http://line.me/ti/p/LIL-_8S4Qh">
+							<img src="images/line.png" class="sns-image">
+						</a>
 					</div>
 
 					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<img src="images/mail.png" class="sns-image">
+						<a href="mailto:missmrs@docomo.ne.jp">
+							<img src="images/mail.png" class="sns-image">
+						</a>
 					</div>
 
 				</div>
@@ -157,10 +163,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<img src="images/insta.png" class="sns-image">
+						<a href="https://www.instagram.com/missmrs01/">
+							<img src="images/insta.png" class="sns-image">
+						</a>
 					</div>
 					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<img src="images/facebook.png" class="sns-image">
+						<a href="https://www.facebook.com/MissMrs-747337258740161/">
+							<img src="images/facebook.png" class="sns-image">
+						</a>
 					</div>
 
 					<div class="col-md-4  text-center fh5co-heading animate-box">
@@ -316,18 +326,6 @@
 						<p>
 							<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
 						</p>
-						<ul class="fh5co-social-icons">
-							<li>
-								<a href="https://www.instagram.com/missmrs01/">
-									<i class="icon-instagram"></i>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
-									<i class="icon-facebook"></i>
-								</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>
@@ -378,7 +376,7 @@
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">
-			<i class="icon-arrow-right"></i>
+			<i class="icon-arrow-up"></i>
 		</a>
 	</div>
 
