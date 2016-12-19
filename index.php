@@ -87,7 +87,7 @@
 								<a href="therapist.php">Therapist</a>
 							</li>
 							<li>
-								<a href="schedule.php">Schedule</a>
+								<a href="http://missmrs01.blog.fc2.com/" target="_blank">Schedule</a>
 							</li>
 							<li>
 								<a href="system.php">System</a>
@@ -118,7 +118,7 @@
 			</div>
 		</nav>
 		<!-- START:header -->
-		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(images/img_bg_2.jpg);"
+		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(images/photo_2.jpg);"
 			data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
@@ -136,20 +136,39 @@
 		</header>
 		<!-- END:header -->
 		<!-- START:Main -->
+
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-left fh5co-heading animate-box">
-						<h2>Miss.Mrs</h2>
-						<h3>当店Miss.Mrs(ミスミセス)は大阪市北区は南森町.扇町.天六.ミナミ(中央区)には長堀橋にある完全予約制のプライベートメンズエステです。</h3>
-						<p>営業時間は午前11:00〜翌朝5:00迄(最終受付午前3:00)全室駅から近く各駅から2分以内の綺麗なシャワー完備の完全個室型になっております。</p>
-						<p>20代〜40代の愛嬌、品、マナーのある素敵な女性が多数在籍しており各セラピストによる貴方様に合った癒しを提供しています。</p>
-						<p>セラピストの技術向上の為、当店では研修も徹底している為、お好みの箇所などお気軽にお申し付け下さい。</p>
-						<p>当店は、リピーター様を大事にがコンセプトで受付時には、是非セラピストのタイプをお申し付け下さい。</p>
-						<p>新規のお客様に置かれましても、リピーター様になって頂ける様に、お客様に合ったセラピストを御案内致します！</p>
-						<p>あそこに行けば間違い無いと言われる様、これからも多数の新人セラピストの導入各セラピストの技術向上、接客スタイルなど誠心誠意向上していく所存です。</p>
-						<p>皆様に最高の癒しと安らぎを提供出来ます様、日々努力致しますので、メンズエステMiss.Mrs(ミスミセス)をこれからもよろしくお願い致します！</p>
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<img src="images/tel.png" class="sns-image">
 					</div>
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<img src="images/line.png" class="sns-image">
+					</div>
+
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<img src="images/mail.png" class="sns-image">
+					</div>
+
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<img src="images/insta.png" class="sns-image">
+					</div>
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<img src="images/facebook.png" class="sns-image">
+					</div>
+
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<a href="http://osaka.refle.info/">
+							<img src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="マッサージ店を探すならリフナビ大阪">
+						</a>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -158,9 +177,10 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6  text-left fh5co-heading animate-box blog">
+					<div class="col-md-6  text-center fh5co-heading animate-box blog">
 						<h2>Mrs.Miss Blog</h2>
-						<?php
+						<div class="text-left">
+							<?php
                                 // モジュールを読み込む
                                 require_once("./magpierss/rss_fetch.inc");
 
@@ -192,15 +212,17 @@
                                  ?>
 
 
-						<a href="http://blog.livedoor.jp/missmrs02/" target="_blank" class="more">
-							Mrs.Miss Blogはこちら
-							<span>▲</span>
-						</a>
+							<a href="http://blog.livedoor.jp/missmrs02/" target="_blank" class="more">
+								Mrs.Miss Blogはこちら
+								<span>▲</span>
+							</a>
+						</div>
 					</div>
 
-					<div class="col-md-6  text-left fh5co-heading animate-box blog">
+					<div class="col-md-6  text-center fh5co-heading animate-box blog">
 						<h2>Schedule</h2>
-						<?php
+						<div class="text-left">
+							<?php
                         // モジュールを読み込む
                         require_once("./magpierss/rss_fetch.inc");
 
@@ -226,10 +248,11 @@
                         }
                         ?>
 
-						<a href="http://missmrs01.blog.fc2.com/" target="_blank" class="more">
-							出勤情報Blogはこちら
-							<span>▲</span>
-						</a>
+							<a href="http://missmrs01.blog.fc2.com/" target="_blank" class="more">
+								出勤情報Blogはこちら
+								<span>▲</span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -242,27 +265,46 @@
 				<div class="row">
 					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<h2>facedbook</h2>
-						<!-- 	<div class="fb-page" data-href="https://www.facebook.com/MissMrs-747337258740161/" data-tabs="timeline" data-small-header="false"
+						<div class="fb-page" data-href="https://www.facebook.com/MissMrs-747337258740161/" data-tabs="timeline" data-small-header="false"
 							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 							<blockquote cite="https://www.facebook.com/MissMrs-747337258740161/" class="fb-xfbml-parse-ignore">
 								<a href="https://www.facebook.com/MissMrs-747337258740161/">Miss.Mrs</a>
 							</blockquote>
-						</div> -->
+						</div>
 					</div>
 
 					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<h2>instagram</h2>
-						<!-- <div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
+						<div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
 							<iframe src="//widgets-code.websta.me/w/7001f4603d51?ck=MjAxNi0xMi0wNFQwNzowMTozOS4wMDBa" class="websta-widgets"
 								allowtransparency="true" frameborder="0" scrolling="no" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 							WEBSTA WIDGETS - widgets.websta.me
-						</div> -->
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- END:SNS -->
 
+		<!-- START:About MissMrs -->
+		<div id="fh5co-couple">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-left fh5co-heading animate-box">
+						<h2>About Miss.Mrs</h2>
+						<p>当店Miss.Mrs(ミスミセス)は大阪市北区は南森町.扇町.天六.ミナミ(中央区)には長堀橋にある完全予約制のプライベートメンズエステです。</p>
+						<p>営業時間は午前11:00〜翌朝5:00迄(最終受付午前3:00)全室駅から近く各駅から2分以内の綺麗なシャワー完備の完全個室型になっております。</p>
+						<p>20代〜40代の愛嬌、品、マナーのある素敵な女性が多数在籍しており各セラピストによる貴方様に合った癒しを提供しています。</p>
+						<p>セラピストの技術向上の為、当店では研修も徹底している為、お好みの箇所などお気軽にお申し付け下さい。</p>
+						<p>当店は、リピーター様を大事にがコンセプトで受付時には、是非セラピストのタイプをお申し付け下さい。</p>
+						<p>新規のお客様に置かれましても、リピーター様になって頂ける様に、お客様に合ったセラピストを御案内致します！</p>
+						<p>あそこに行けば間違い無いと言われる様、これからも多数の新人セラピストの導入各セラピストの技術向上、接客スタイルなど誠心誠意向上していく所存です。</p>
+						<p>皆様に最高の癒しと安らぎを提供出来ます様、日々努力致しますので、メンズエステMiss.Mrs(ミスミセス)をこれからもよろしくお願い致します！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END:About MissMrs -->
 
 
 		<!-- END:Main -->
@@ -291,11 +333,52 @@
 			</div>
 		</footer>
 		<!-- END:footer -->
+
+
+		<ul class="footer_menu">
+
+			<li>
+				<a href="">
+					<i class="icon-phone"></i>
+					<br>
+					TEL
+				</a>
+			</li>
+
+
+			<li>
+				<a href="">
+					<i class="icon-mail"></i>
+					<br>
+					MAIL
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<i class="icon-line"></i>
+
+					<br>
+					LINE
+				</a>
+			</li>
+
+			<li>
+				<a href="#" class="">
+					<i class="icon-heart"></i>
+					<br>
+					求人
+				</a>
+			</li>
+
+		</ul>
+
+
 	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">
-			<i class="icon-arrow-up"></i>
+			<i class="icon-arrow-right"></i>
 		</a>
 	</div>
 

@@ -1400,7 +1400,7 @@ scale
 }
 
 .fh5co-heading {
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 }
 
 .fh5co-heading.fh5co-heading-sm {
@@ -1796,7 +1796,7 @@ scale
 
 .gototop {
 	position: fixed;
-	bottom: 20px;
+	bottom: 75px;
 	right: 20px;
 	z-index: 999;
 	opacity: 0;
@@ -2174,7 +2174,7 @@ scale
 .blog {
 	position: relative;
 	/* 	width: 960px; */
-	margin: 0 auto 60px auto;
+	margin: 0 auto 100px auto;
 }
 
 @media screen and (min-width: 641px) {
@@ -2219,4 +2219,66 @@ scale
 
 .blog dl {
 	border-bottom: 1px dotted #bbbbbb;
+}
+
+
+@media screen and (min-width: 641px) {
+	{
+	}
+}
+
+@media screen and (max-width: 640px) {
+	{
+	}
+}
+
+/*--------------------------------
+スマホのフッターメニュー
+---------------------------------*/
+@media screen and (min-width: 641px) {
+	ul.footer_menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	ul.footer_menu {
+		margin: 0 auto;
+		padding: 3px 0;
+		width: 100%;
+		overflow: hidden;
+		display: table;
+	}
+	ul.footer_menu li {
+		margin: 0;
+		padding: 0;
+		display: table-cell;
+		vertical-align: middle;
+		list-style-type: none;
+		font-size: 10px;
+	}
+	ul.footer_menu li a i {
+		font-size: 24px;
+	}
+	ul.footer_menu li a {
+		border: none;
+		display: block;
+		color: #666;
+		text-align: center;
+		text-decoration: none;
+	}
+	.footer_menu {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background: #fff;
+		z-index: 9999999999;
+		-moz-opacity: 0.9;
+		opacity: 0.9;
+	}
+}
+
+
+.sns-image{
+	width:100%;
 }
