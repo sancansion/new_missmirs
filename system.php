@@ -62,7 +62,7 @@
 				<div class="row">
 					<div class="col-xs-2">
 						<div id="fh5co-logo">
-							<a href="index.html">Miss.Mrs</a>
+							<a href="index.php">Miss.Mrs</a>
 						</div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
@@ -74,7 +74,7 @@
 								<a href="therapist.php">Therapist</a>
 							</li>
 							<li>
-								<a href="schedule.php">Schedule</a>
+								<a href="http://blog.livedoor.jp/missmrs05/" target="_blank">Schedule</a>
 							</li>
 							<li>
 								<a href="system.php">System</a>
@@ -113,8 +113,8 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<h1>Miss.Mrs</h1>
-								<h2>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</h2>
+
+								<h2>System</h2>
 							</div>
 						</div>
 					</div>
@@ -127,8 +127,9 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6  text-left fh5co-heading animate-box">right</div>
-					<div class="col-md-6  text-left fh5co-heading animate-box">left</div>
+					<div class="col-md-12  text-left fh5co-heading animate-box">
+						<img src="images/system.png" class="image-witdh100">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -139,19 +140,18 @@
 
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>料金表</h2>
+						<h3>料金システム</h3>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 ">
 						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-								<h3>60分・・・9,000円</h3>
-
+							<div>
+								<p class="price">60分・・・9,000円</p>
 							</div>
 						</div>
 
@@ -159,8 +159,8 @@
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-								<h3>90分・・・11,000円</h3>
+							<div>
+								<p class="price">90分・・・11,000円</p>
 							</div>
 						</div>
 
@@ -168,8 +168,8 @@
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-								<h3>120分・・・15,000円</h3>
+							<div class="margin-bottom-50">
+								<p class="price">120分・・・15,000円</p>
 							</div>
 						</div>
 					</div>
@@ -179,8 +179,8 @@
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-								<h3>延長30分・・・5,000円</h3>
+							<div>
+								<p class="price">延長30分・・・5,000円</p>
 							</div>
 						</div>
 
@@ -188,8 +188,8 @@
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-								<h3>セラピスト指名料 ・・・0円</h3>
+							<div>
+								<p class="price">セラピスト指名料 ・・・0円</p>
 							</div>
 						</div>
 
@@ -197,9 +197,8 @@
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-
-								<p>※60分コースは時間の都合上、背面のみの施術となりますので予めご了承ください。</p>
+							<div>
+								<p class="">※60分コースは時間の都合上、背面のみの施術となりますので予めご了承ください。</p>
 							</div>
 						</div>
 
@@ -207,8 +206,8 @@
 							<span class="icon">
 								<i class="icon-heart"></i>
 							</span>
-							<div class="icon-heart">
-								<p>※120分以上のコースはセラピストオリジナルメニューを実施します。</p>
+							<div>
+								<p class="">※120分以上のコースはセラピストオリジナルメニューを実施します。</p>
 							</div>
 						</div>
 					</div>
@@ -221,7 +220,7 @@
 				<div class="row">
 
 					<div class="col-md-12  text-left fh5co-heading animate-box">
-						<h2>注意事項</h2>
+						<h3>注意事項</h3>
 						<p>
 							お電話にての御予約を優先させて頂きます。
 							<br>
@@ -274,24 +273,48 @@
 						<p>
 							<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
 						</p>
-						<ul class="fh5co-social-icons">
-							<li>
-								<a href="https://www.instagram.com/missmrs01/">
-									<i class="icon-instagram"></i>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
-									<i class="icon-facebook"></i>
-								</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- END:footer -->
+
+
+		<!-- START:footer menu -->
+		<ul class="footer_menu">
+
+			<li>
+				<a href="tel:090-3053-0184">
+					<i class="icon-phone"></i>
+					<br>
+					TEL
+				</a>
+			</li>
+			<li>
+				<a href="mailto:missmrs@docomo.ne.jp">
+					<i class="icon-mail"></i>
+					<br>
+					MAIL
+				</a>
+			</li>
+			<li>
+				<a href="http://line.me/ti/p/LIL-_8S4Qh">
+					<i class="icon-line"></i>
+
+					<br>
+					LINE
+				</a>
+			</li>
+			<li>
+				<a href="recruit.php" class="">
+					<i class="icon-heart"></i>
+					<br>
+					求人
+				</a>
+			</li>
+		</ul>
 	</div>
+	<!-- END:footer menu-->
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">

@@ -75,7 +75,7 @@
 				<div class="row">
 					<div class="col-xs-2">
 						<div id="fh5co-logo">
-							<a href="index.html">Miss.Mrs</a>
+							<a href="index.php">Miss.Mrs</a>
 						</div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
@@ -87,7 +87,7 @@
 								<a href="therapist.php">Therapist</a>
 							</li>
 							<li>
-								<a href="http://missmrs01.blog.fc2.com/" target="_blank">Schedule</a>
+								<a href="http://blog.livedoor.jp/missmrs05/" target="_blank">Schedule</a>
 							</li>
 							<li>
 								<a href="system.php">System</a>
@@ -126,7 +126,6 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<h1>Miss.Mrs</h1>
 								<h2>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</h2>
 							</div>
 						</div>
@@ -142,18 +141,18 @@
 				<div class="row">
 					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="tel:090-3053-0184">
-							<img src="images/tel.png" class="sns-image">
+							<img src="images/tel.png" class="image-witdh100">
 						</a>
 					</div>
 					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="http://line.me/ti/p/LIL-_8S4Qh">
-							<img src="images/line.png" class="sns-image">
+							<img src="images/line.png" class="image-witdh100">
 						</a>
 					</div>
 
 					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="mailto:missmrs@docomo.ne.jp">
-							<img src="images/mail.png" class="sns-image">
+							<img src="images/mail.png" class="image-witdh100">
 						</a>
 					</div>
 
@@ -164,12 +163,12 @@
 				<div class="row">
 					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="https://www.instagram.com/missmrs01/">
-							<img src="images/insta.png" class="sns-image">
+							<img src="images/insta.png" class="image-witdh100">
 						</a>
 					</div>
 					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="https://www.facebook.com/MissMrs-747337258740161/">
-							<img src="images/facebook.png" class="sns-image">
+							<img src="images/facebook.png" class="image-witdh100">
 						</a>
 					</div>
 
@@ -200,7 +199,8 @@
                                 // 日本語バケないためにOUTPUT_ENCODINGをUTF-8にする
                                 define("MAGPIE_OUTPUT_ENCODING","UTF-8");
                                 // 取得したいRSSのurl
-                                $url = "http://blog.livedoor.jp/missmrs02/atom.xml";
+                                $url = "http://blog.livedoor.jp/missmrs05/atom.xml";
+
                                 // ブログのタイトルは$rss->channel['title']という変数、
                                 // RSSは$rss->itemという変数に入る。
                                 // key値、link/title/descriptionで取得できる。
@@ -236,7 +236,7 @@
                         // モジュールを読み込む
                         require_once("./magpierss/rss_fetch.inc");
 
-                        $url = "http://missmrs01.blog.fc2.com/?xml";
+                        $url = "http://blog.livedoor.jp/missmrs02/atom.xml";
                         // ブログのタイトルは$rss->channel['title']という変数、
                         // RSSは$rss->itemという変数に入る。
                         // key値、link/title/descriptionで取得できる。
@@ -249,7 +249,7 @@
                         $link = mb_convert_encoding($item['link'],"UTF-8","auto");
                         $title = mb_convert_encoding($item['title'],"UTF-8","auto");
                         $description = mb_convert_encoding($item['description'],"UTF-8","auto");
-                         $date = date('Y.m.d' ,strtotime(substr($item['dc']['date'],0,10)));
+                        $date = date("Y.m.d H:i", strtotime($item['modified']));
                         if (preg_match("/PR$/", $title) != 0) continue;
                         if (preg_match("/^PR:.+$/", $title) != 0) continue;
                         if ($line++ == $max_lines) break;
@@ -318,6 +318,7 @@
 
 
 		<!-- END:Main -->
+
 		<!-- START:footer -->
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="container">
@@ -332,48 +333,41 @@
 		</footer>
 		<!-- END:footer -->
 
-
+		<!-- START:footer menu -->
 		<ul class="footer_menu">
 
 			<li>
-				<a href="">
+				<a href="tel:090-3053-0184">
 					<i class="icon-phone"></i>
 					<br>
 					TEL
 				</a>
 			</li>
-
-
 			<li>
-				<a href="">
+				<a href="mailt	o:missmrs@docomo.ne.jp">
 					<i class="icon-mail"></i>
 					<br>
 					MAIL
 				</a>
 			</li>
-
 			<li>
-				<a href="">
+				<a href="http://line.me/ti/p/LIL-_8S4Qh">
 					<i class="icon-line"></i>
 
 					<br>
 					LINE
 				</a>
 			</li>
-
 			<li>
-				<a href="#" class="">
+				<a href="recruit.php" class="">
 					<i class="icon-heart"></i>
 					<br>
 					求人
 				</a>
 			</li>
-
 		</ul>
-
-
 	</div>
-
+	<!-- END:footer menu-->
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">
 			<i class="icon-arrow-up"></i>

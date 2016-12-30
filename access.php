@@ -65,7 +65,7 @@
 				<div class="row">
 					<div class="col-xs-2">
 						<div id="fh5co-logo">
-							<a href="index.html">Miss.Mrs</a>
+							<a href="index.php">Miss.Mrs</a>
 						</div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
@@ -77,7 +77,7 @@
 								<a href="therapist.php">Therapist</a>
 							</li>
 							<li>
-								<a href="schedule.php">Schedule</a>
+								<a href="http://blog.livedoor.jp/missmrs05/" target="_blank">Schedule</a>
 							</li>
 							<li>
 								<a href="system.php">System</a>
@@ -142,9 +142,22 @@
 					</div>
 					<div class="col-md-4  text-left fh5co-heading animate-box">
 						<p>
-							店舗名：天神橋六丁目店<br> 営業時間：11時～翌5時（最終受付3時30分）<br> 住所：大阪市北区天神橋6丁目<br>
+							店舗名：天神橋六丁目店
+							<br>
+							営業時間：11時～翌5時（最終受付3時30分）
+							<br>
+							住所：大阪市北区天神橋6丁目
+							<br>
 						</p>
 					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12  text-left fh5co-heading animate-box">
+						<img src="images/tenroku.jpg">
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -164,10 +177,24 @@
 					</div>
 					<div class="col-md-4  text-left fh5co-heading animate-box">
 						<p>
-							店舗名：扇町店<br> 営業時間：11時～翌5時（最終受付3時30分）<br> 住所：大阪市北区天神橋3丁目<br> 大阪市営地下鉄・堺筋線「扇町駅」4番出口から徒歩1分
+							店舗名：扇町店
+							<br>
+							営業時間：11時～翌5時（最終受付3時30分）
+							<br>
+							住所：大阪市北区天神橋3丁目
+							<br>
+							大阪市営地下鉄・堺筋線「扇町駅」4番出口から徒歩1分
 						</p>
 
 					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12  text-left fh5co-heading animate-box">
+						<img src="images/ougi.jpg">
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -186,9 +213,23 @@
 					</div>
 					<div class="col-md-4  text-left fh5co-heading animate-box">
 						<p>
-							店舗名：南森町店<br> 営業時間：11時～翌5時（最終受付3時30分）<br> 住所：大阪市北区西天満5丁目<br> 大阪市営地下鉄・堺筋線 谷町線「南森町駅」1番出口から徒歩3分
+							店舗名：南森町店
+							<br>
+							営業時間：11時～翌5時（最終受付3時30分）
+							<br>
+							住所：大阪市北区西天満5丁目
+							<br>
+							大阪市営地下鉄・堺筋線 谷町線「南森町駅」1番出口から徒歩3分
 						</p>
 					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12  text-left fh5co-heading animate-box">
+						<img src="images/minamimorimachi.jpg">
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -208,9 +249,22 @@
 					</div>
 					<div class="col-md-4  text-left fh5co-heading animate-box">
 						<p>
-							店舗名：長堀店<br> 営業時間：11時～翌5時（最終受付3時30分）<br> 住所：大阪市中央区島ノ内1-5-11<br>
+							店舗名：長堀店
+							<br>
+							営業時間：11時～翌5時（最終受付3時30分）
+							<br>
+							住所：大阪市中央区島ノ内1-5-11
+							<br>
 						</p>
 					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12  text-left fh5co-heading animate-box">
+						<img src="images/nagahori.jpg">
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -224,24 +278,47 @@
 						<p>
 							<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
 						</p>
-						<ul class="fh5co-social-icons">
-							<li>
-								<a href="https://www.instagram.com/missmrs01/">
-									<i class="icon-instagram"></i>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/MissMrs-747337258740161/?fref=hovercard">
-									<i class="icon-facebook"></i>
-								</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- END:footer -->
+
+		<!-- START:footer menu -->
+		<ul class="footer_menu">
+
+			<li>
+				<a href="tel:090-3053-0184">
+					<i class="icon-phone"></i>
+					<br>
+					TEL
+				</a>
+			</li>
+			<li>
+				<a href="mailto:missmrs@docomo.ne.jp">
+					<i class="icon-mail"></i>
+					<br>
+					MAIL
+				</a>
+			</li>
+			<li>
+				<a href="http://line.me/ti/p/LIL-_8S4Qh">
+					<i class="icon-line"></i>
+
+					<br>
+					LINE
+				</a>
+			</li>
+			<li>
+				<a href="recruit.php" class="">
+					<i class="icon-heart"></i>
+					<br>
+					求人
+				</a>
+			</li>
+		</ul>
 	</div>
+	<!-- END:footer menu-->
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">
