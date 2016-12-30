@@ -199,7 +199,7 @@
                                 // 日本語バケないためにOUTPUT_ENCODINGをUTF-8にする
                                 define("MAGPIE_OUTPUT_ENCODING","UTF-8");
                                 // 取得したいRSSのurl
-                                $url = "http://blog.livedoor.jp/missmrs05/atom.xml";
+                                $url = "http://blog.livedoor.jp/missmrs02/atom.xml";
 
                                 // ブログのタイトルは$rss->channel['title']という変数、
                                 // RSSは$rss->itemという変数に入る。
@@ -236,7 +236,7 @@
                         // モジュールを読み込む
                         require_once("./magpierss/rss_fetch.inc");
 
-                        $url = "http://blog.livedoor.jp/missmrs02/atom.xml";
+                        $url = "http://blog.livedoor.jp/missmrs05/atom.xml";
                         // ブログのタイトルは$rss->channel['title']という変数、
                         // RSSは$rss->itemという変数に入る。
                         // key値、link/title/descriptionで取得できる。

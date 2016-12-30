@@ -44,6 +44,7 @@
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
 
 <!-- Modernizr JS -->
 <script src="js/modernizr-2.6.2.min.js"></script>
@@ -124,6 +125,250 @@
 		<!-- END:header -->
 		<!-- START:Main -->
 		<!-- START: -->
+		<div id="fh5co-couple">
+			<div class="container">
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_1.jpg);">
+							<div class="desc">
+								<p>未経験だけど以前からあこがれているエステのお仕事をしてみたい！</p>
+								<span>
+									未経験のあなたでも大丈夫！
+									<br>
+									エステティシャンを目指すなら・・・
+									<br>
+									トータルエステグループが全力でサポートします！
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_2.jpg);">
+							<div class="desc">
+								<p>職場環境ならお任せ!</p>
+								<span>
+									長く続けたいけど、収入や条件ももちろん大事！
+									<br>
+									自由な完全シフト制、バック率50％以上、完全日払い、レギュラー手当、 短期1日数時間～OK、終電以降の送りあり、タクシー代支給、待機保障あり、 簡単に上げただけでも、これだけの好条件をご用意しております。
+									<br>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_3.jpg);">
+							<div class="desc">
+								<p>サポート</p>
+								<span>
+									安心できる就業環境で全力サポート
+									<br>
+									安定できる高収入を全力サポート
+									<br>
+
+									一から丁寧に指導いたしますりで、経験などは必要ありません
+									<br>
+
+									女性の働きやすさ重視
+									<br>
+									完全日払い高収入
+									<br>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_4.jpg);">
+							<div class="desc">
+								<p>喜ばれる技術力</p>
+								<span>
+									またお願いしたいと思われる技術力に達しているかどうか。
+									<br>
+									機転がきく知識力
+									<br>
+									お客様の求めるものを理解し施術を組み立てられるかどうか。
+									<br>
+									安心できる接客力
+									<br>
+									お客様との信頼関係をしっかりつくれているか。
+									<br>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_5.jpg);">
+							<div class="desc">
+								<p>高給与・好条件ならお任せ</p>
+								<span>
+									長く続けたいけど、収入や条件ももちろん大事！
+									<br>
+									自由な完全シフト制、バック率50％以上、完全日払い、レギュラー手当、
+									<br>
+									短期1日数時間～OK、終電以降の送りあり、タクシー代支給、待機保障あり、
+									<br>
+									簡単に上げただけでも、これだけの好条件をご用意しております。
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_6.jpg);">
+							<div class="desc">
+								<p>職場環境ならお任せ!</p>
+								<span>
+									収入や条件が良ければ、職場環境も充実
+									<br>
+									完全個室待機なのでゆっくりとくつろげ泊まり勤務も大丈夫
+									<br>
+									南森町、扇町、天神橋六丁目、長堀橋など店舗も拡大中で勤務先も選べます
+									<br>
+									駅近で通勤もラクラク。 ノルマなど一切ありません。
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_7.jpg);">
+							<div class="desc">
+								<p>高い定着率</p>
+								<span>
+									女性の働く安さにこだわっています。
+									<br>
+									小さな子供がいる主婦やシングルマザーの方、女性特有の体調不良や 子供の急な発熱や腹痛、学校関係、夫の用事などで当日どうしても行けなくなったなどの 急な事情にも臨機応変に対応致しますのでご安心ください。
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_8.jpg);">
+							<div class="desc">
+								<p>シフトも嬉しい完全自由出勤制</p>
+								<span>
+									短期・1日数時間でもOK 昼間だけでもOK
+									<br>
+									日給保障あり
+									<br>
+
+									ワガママにお仕事探ししたい
+									<br>
+									そんなママさんも応援しちゃいます
+									<br>
+									「さぁはたらそう!」その時に貴女のお悩みや不安に感じることはどんなことですか?
+									<br>
+									当店ならいろんなワガママを解消して明るい未来のお手伝いができる自身があります
+									<br>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_9.jpg);">
+							<div class="desc">
+								<p>最短1日だけのド短期・数時間だけでも大丈夫</p>
+								<span>
+									1日3～4時間出勤もOK 少しだけ働きたい、急な出費でなんとかしたい
+									<br>
+									もちろん給与は全額日払い
+									<br>
+									あなたの希望をかなえます
+									<br>
+									店舗拡大中の人気店で集客力も抜群
+									<br>
+									入店からすぐお仕事がまわってきます
+									<br>
+									土地柄、治安もよい街なので、客層の良さも超グッドです
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_10.jpg);">
+							<div class="desc">
+								<p>未就学児のいるママさんだって大丈夫</p>
+								<span>
+									年齢はあまり関係ありませんので普通に接客できる方であれば大丈夫
+									<br>
+									業界未経験の方でも大丈夫です
+									<br>
+									面接時だってお子様と一緒に来ていただいても問題ありません
+									<br>
+									もちろんノルマなんてありませんし、子供やご家庭の都合で急にお休みしても大丈夫
+									<br>
+									女性の働きやすい環境にこだわっています
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_11.jpg);">
+							<div class="desc">
+								<p>日給保障制度で心配性のママさんも安心</p>
+								<span>
+									まったく稼げなかったらどうしよう・・そんな心配は必要ないです お仕事がまったくなければそれはお店の責任
+									<br>
+									手厚い保証、手当やボーナスなど、お金の面でも安心の環境をご用意しております
+									<br>
+
+									未経験者でも安心
+									<br>
+									ライセンス保持者の女性講師がわかりやすく丁寧におしえます
+									<br>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row animate-box ">
+					<div class="col-md-12 animate-box">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_12.jpg);">
+							<div class="desc">
+								<p></p>
+								<span> </span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
@@ -508,7 +753,7 @@
 		</ul>
 	</div>
 	<!-- END:footer menu-->
-	
+
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop">
