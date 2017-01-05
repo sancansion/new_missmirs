@@ -7,8 +7,8 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
+<meta http-equiv="X-UA-Compatcible" content="IE=edge">
+<title>セラピスト募集 | 求人情報 | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -43,8 +43,10 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 <!-- Theme style  -->
+
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/style_line.css">
 
 <!-- Modernizr JS -->
 <script src="js/modernizr-2.6.2.min.js"></script>
@@ -105,8 +107,9 @@
 				</div>
 			</div>
 		</nav>
+
 		<!-- START:header -->
-		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(images/img_bg_2.jpg);"
+		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(images/photo_2.jpg);"
 			data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
@@ -114,22 +117,135 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<h1>Miss.Mrs</h1>
-								<h2>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</h2>
+								<h1>セラピスト募集</h1>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
+
 		<!-- END:header -->
 		<!-- START:Main -->
 		<!-- START: -->
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_1.jpg);">
+
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_2.jpg);">
+							<div class="desc">
+								<p>セラピスト大募集</p>
+								<span>
+									天六、扇町、南森町、長堀橋の有名優良店だから出来る業界トップクラスの高待遇＆高額なバック率
+									<br>
+									勤務地
+									<br>
+									天六、扇町、南森町、長堀橋という最高の立地条件でお出迎え致します。
+									<br>
+									当店は最寄駅から近くで通勤にも超便利！！
+									<br>
+									<br>
+									勤務日
+									<br>
+									<br>
+
+									シフト制なので事前予約が入りやすく指名も取りやすい。
+									<br>
+
+									勤務日・時間等、相談に応じます。
+									<br>
+
+									週１～でもOKです。
+									<br>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_3.jpg);">
+							<div class="desc">
+								<p>圧倒的な集客力に自信あり</p>
+								<span>
+									当店は天六から長堀橋にかけて幅広く店舗を展開しているため、他店より幅広い集客に自信があります！ また、ブログ更新や広告宣伝費にも力を入れていますので、リピーター様や新規のお客様のご予約に直結しています。
+									<br>
+									もちろん給与は全額日払い
+									<br>
+									シフトも嬉しい完全自由出勤制
+								</span>
+
+								<br>
+								<br>
+								<p>収入例</p>
+								<span>
+									90分 5,500～8,000円
+									<br>
+									120分 7,500～10,000円
+								</span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_10.jpg);">
+							<div class="desc">
+								<p>1日体験入店OK・短期・数時間だけでも大丈夫</p>
+								<span>
+									1日3～4時間出勤もOK 少しだけ働きたい、急な出費でなんとかしたい
+									<br>
+									もちろん体験入店できます。当店の稼ぎやすさを実感してください！ 誰もが最初は不安です、まずは体験入店してみて下さい。
+									<br>
+									店舗拡大中の人気店で集客力も抜群
+									<br>
+									入店からすぐお仕事がまわってきます
+									<br>
+									土地柄、治安もよい街なので、客層の良さも超グッドです
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_13.jpg);">
+							<div class="desc">
+								<p>未経験でも安心</p>
+								<span>80％が未経験からのスタート。 未経験者の方は不安でいっぱいだと思います。ご安心下さい。 当店では未経験者の方にも安心して働いて頂けるように女性講師による丁寧な研修システムをご用意しています。
+									優しい女性スタッフが親身になって相談に乗ります。 </span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_12.jpg);">
+							<div class="desc">
+								<p>経験者の方は優遇</p>
+								<span>経験者の方は他店で抱えていた悩み等ご相談頂ければ、優秀なスタッフが全力でサポートします！！ 人間関係良好で働きやすく、女性としてセラピストとして成長出来る職場です。皆で目標を叶えましょう。 </span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_9.jpg);">
+							<div class="desc">
+								<p>各種手当</p>
+								<span>
+									入店祝い金あり
+									<br>
+									友達紹介キャンペーン
+									<br>
+									皆勤手当
+									<br>
+									海外旅行研修あり
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 animate-box margin-top150">
+						<div class="fh5co-cover" style="background-image: url(/images/photo_7.jpg);">
 							<div class="desc">
 								<p>未経験だけど以前からあこがれているエステのお仕事をしてみたい！</p>
 								<span>
@@ -144,223 +260,175 @@
 					</div>
 				</div>
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_2.jpg);">
-							<div class="desc">
-								<p>職場環境ならお任せ!</p>
-								<span>
-									長く続けたいけど、収入や条件ももちろん大事！
-									<br>
-									自由な完全シフト制、バック率50％以上、完全日払い、レギュラー手当、 短期1日数時間～OK、終電以降の送りあり、タクシー代支給、待機保障あり、 簡単に上げただけでも、これだけの好条件をご用意しております。
-									<br>
-								</span>
-							</div>
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_6.jpg);">
+						<div class="desc">
+							<p>職場環境ならお任せ!</p>
+							<span>
+								長く続けたいけど、収入や条件ももちろん大事！
+								<br>
+								自由な完全シフト制、バック率50％以上、完全日払い、レギュラー手当、 短期1日数時間～OK、終電以降の送りあり、タクシー代支給、待機保障あり、 簡単に上げただけでも、これだけの好条件をご用意しております。
+								<br>
+							</span>
 						</div>
 					</div>
 				</div>
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_3.jpg);">
-							<div class="desc">
-								<p>サポート</p>
-								<span>
-									安心できる就業環境で全力サポート
-									<br>
-									安定できる高収入を全力サポート
-									<br>
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_5.jpg);">
+						<div class="desc">
+							<p>サポート</p>
+							<span>
+								安心できる就業環境で全力サポート
+								<br>
+								安定できる高収入を全力サポート
+								<br>
 
-									一から丁寧に指導いたしますりで、経験などは必要ありません
-									<br>
+								一から丁寧に指導いたしますりで、経験などは必要ありません
+								<br>
 
-									女性の働きやすさ重視
-									<br>
-									完全日払い高収入
-									<br>
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_4.jpg);">
-							<div class="desc">
-								<p>喜ばれる技術力</p>
-								<span>
-									またお願いしたいと思われる技術力に達しているかどうか。
-									<br>
-									機転がきく知識力
-									<br>
-									お客様の求めるものを理解し施術を組み立てられるかどうか。
-									<br>
-									安心できる接客力
-									<br>
-									お客様との信頼関係をしっかりつくれているか。
-									<br>
-								</span>
-							</div>
+								女性の働きやすさ重視
+								<br>
+								完全日払い高収入
+								<br>
+							</span>
 						</div>
 					</div>
 				</div>
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_5.jpg);">
-							<div class="desc">
-								<p>高給与・好条件ならお任せ</p>
-								<span>
-									長く続けたいけど、収入や条件ももちろん大事！
-									<br>
-									自由な完全シフト制、バック率50％以上、完全日払い、レギュラー手当、
-									<br>
-									短期1日数時間～OK、終電以降の送りあり、タクシー代支給、待機保障あり、
-									<br>
-									簡単に上げただけでも、これだけの好条件をご用意しております。
-								</span>
-							</div>
+
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_4.jpg);">
+						<div class="desc">
+							<p>喜ばれる技術力</p>
+							<span>
+								またお願いしたいと思われる技術力に達しているかどうか。
+								<br>
+								機転がきく知識力
+								<br>
+								お客様の求めるものを理解し施術を組み立てられるかどうか。
+								<br>
+								安心できる接客力
+								<br>
+								お客様との信頼関係をしっかりつくれているか。
+								<br>
+							</span>
 						</div>
 					</div>
 				</div>
 
 
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_6.jpg);">
-							<div class="desc">
-								<p>職場環境ならお任せ!</p>
-								<span>
-									収入や条件が良ければ、職場環境も充実
-									<br>
-									完全個室待機なのでゆっくりとくつろげ泊まり勤務も大丈夫
-									<br>
-									南森町、扇町、天神橋六丁目、長堀橋など店舗も拡大中で勤務先も選べます
-									<br>
-									駅近で通勤もラクラク。 ノルマなど一切ありません。
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_7.jpg);">
-							<div class="desc">
-								<p>高い定着率</p>
-								<span>
-									女性の働く安さにこだわっています。
-									<br>
-									小さな子供がいる主婦やシングルマザーの方、女性特有の体調不良や 子供の急な発熱や腹痛、学校関係、夫の用事などで当日どうしても行けなくなったなどの 急な事情にも臨機応変に対応致しますのでご安心ください。
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_8.jpg);">
-							<div class="desc">
-								<p>シフトも嬉しい完全自由出勤制</p>
-								<span>
-									短期・1日数時間でもOK 昼間だけでもOK
-									<br>
-									日給保障あり
-									<br>
-
-									ワガママにお仕事探ししたい
-									<br>
-									そんなママさんも応援しちゃいます
-									<br>
-									「さぁはたらそう!」その時に貴女のお悩みや不安に感じることはどんなことですか?
-									<br>
-									当店ならいろんなワガママを解消して明るい未来のお手伝いができる自身があります
-									<br>
-								</span>
-							</div>
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_3.jpg);">
+						<div class="desc">
+							<p>高給与・好条件ならお任せ</p>
+							<span>
+								長く続けたいけど、収入や条件ももちろん大事！
+								<br>
+								自由な完全シフト制、バック率50％以上、完全日払い、レギュラー手当、
+								<br>
+								短期1日数時間～OK、終電以降の送りあり、タクシー代支給、待機保障あり、
+								<br>
+								簡単に上げただけでも、これだけの好条件をご用意しております。
+							</span>
 						</div>
 					</div>
 				</div>
 
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_9.jpg);">
-							<div class="desc">
-								<p>最短1日だけのド短期・数時間だけでも大丈夫</p>
-								<span>
-									1日3～4時間出勤もOK 少しだけ働きたい、急な出費でなんとかしたい
-									<br>
-									もちろん給与は全額日払い
-									<br>
-									あなたの希望をかなえます
-									<br>
-									店舗拡大中の人気店で集客力も抜群
-									<br>
-									入店からすぐお仕事がまわってきます
-									<br>
-									土地柄、治安もよい街なので、客層の良さも超グッドです
-								</span>
-							</div>
+
+
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_2.jpg);">
+						<div class="desc">
+							<p>職場環境ならお任せ!</p>
+							<span>
+								収入や条件が良ければ、職場環境も充実
+								<br>
+								完全個室待機なのでゆっくりとくつろげ泊まり勤務も大丈夫
+								<br>
+								南森町、扇町、天神橋六丁目、長堀橋など店舗も拡大中で勤務先も選べます
+								<br>
+								駅近で通勤もラクラク。 ノルマなど一切ありません。
+							</span>
 						</div>
 					</div>
 				</div>
 
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_10.jpg);">
-							<div class="desc">
-								<p>未就学児のいるママさんだって大丈夫</p>
-								<span>
-									年齢はあまり関係ありませんので普通に接客できる方であれば大丈夫
-									<br>
-									業界未経験の方でも大丈夫です
-									<br>
-									面接時だってお子様と一緒に来ていただいても問題ありません
-									<br>
-									もちろんノルマなんてありませんし、子供やご家庭の都合で急にお休みしても大丈夫
-									<br>
-									女性の働きやすい環境にこだわっています
-								</span>
-							</div>
+
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_1.jpg);">
+						<div class="desc">
+							<p>高い定着率</p>
+							<span>
+								女性の働く安さにこだわっています。
+								<br>
+								小さな子供がいる主婦やシングルマザーの方、女性特有の体調不良や 子供の急な発熱や腹痛、学校関係、夫の用事などで当日どうしても行けなくなったなどの 急な事情にも臨機応変に対応致しますのでご安心ください。
+							</span>
 						</div>
 					</div>
 				</div>
 
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_11.jpg);">
-							<div class="desc">
-								<p>日給保障制度で心配性のママさんも安心</p>
-								<span>
-									まったく稼げなかったらどうしよう・・そんな心配は必要ないです お仕事がまったくなければそれはお店の責任
-									<br>
-									手厚い保証、手当やボーナスなど、お金の面でも安心の環境をご用意しております
-									<br>
 
-									未経験者でも安心
-									<br>
-									ライセンス保持者の女性講師がわかりやすく丁寧におしえます
-									<br>
-								</span>
-							</div>
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_8.jpg);">
+						<div class="desc">
+							<p></p>
+							<span>
+								短期・1日数時間でもOK 昼間だけでもOK
+								<br>
+								<br>
+								ワガママにお仕事探ししたい
+								<br>
+								そんなママさんも応援しちゃいます
+								<br>
+								「さぁはたらそう!」その時に貴女のお悩みや不安に感じることはどんなことですか?
+								<br>
+								当店ならいろんなワガママを解消して明るい未来のお手伝いができる自身があります
+								<br>
+							</span>
 						</div>
 					</div>
 				</div>
 
 
-				<div class="row animate-box ">
-					<div class="col-md-12 animate-box">
-						<div class="fh5co-cover" style="background-image: url(/images/photo_12.jpg);">
-							<div class="desc">
-								<p></p>
-								<span> </span>
-							</div>
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_10.jpg);">
+						<div class="desc">
+							<p>未就学児のいるママさんだって大丈夫</p>
+							<span>
+								年齢はあまり関係ありませんので普通に接客できる方であれば大丈夫
+								<br>
+								業界未経験の方でも大丈夫です
+								<br>
+								面接時だってお子様と一緒に来ていただいても問題ありません
+								<br>
+								もちろんノルマなんてありませんし、子供やご家庭の都合で急にお休みしても大丈夫
+								<br>
+								女性の働きやすい環境にこだわっています
+							</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-12 animate-box margin-top150">
+					<div class="fh5co-cover" style="background-image: url(/images/photo_11.jpg);">
+						<div class="desc">
+							<p>日給保障制度で心配性のママさんも安心</p>
+							<span>
+								まったく稼げなかったらどうしよう・・そんな心配は必要ないです お仕事がまったくなければそれはお店の責任
+								<br>
+								手厚い保証、手当やボーナスなど、お金の面でも安心の環境をご用意しております
+								<br>
+								未経験者でも安心
+								<br>
+								ライセンス保持者の女性講師がわかりやすく丁寧におしえます
+								<br>
+							</span>
 						</div>
 					</div>
 				</div>
@@ -372,173 +440,34 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6  text-left fh5co-heading animate-box">
-						<h2>求人詳細</h2>
-						<h3>勤務日</h3>
-						<p>シフト制なので事前予約が入りやすく指名も取りやすい。</p>
-						<p>勤務日・時間等、相談に応じます。</p>
-						<p>週１～でもOKです。</p>
-
-						<h3>勤務地</h3>
-						<p>天六、扇町、南森町、長堀橋という最高の立地条件でお出迎え致します。</p>
-						<p>当店は最寄駅から近くで通勤にも超便利！！</p>
-
-
-						<h3>お仕事内容</h3>
-						<p>優しい女性セラピストと優秀なスタッフが全力でアナタをサポート致します。</p>
-						<p>オイルを使用してのボディトリートメント、簡単なお掃除。</p>
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<a href="tel:090-3053-0184">
+							<img src="images/tel.png" class="image-witdh100">
+						</a>
 					</div>
-					<div class="col-md-6  text-left fh5co-heading animate-box">
-						<h3>お問い合わせ</h3>
-						<p>電話受付:午前9:00〜翌3:00 /p>
-						<h3>≪メール・LINE 24時間受付中≫</h3>
-						<p>TEL:090-3053-0184</p>
-						<p>メール:missmrs@docomo.ne.jp</p>
-						<p>LINE ID:missmrs</p>
-						<p>質問だけでも気軽にお問い合わせください。</p>
-
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<a href="http://line.me/ti/p/LIL-_8S4Qh">
+							<img src="images/line.png" class="image-witdh100">
+						</a>
 					</div>
+
+					<div class="col-md-4  text-center fh5co-heading animate-box">
+						<a href="mailto:missmrs@docomo.ne.jp">
+							<img src="images/mail.png" class="image-witdh100">
+						</a>
+					</div>
+
 				</div>
 			</div>
 		</div>
 
-		<div id="fh5co-couple-story">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<span>We Love Each Other</span>
-						<h2>Our Story</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0">
-						<ul class="timeline animate-box">
-							<li class="animate-box">
-								<div class="timeline-badge" style="background-image: url(images/recruit.png);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">セラピスト大募集</h3>
-									</div>
-									<div class="timeline-body">
-										<p>天六、扇町、南森町、長堀橋の有名優良店だから出来る業界トップクラスの高待遇＆高額なバック率</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-2.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">圧倒的な集客力に自信あり</h3>
-
-									</div>
-									<div class="timeline-body">
-										<p>当店は天六から長堀橋にかけて幅広く店舗を展開しているため、他店より幅広い集客に自信があります！ また、ブログ更新や広告宣伝費にも力を入れていますので、リピーター様や新規のお客様のご予約に直結しています。</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">1日体験入店OK</h3>
-
-									</div>
-									<div class="timeline-body">
-										<p>もちろん体験入店できます。当店の稼ぎやすさを実感してください！ 誰もが最初は不安です、まずは体験入店してみて下さい。</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">未経験でも安心</h3>
-
-									</div>
-									<div class="timeline-body">
-										<p>80％が未経験からのスタート。 未経験者の方は不安でいっぱいだと思います。ご安心下さい。 当店では未経験者の方にも安心して働いて頂けるように女性講師による丁寧な研修システムをご用意しています。 優しい女性スタッフが親身になって相談に乗ります。</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">経験者の方は優遇K</h3>
-
-									</div>
-									<div class="timeline-body">
-										<p>経験者の方は他店で抱えていた悩み等ご相談頂ければ、優秀なスタッフが全力でサポートします！！ 人間関係良好で働きやすく、女性としてセラピストとして成長出来る職場です。皆で目標を叶えましょう。</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">清潔でキレイな施術ルーム</h3>
-
-									</div>
-									<div class="timeline-body">
-										<p>お客様はもちろん、セラピストさんにも気持ち良く働いて頂きたいので、施術ルームの清潔さにこだわっています。</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">友達紹介キャンペーン</h3>
-									</div>
-									<div class="timeline-body">
-										<p>手数料奮発</p>
-										<p>手数料奮発</p>
-										<p>手数料奮発</p>
-									</div>
-								</div>
-							</li>
-
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">各種手当</h3>
-									</div>
-									<div class="timeline-body">
-										<p>皆勤手当</p>
-										<p>皆勤手当</p>
-										<p>皆勤手当</p>
-									</div>
-								</div>
-							</li>
-
-
-							<li class="animate-box">
-								<div class="timeline-badge" style="background-image: url(images/couple-3.jpg);"></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">収入例</h3>
-
-									</div>
-									<div class="timeline-body">
-										<p>90分 5,500～8,000円</p>
-										<p>120分 7,500～10,000円</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 
 
 		<div class="fh5co-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-push-6 animate-box">
-						<h3>Get In Touch</h3>
+						<h3>Contact</h3>
 						<form method="post" class="" action="<?php echo $sfm_script; ?>">
 							<div class="row form-group">
 								<div class="col-md-12">
@@ -682,7 +611,7 @@
 						<div class="fh5co-contact-info">
 							<h3>Contact Information</h3>
 							<ul>
-								<li class="address">xxxxxx</li>
+								<li class="address">最寄りの店舗・またはご都合の良い場所までうかがいます</li>
 								<li class="phone">
 									<a href="tel://09030530184">090-3053-0184</a>
 								</li>

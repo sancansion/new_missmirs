@@ -44,6 +44,7 @@
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style_line.css">
 
 <!-- Modernizr JS -->
 <script src="js/modernizr-2.6.2.min.js"></script>
@@ -255,6 +256,22 @@
 								<a href="" class="color-6">
 									<div class="case-studies-summary">
 										<h2>Miss.渡辺あかり(21)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/wakatsuki.jpg);">
+								<a href="" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Miss.若月結衣(30)</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/igawa.jpg);">
+								<a href="" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Miss.井川 優(35)</h2>
 									</div>
 								</a>
 							</li>

@@ -915,7 +915,7 @@ form label {
 #fh5co-header .display-tc h1, #fh5co-counter .display-tc h1,
 	.fh5co-cover .display-tc h1 {
 	margin-bottom: 0px;
-	font-size: 30px;
+	font-size: 24px;
 	line-height: 1.5;
 	font-family: "Sacramento", ü‡ÉSÉVÉbÉNëÃ, 'Yu Gothic', YuGothic,
 		'ÉqÉâÉMÉmäpÉSÉVÉbÉN Pro', 'Hiragino Kaku Gothic Pro', ÉÅÉCÉäÉI, Meiryo, Osaka,
@@ -925,14 +925,14 @@ form label {
 @media screen and (max-width: 768px) {
 	#fh5co-header .display-tc h1, #fh5co-counter .display-tc h1,
 		.fh5co-cover .display-tc h1 {
-		font-size: 40px;
+		font-size: 24px;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	#fh5co-header .display-tc h1, #fh5co-counter .display-tc h1,
 		.fh5co-cover .display-tc h1 {
-		font-size: 30px;
+		font-size: 24px;
 	}
 }
 
@@ -1435,7 +1435,7 @@ scale
 
 @media screen and (max-width: 768px) {
 	.fh5co-heading h2 {
-		font-size: 40px;
+		font-size: 24px;
 	}
 }
 

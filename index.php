@@ -126,7 +126,7 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<h2>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</h2>
+								<!-- 	<h2>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</h2> -->
 							</div>
 						</div>
 					</div>
@@ -320,82 +320,23 @@
 		<!-- END:Main -->
 
 		<!-- START:footer -->
-		<footer id="fh5co-footer" role="contentinfo">
-			<div class="container">
-				<div class="row copyright">
-					<div class="col-md-12 text-center">
-						<p>
-							<small class="block">&copy; 2017 MissMrs All Rights Reserved.</small>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php include("common/footer.html"); ?>
 		<!-- END:footer -->
 
 		<!-- START:footer menu -->
-		<ul class="footer_menu">
+		<?php include("common/footer_menu.html"); ?>
+		<!-- END:footer menu-->
 
-			<li>
-				<a href="tel:090-3053-0184">
-					<i class="icon-phone"></i>
-					<br>
-					TEL
-				</a>
-			</li>
-			<li>
-				<a href="mailt	o:missmrs@docomo.ne.jp">
-					<i class="icon-mail"></i>
-					<br>
-					MAIL
-				</a>
-			</li>
-			<li>
-				<a href="http://line.me/ti/p/LIL-_8S4Qh">
-					<i class="icon-line"></i>
-
-					<br>
-					LINE
-				</a>
-			</li>
-			<li>
-				<a href="recruit.php" class="">
-					<i class="icon-heart"></i>
-					<br>
-					求人
-				</a>
-			</li>
-		</ul>
-	</div>
-	<!-- END:footer menu-->
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop">
-			<i class="icon-arrow-up"></i>
-		</a>
 	</div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
 
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+	<!-- START: goto top -->
+	<?php include("common/gototop.html"); ?>
+	<!-- END: goto top -->
+	
+	<!-- START: Inclide JS -->
+	<?php include("common/js.html"); ?>
+	<!-- END: Inclide JS -->
+	
 </body>
 </html>
