@@ -10,9 +10,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Miss Mrs" />
+
 <meta name="description" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
 <meta name="keywords" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
-<meta name="author" content="Miss Mrs" />
 
 <!-- START:SNS meta-->
 <?php include("common/sns_meta.html"); ?>
@@ -21,24 +22,10 @@
 <!-- START:SNS meta-->
 <?php include("common/css.html"); ?>
 <!-- END:SNS meta-->
-
-
-
 </head>
 <body>
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id))
-				return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
 
+	<?php include("common/facebook_js.html"); ?>
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
@@ -64,6 +51,7 @@
 		<!-- END:header -->
 		<!-- START:Main -->
 
+		<!-- START:contact -->
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
@@ -86,7 +74,8 @@
 				</div>
 			</div>
 		</div>
-
+		<!-- END:contact -->
+		
 		<!-- START:blog -->
 		<div id="fh5co-couple">
 			<div class="container">
