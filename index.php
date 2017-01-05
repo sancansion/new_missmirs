@@ -47,8 +47,7 @@
 		<!-- END:Navigation-->
 
 		<!-- START:header -->
-		<header id="fh5co-header" class="fh5co-cover" role="banner"
-			data-stellar-background-ratio="0.5">
+		<header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -180,8 +179,9 @@
 				<div class="row">
 					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<h2>facedbook</h2>
-						<div class="fb-page" data-href="https://www.facebook.com/MissMrs-747337258740161/" data-tabs="timeline" data-small-header="false"
-							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+
+						<div class="fb-page" data-href="https://www.facebook.com/MissMrs-747337258740161/" data-small-header="false"
+							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 							<blockquote cite="https://www.facebook.com/MissMrs-747337258740161/" class="fb-xfbml-parse-ignore">
 								<a href="https://www.facebook.com/MissMrs-747337258740161/">Miss.Mrs</a>
 							</blockquote>
