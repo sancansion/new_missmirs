@@ -10,47 +10,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-<meta name="author" content="FREEHTML5.CO" />
+<meta name="description" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
+<meta name="keywords" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
+<meta name="author" content="Miss Mrs" />
 
-<!-- Facebook and Twitter integration -->
-<meta property="og:title" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
-<meta property="og:image" content="website" />
-<meta property="og:url" content="http://missmrs.biz/" />
-<meta property="og:site_name" content="ミスミセス" />
-<meta property="og:description" content="当店Miss.Mrs(ミスミセス)は大阪市北区は南森町.扇町.天六.ミナミ(中央区)には長堀橋にある完全予約制のプライベートメンズエステです。" />
-<!--    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" /> -->
+<!-- START:SNS meta-->
+<?php include("common/sns_meta.html"); ?>
+<!-- END:SNS meta-->
 
-<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+<!-- START:SNS meta-->
+<?php include("common/css.html"); ?>
+<!-- END:SNS meta-->
 
-<!-- Animate.css -->
-<link rel="stylesheet" href="css/animate.css">
-<!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="css/icomoon.css">
-<!-- Bootstrap  -->
-<link rel="stylesheet" href="css/bootstrap.css">
 
-<!-- Magnific Popup -->
-<link rel="stylesheet" href="css/magnific-popup.css">
-
-<!-- Owl Carousel  -->
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-<!-- Theme style  -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/style_line.css">
-<!-- Modernizr JS -->
-<script src="js/modernizr-2.6.2.min.js"></script>
-<!-- FOR IE9 below -->
-<!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 <body>
@@ -70,55 +42,12 @@
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
-		<nav class="fh5co-nav" role="navigation">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-2">
-						<div id="fh5co-logo">
-							<a href="index.php">Miss.Mrs</a>
-						</div>
-					</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li class="active">
-								<a href="index.php">TOP</a>
-							</li>
-							<li>
-								<a href="therapist.php">Therapist</a>
-							</li>
-							<li>
-								<a href="http://blog.livedoor.jp/missmrs05/" target="_blank">Schedule</a>
-							</li>
-							<li>
-								<a href="system.php">System</a>
-							</li>
-							<li>
-								<a href="recruit.php">Recruit</a>
-							</li>
-							<li class="has-dropdown">
-								<a href="access.php">Access</a>
-								<ul class="dropdown">
-									<li>
-										<a href="#tenroku">天神橋六丁目</a>
-									</li>
-									<li>
-										<a href="#ougi">扇町</a>
-									</li>
-									<li>
-										<a href="#nanmori">南森町</a>
-									</li>
-									<li>
-										<a href="#nagahori">長堀橋</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
+		<!-- START:Navigation-->
+		<?php include("common/navi.html"); ?>
+		<!-- END:Navigation-->
+
 		<!-- START:header -->
-		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(images/photo_2.jpg);"
+		<header id="fh5co-header" class="fh5co-cover" role="banner"
 			data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
@@ -155,29 +84,6 @@
 							<img src="images/mail.png" class="image-witdh100">
 						</a>
 					</div>
-
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<a href="https://www.instagram.com/missmrs01/">
-							<img src="images/insta.png" class="image-witdh100">
-						</a>
-					</div>
-					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<a href="https://www.facebook.com/MissMrs-747337258740161/">
-							<img src="images/facebook.png" class="image-witdh100">
-						</a>
-					</div>
-
-					<div class="col-md-4  text-center fh5co-heading animate-box">
-						<a href="http://osaka.refle.info/">
-							<img src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="マッサージ店を探すならリフナビ大阪">
-						</a>
-					</div>
-
 				</div>
 			</div>
 		</div>
@@ -220,8 +126,6 @@
                                 echo "<dl><dt>$date</dt><dd><a href=\"$link\" target=\"_blank\">$title</a></dd></dl>";
                                 }
                                  ?>
-
-
 							<a href="http://blog.livedoor.jp/missmrs02/" target="_blank" class="more">
 								Mrs.Miss Blogはこちら
 								<span>▲</span>
@@ -236,7 +140,8 @@
                         // モジュールを読み込む
                         require_once("./magpierss/rss_fetch.inc");
 
-                        $url = "http://blog.livedoor.jp/missmrs05/atom.xml";
+                        $url = "http://missmrs05.blog.fc2.com/?xml";
+
                         // ブログのタイトルは$rss->channel['title']という変数、
                         // RSSは$rss->itemという変数に入る。
                         // key値、link/title/descriptionで取得できる。
@@ -249,7 +154,7 @@
                         $link = mb_convert_encoding($item['link'],"UTF-8","auto");
                         $title = mb_convert_encoding($item['title'],"UTF-8","auto");
                         $description = mb_convert_encoding($item['description'],"UTF-8","auto");
-                        $date = date("Y.m.d H:i", strtotime($item['modified']));
+                        $date = date("Y.m.d H:i", strtotime(substr($item['dc']['date'],0,10)));
                         if (preg_match("/PR$/", $title) != 0) continue;
                         if (preg_match("/^PR:.+$/", $title) != 0) continue;
                         if ($line++ == $max_lines) break;
@@ -258,7 +163,7 @@
                         }
                         ?>
 
-							<a href="http://missmrs01.blog.fc2.com/" target="_blank" class="more">
+							<a href="http://missmrs05.blog.fc2.com/" target="_blank" class="more">
 								出勤情報Blogはこちら
 								<span>▲</span>
 							</a>
@@ -333,10 +238,10 @@
 	<!-- START: goto top -->
 	<?php include("common/gototop.html"); ?>
 	<!-- END: goto top -->
-	
+
 	<!-- START: Inclide JS -->
 	<?php include("common/js.html"); ?>
 	<!-- END: Inclide JS -->
-	
+
 </body>
 </html>
