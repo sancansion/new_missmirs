@@ -25,9 +25,10 @@
 </head>
 <body>
 
-	<?php include("common/facebook_js.html"); ?>
 	<div class="fh5co-loader"></div>
-
+	<!-- START:Facebook js -->
+	<?php include("common/facebook_js.html"); ?>
+	<!-- END:Facebook js -->
 	<div id="page">
 		<!-- START:Navigation-->
 		<?php include("common/navi.html"); ?>
@@ -75,7 +76,7 @@
 			</div>
 		</div>
 		<!-- END:contact -->
-		
+
 		<!-- START:blog -->
 		<div id="fh5co-couple">
 			<div class="container">
@@ -209,6 +210,20 @@
 			</div>
 		</div>
 		<!-- END:About MissMrs -->
+
+		<!-- START:Refnavi -->
+		<div id="fh5co-couple">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-left fh5co-heading animate-box">
+						<a href="http://osaka.refle.info/">
+							<img src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="マッサージ店を探すならリフナビ大阪">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END:Refnavi -->
 
 
 		<!-- END:Main -->
