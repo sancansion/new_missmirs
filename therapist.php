@@ -27,26 +27,12 @@
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
-
-		<!-- START:Navigation-->
-		<?php include("common/navi.html"); ?>
-		<!-- END:Navigation-->
-
 		<!-- START:header -->
-		<header id="fh5co-header" class="fh5co-cover" role="banner" 
-			data-stellar-background-ratio="0.5">
+		<header id="" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="display-t">
-							<div class="display-tc animate-box" data-animate-effect="fadeIn">
-								<h1>セラピスト一覧</h1>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<!-- START:Navigation-->
+			<?php include("common/navi.html"); ?>
+			<!-- END:Navigation-->
 		</header>
 		<!-- END:header -->
 		<!-- START:Main -->

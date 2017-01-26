@@ -357,6 +357,15 @@
 	background: center center;
 }
 
+
+@media screen and (max-width: 768px) {
+	.fh5co-cover {
+		height: 250px;
+		background-image: url(../images/top.jpg);
+	}
+}
+
+
 .fh5co-cover .desc {
 	position: absolute;
 	bottom: 0;

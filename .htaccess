@@ -1,0 +1,9 @@
+AddOutputFilter INCLUDES .cgi
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^s(.*)$ $1 [R=301,L]
+</IfModule>
+
+# Redirect
+#Redirect permanent /http://missmrs.biz/s/ http://missmrs.biz
