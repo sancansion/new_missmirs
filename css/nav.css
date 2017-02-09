@@ -10,94 +10,188 @@ ul {
 	list-style-type: none;
 }
 
-nav#mainmenu {
-	
-}
-
-/*メニューブロック全体の設定*/
-nav#mainmenu ul {
-	font-size: 13px; /*文字サイズ*/
-	height: 120px; /*ブロックの高さ*/
-	width: 640px; /*ブロックの幅*/
+#contact {
 	position: absolute;
-	top: 70px; /*ヘッダーブロックに対して上から50pxの位置に配置*/
-	right: 10px; /*ヘッダーブロックに対して右から30pxの位置に配置*/
+	right: 10px; /*header #innerに対して右から10pxの場所に配置*/
+	top: 0px; /*header #innerに対して上から0pxの場所に配置*/
+	font-size: 18px; /*文字サイズ*/
 }
-/*各メニューの設定*/
-nav#mainmenu ul li a {
-	height: 60px; /*メニューの高さ*/
-	width: 60px; /*メニューの幅*/
-	line-height: 60px; /*行間（heightの数値と合わせる）*/
-	color: #FFF; /*文字色*/
+
+#contact a {
 	text-decoration: none;
-	text-align: center;
-	display: block;
-	background: rgba(000, 4, 0, 0.5);
-	/*背景色。左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
-	border-radius: 70px; /*角丸のサイズ*/
-	-webkit-transition: 0.8s; /*マウスオン時の移り変わるまでの時間設定。0.8秒。*/
-	transition: 0.8s; /*同上*/
-	border: 5px solid rgba(255, 255, 255, 0.5);
-	/*枠線の幅、線種、色。色については左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
-	overflow: hidden;
-	float: left;
-	margin-right: 10px;
-}
-/*マウスオン時の設定*/
-nav#mainmenu ul li a:hover {
-	background: #FFF; /*背景色*/
-	color: #36271a; /*文字色*/
-	border: 10px solid #F14E95; /*枠線の幅、線種、色*/
-}
-
-header {
-	height: auto;
-	position: static;
-	text-align: center;
-}
-
-/*h1ロゴの設定*/
-header h1 {
-	padding-top: 50px;
-	text-align: right;
-	position: static;
-}
-header h1 img {
-/* 	width: 90%;
-	height: auto; */
-}
-
-
-
-nav#mainmenu div.shopname{
-font-size:20px;
-	padding-top:5px;
-	color:#fff;
-}
-
-nav#mainmenu ul {
-	height: auto;
-	width: auto;
-	/* position: static; */
-		top: 40px;
-	right: auto;
-}
-
-nav#mainmenu ul li {
 	display: inline-block;
-	margin-bottom: 20px;
+	background: #25b4b0; /*背景色（古いブラウザ用）*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#F6C),
+		to(#F9C)); /*グラデーション*/
+	background: -webkit-linear-gradient(#F6C, #F9C); /*同上*/
+	background: linear-gradient(#F6C, #F9C); /*同上*/
+	color: #FFF; /*文字色*/
+	padding: 4px 20px 8px; /*上、左右、下へのボックス内の余白*/
+	border-radius: 0px 0px 8px 8px; /*角丸のサイズ。左上、右上、右下、左下。*/
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	/*右へ、下へ、ぼかし幅の順の影の設定。rgba以降は色の設定。「0,0,0」はrgbでの色で、黒。「0.2」が透明度で20%の意味。*/
+	text-shadow: #25b4b0 0px -1px;
+	/*色、右へ、下へ、テキストの影の設定。下にマイナス設定をしているので上に影が入る事になる。*/
+}
+/*マウスオン時*/
+#contact a:hover {
+	padding: 8px 20px 12px; /*上、左右、下へのボックス内の余白*/
 }
 
-nav#mainmenu ul li a {
-	float: none;
-	height: 85px;
-	width: 85px;
-	line-height: 85px;
-	border: 3px solid rgba(255, 255, 255, 0.5);
-	margin-right: 0;
+@media screen and (min-width: 768px) {
+	nav#mainmenu ul {
+		font-size: 13px; /*文字サイズ*/
+		height: 120px; /*ブロックの高さ*/
+		width: 640px; /*ブロックの幅*/
+		position: absolute;
+		top: 70px; /*ヘッダーブロックに対して上から50pxの位置に配置*/
+		right: 10px; /*ヘッダーブロックに対して右から30pxの位置に配置*/
+	}
+	nav#mainmenu ul li a {
+		height: 60px; /*メニューの高さ*/
+		width: 60px; /*メニューの幅*/
+		line-height: 60px; /*行間（heightの数値と合わせる）*/
+		color: #FFF; /*文字色*/
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		background: rgba(000, 4, 0, 0.3);
+		/*背景色。左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
+		border-radius: 70px; /*角丸のサイズ*/
+		-webkit-transition: 0.8s; /*マウスオン時の移り変わるまでの時間設定。0.8秒。*/
+		transition: 0.8s; /*同上*/
+		border: 5px solid rgba(255, 105, 180, 0.5);
+		/*枠線の幅、線種、色。色については左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
+		overflow: hidden;
+		float: left;
+		margin-right: 10px;
+	}
+	/*マウスオン時の設定*/
+	nav#mainmenu ul li a:hover {
+		background: #FFF; /*背景色*/
+		color: #36271a; /*文字色*/
+		border: 10px solid #F14E95; /*枠線の幅、線種、色*/
+	}
+	header {
+		height: auto;
+		position: static;
+		text-align: center;
+	}
+
+	/*h1ロゴの設定*/
+	header h1 {
+		padding-top: 50px;
+		text-align: right;
+		position: static;
+	}
+	nav#mainmenu div.shopname {
+		font-family: "Sacramento", Arial, serif;
+		font-size: 24px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #fff;
+		font-weight: bold;
+	}
+	nav#mainmenu ul {
+		height: auto;
+		width: auto;
+		 position: static;
+		top: 60px;
+		right: auto;
+		text-align: center;
+	}
+	nav#mainmenu ul li {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	nav#mainmenu ul li a {
+		float: none;
+		height: 85px;
+		width: 85px;
+		line-height: 85px;
+		border: 3px solid rgba(255, 255, 255, 0.8);
+		margin-right: 0;
+	}
+	nav#mainmenu ul li a:hover {
+		border: 1px dotted #F14E95;
+		color: #F14E95;
+	}
 }
 
-nav#mainmenu ul li a:hover {
-	border: 1px dotted #F14E95;
-	color:#F14E95;
+@media screen and (max-width: 768px) {
+	nav#mainmenu ul {
+		font-size: 13px; /*文字サイズ*/
+		height: 120px; /*ブロックの高さ*/
+		width: 640px; /*ブロックの幅*/
+		position: absolute;
+		top: 70px; /*ヘッダーブロックに対して上から50pxの位置に配置*/
+		right: 10px; /*ヘッダーブロックに対して右から30pxの位置に配置*/
+	}
+	nav#mainmenu ul li a {
+		height: 60px; /*メニューの高さ*/
+		width: 60px; /*メニューの幅*/
+		line-height: 60px; /*行間（heightの数値と合わせる）*/
+		color: #FFF; /*文字色*/
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		background: rgba(000, 4, 0, 0.5);
+		/*背景色。左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
+		border-radius: 70px; /*角丸のサイズ*/
+		-webkit-transition: 0.8s; /*マウスオン時の移り変わるまでの時間設定。0.8秒。*/
+		transition: 0.8s; /*同上*/
+		border: 5px solid rgba(255, 255, 255, 0.5);
+		/*枠線の幅、線種、色。色については左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
+		overflow: hidden;
+		http: //localhost/access.php float: left;
+		margin-right: 10px;
+	}
+	/*マウスオン時の設定*/
+	nav#mainmenu ul li a:hover {
+		background: #FFF; /*背景色*/
+		color: #36271a; /*文字色*/
+		border: 10px solid #F14E95; /*枠線の幅、線種、色*/
+	}
+	header {
+		height: auto;
+		position: static;
+	}
+
+	/*h1ロゴの設定*/
+	header h1 {
+		padding-top: 50px;
+		text-align: right;
+		position: static;
+	}
+	nav#mainmenu div.shopname {
+		font-family: "Sacramento", Arial, serif;
+		font-size: 24px;
+		padding: 10px;
+		color: #fff;
+		font-weight: bold;
+	}
+	nav#mainmenu ul {
+		height: auto;
+		width: auto;
+		/* position: static; */
+		top: 55px;
+		right: auto;
+		text-align: center;
+	}
+	nav#mainmenu ul li {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	nav#mainmenu ul li a {
+		float: none;
+		height: 85px;
+		width: 85px;
+		line-height: 85px;
+		border: 3px solid rgba(255, 255, 255, 0.8);
+		margin-right: 0;
+	}
+	nav#mainmenu ul li a:hover {
+		border: 1px dotted #F14E95;
+		color: #F14E95;
+	}
 }

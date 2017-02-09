@@ -29,12 +29,10 @@
 
 	<div id="page">
 
-		<header id="" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<!-- START:Navigation-->
-			<?php include("common/navi.html"); ?>
-			<!-- END:Navigation-->
-		</header>
+		<!-- START:Navigation-->
+		<?php include("common/navi.html"); ?>
+		<!-- END:Navigation-->
+
 		<!-- END:header -->
 		<!-- START:Main -->
 		<!-- START: -->
@@ -151,7 +149,7 @@
 				<div class="row">
 
 					<a name="nagahori"></a>
-					<h2>長堀店</h2>
+					<h2>長堀橋店</h2>
 					<div class="col-md-8  text-left fh5co-heading animate-box">
 						<div class="ggmap">
 							<iframe
@@ -161,7 +159,7 @@
 					</div>
 					<div class="col-md-4  text-left fh5co-heading animate-box">
 						<p>
-							店舗名：長堀店
+							店舗名：長堀橋店
 							<br>
 							営業時間：11時～翌5時（最終受付3時30分）
 							<br>

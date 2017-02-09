@@ -28,12 +28,8 @@
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
-		<header id="" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<!-- START:Navigation-->
-			<?php include("common/navi.html"); ?>
-			<!-- END:Navigation-->
-		</header>
+		<!-- START:header -->
+		<?php include("common/navi.html"); ?>
 		<!-- END:header -->
 		<!-- START:Main -->
 		<!-- START: -->

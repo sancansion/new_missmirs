@@ -33,58 +33,24 @@
 
 
 		<!-- START:header -->
-		<header id="" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.5">
-		
-			<!-- START:Navigation-->
-			<?php include("common/navi.html"); ?>
 
-		</header>
+		<!-- START:Navigation-->
+		<?php include("common/navi.html"); ?>
+
+
 		<!-- END:header -->
 		<!-- START:Main -->
 
-		<!-- START:contact -->
-		<!-- 		<div id="fh5co-couple" class="sp-display-none">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-4 text-center fh5co-heading animate-box">
-						<a href="system.php">
-							<img src="images/menu_system.png" class="image-witdh100">
-						</a>
-					</div>
-					<div class="col-xs-4  text-center fh5co-heading animate-box">
-						<a href="http://blog.livedoor.jp/missmrs05/">
-							<img src="images/menu_schedule.png" class="image-witdh100">
-						</a>
-					</div>
-
-					<div class="col-xs-4  text-center fh5co-heading animate-box">
-						<a href="therapist.php">
-							<img src="images/menu_therapist.png" class="image-witdh100">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- END:contact -->
 
 		<!-- START:contact -->
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12  text-center fh5co-heading animate-box">
-						<a href="form.php">
+						<a href="recruit/index.php">
 							<img src="images/recruit.png" class="image-witdh100">
 						</a>
 					</div>
-				</div>
-			</div>
-		</div>
-		<!-- END:contact -->
-
-		<!-- START:contact -->
-		<div id="fh5co-couple">
-			<div class="container">
-				<div class="row">
 					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="tel:090-3053-0184">
 							<img src="images/tel.png" class="image-witdh100">

@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+body {
+	font: 14px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro"; /*文字サイズ・行間・フォント設定*/
+}
+
+h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd, form, figure {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+/*メインコンテンツ
+---------------------------------------------------------------------------*/
+#main {
+	width: 100%; /*メインコンテンツ幅*/
+	padding-bottom: 30px;
+}
+/*mainコンテンツのh1タグの設定*/
+#main h1 {
+	background-color: #FFF; /*背景色（古いブラウザだとここの色のみが出ます）*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
+		to(#e6e6e6)); /*グラデーション*/
+	background-image: -webkit-linear-gradient(#FFF, #FFC0CB); /*同上*/
+	background-image: linear-gradient(#FFF, #FFC0CB); /*同上*/
+	-webkit-box-shadow: 0px 2px 5px #FFC0CB; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
+	box-shadow: 0px 2px 5px #544436; /*同上*/
+	font-size: 150%;
+	padding: 10px 10px 10px 20px; /*左から、上、右、下、左側への余白*/
+	margin-top: 20px;
+	clear: both;
+	border-radius: 10px; /*角丸のサイズ*/
+	color: #36271a;
+	clear: both; /*文字色*/
+}
+/*MENUページで使っている濃い色のh1見出しタグのスタイル*/
+#main h1.type1 {
+	background-color: #41260e; /*背景色（古いブラウザだとここの色のみが出ます）*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#41260e),
+		to(#36271a)); /*グラデーション*/
+	background-image: -webkit-linear-gradient(#41260e, #36271a); /*同上*/
+	background-image: linear-gradient(#41260e, #36271a); /*同上*/
+	color: #FFF;
+}
+
+/*menu.html内のメニューブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#main section.list article {
+	min-height: 350px; /*ボックスの高さ*/
+	height: auto; width : 280px; /*ボックスの幅*/
+	border-radius: 10px; /*角丸のサイズ*/
+	-webkit-box-shadow: 0px 2px 5px #544436; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
+	box-shadow: 0px 2px 5px #544436; /*同上*/
+	background-color: #FFF; /*背景色（古いブラウザだとここの色のみが出ます）*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
+		to(#FFE4E1)); /*グラデーション*/
+	background-image: -webkit-linear-gradient(#FFF, #FFE4E1); /*同上*/
+	background-image: linear-gradient(#FFF, #FFE4E1); /*同上*/
+	padding: 15px; /*ボックス内の余白*/
+	float: left;
+	margin: 0px 9px 1em;
+	position: relative;
+	width: 280px;
+}
+/*ボックス内の段落タグ設定*/
+#main section.list article p {
+	padding: 0px;
+	color: #36271a; /*文字色*/
+	font-size: 16px; /*文字サイズ*/
+}
+
+#main section.list article p.contact {
+	margin-top: 5px;
+	color: #000; /*文字色*/
+	font-size: 90%; /*文字サイズ*/
+	text-decoration: underline;
+}
+
+/*ボックス内のh1タグ設定*/
+#main section.list article h1 {
+	background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 160%;
+	padding: 0;
+	border-radius: 0px;
+	color: #F14E95; /*文字色*/
+	font-wight:bold;
+	border-bottom: 2px dotted #36271a; /*下線の幅、線種、色*/
+	margin-bottom: 10px;
+	margin-top: 15px;
+
+}
+
+#main section.list article .job-contact {
+	
+	margin-bottom: 10px;
+}
+
+#main section.list article ul li {
+	display: inline;
+	padding: 10px;
+}
+
+#main section.list article ul li p {
+	color: #333;
+	display: inline;
+	font-size: 90%;
+}
+
+.mb1em {
+	margin-bottom: 1em;
+}
+
+.shadow {
+	padding: 20px;
+	border: 1px solid #f0f0f0;
+	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#777777,
+		direction=0, strength=3, enabled=true);
+	/* IE以外なら丸角も！ */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.sample_01 {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sample_01 th {
+	padding: 0px 5px 0px 0px; /*左から、上、右、下、左側への余白*/
+	color: #333; /*文字色*/
+	border: 1px solid #b9b9b9;
+	background: #fff;
+	text-align: right;
+}
+
+.sample_01 td {
+	padding: 0px 0px 0px 5px; /*左から、上、右、下、左側への余白*/
+	color: #333; /*文字色*/
+	background: #fff;
+	border: 1px solid #b9b9b9;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
+	ul.navmenu {
+		text-align: left;
+		padding: 10px 0px 10px 20px;
+	}
+	ul.navmenu li {
+		display: block;
+	}
+
+	/*menu.html内のメニューブロック
+---------------------------------------------------------------------------*/
+	/*各ボックスの設定*/
+	#main section.list article {
+		float: none;
+		margin: 0px auto 1em;
+	}
+}
