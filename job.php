@@ -40,131 +40,125 @@
 
 		<div id="container">
 			<div id="contents">
-				<div id="main">
 
-					<h1>
-						<!-- <img src="" alt="" width="35" style="vertical-align: middle;">
-						 -->
-						<span>セラピストさん大募集!!</span>
-					</h1>
+				<h1 class="type1-1">
+					<span class="icon-heart"> セラピストさん大募集!!</span>
+				</h1>
+				<h2 class="type2-1">
+					<span class="icon-heart"> 求人情報</span>
+				</h2>
+				<section id="single" class="list">
 
-					<section id="single" class="list">
-						<h1 class="type1 mb1em">求人情報</h1>
-						<article>
-							<figure>
-								<img src="images/recruit.png" alt="" width="100%">
-							</figure>
-							<h1>入店祝い金 5万円贈呈</h1>
-							<p>今なら・・・入店祝い金</p>
-							<p>なんと5万円を贈呈</p>
-
-							<!-- START: Job Contact -->
-							<?php include("common/job_contact.html"); ?>
-							<!-- END: Job Contact  -->
-						</article>
-
-						<article>
-							<figure>
-								<img src="images/recruit2.png" alt="" width="100%">
-							</figure>
-							<h1>ノルマ制なし</h1>
-							<p>出勤日数, 売上ノルマ</p>
-							<p>はありません</p>
-							<!-- START: Job Contact -->
-							<?php include("common/job_contact.html"); ?>
-							<!-- END: Job Contact  -->
-
-						</article>
-
-						<article>
-							<figure>
-								<img src="images/recruit3.png" alt="" width="100%">
-							</figure>
-							<h1>未経験でもOK</h1>
-
-							<!-- START: Job Contact -->
-							<?php include("common/job_contact.html"); ?>
-							<!-- END: Job Contact  -->
-						</article>
-
-
-						<article>
-							<figure>
-								<img src="images/recruit4.png" alt="" width="100%">
-							</figure>
-							<h1>高額なバック率</h1>
+					<article>
+						<figure>
+							<img src="images/recruit.png" alt="" width="100%">
+						</figure>
+						<h3>入店祝い金 5万円贈呈</h3>
+						<p>
+							今なら・・・
 							<br>
-							<br>
-							<p></p>
+							入店祝い金 なんと5万円を贈呈
+						</p>
+						<br>
+						<!-- START: Job Contact -->
+						<?php include("common/job_contact.html"); ?>
+						<!-- END: Job Contact  -->
+					</article>
 
-							<p></p>
+					<article>
+						<figure>
+							<img src="images/recruit2.png" alt="" width="100%">
+						</figure>
+						<h3>ノルマ制なし</h3>
+						<p>出勤日数・売上ノルマなし!!</p>
+						<br>
+						<br>
+						<!-- START: Job Contact -->
+						<?php include("common/job_contact.html"); ?>
+						<!-- END: Job Contact  -->
 
-							<!-- START: Job Contact -->
-							<?php include("common/job_contact.html"); ?>
-							<!-- END: Job Contact  -->
-						</article>
+					</article>
 
-						<article>
-							<figure>
-								<img src="images/recruit5.png" alt="" width="100%">
-							</figure>
-							<h1>アクセス抜群の勤務地</h1>
-							<table class="sample_01">
-								<tbody>
-									<tr>
-										<td>天神橋6丁目</td>
-									</tr>
-									<tr>
-										<td>扇町</td>
-									</tr>
-									<tr>
-										<td>南森町</td>
-									</tr>
-									<tr>
-										<td>長堀橋</td>
-									</tr>
-								</tbody>
-							</table>
-							<p></p>
-
-							<p></p>
-
-							<!-- START: Job Contact -->
-							<?php include("common/job_contact.html"); ?>
-							<!-- END: Job Contact  -->
-						</article>
+					<article>
+						<figure>
+							<img src="images/recruit3.png" alt="" width="100%">
+						</figure>
+						<h3>未経験でもOK</h3>
+						<br>
+						<br>
+						<!-- START: Job Contact -->
+						<?php include("common/job_contact.html"); ?>
+						<!-- END: Job Contact  -->
+					</article>
 
 
-						<article>
-							<figure>
-								<img src="images/recruit2.png" alt="" width="100%">
-							</figure>
-							<h1>完全歩合制度の高待遇</h1>
-							<p>給与システム例</p>
-							<table class="sample_01">
-								<tbody>
-									<tr>
-										<th>90分</th>
-										<td>6,000～8,000円</td>
-									</tr>
-									<tr>
-										<th>120分</th>
-										<td>8,000～11,000円</td>
-									</tr>
-								</tbody>
-							</table>
-							<p></p>
-							<p>雑費引きなし</p>
-							<p>ノルマなし</p>
+					<article>
+						<figure>
+							<img src="images/recruit4.png" alt="" width="100%">
+						</figure>
+						<h3>高額なバック率</h3>
+						<br>
+						<br>
 
-							<!-- START: Job Contact -->
-							<?php include("common/job_contact.html"); ?>
-							<!-- END: Job Contact  -->
-						</article>
+						<!-- START: Job Contact -->
+						<?php include("common/job_contact.html"); ?>
+						<!-- END: Job Contact  -->
+					</article>
+
+					<article>
+						<figure>
+							<img src="images/recruit5.png" alt="" width="100%">
+						</figure>
+						<h3>アクセス抜群の勤務地</h3>
+						<p>店舗</p>
+						<table class="sample_01 mb5">
+							<tbody>
+								<tr>
+									<td>天神橋6丁目</td>
+									<td>扇町</td>
+								</tr>
+
+								<tr>
+									<td>南森町</td>
+									<td>長堀橋</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<!-- START: Job Contact -->
+						<?php include("common/job_contact.html"); ?>
+						<!-- END: Job Contact  -->
+					</article>
 
 
-					</section>
-				</div>
+					<article>
+						<figure>
+							<img src="images/recruit2.png" alt="" width="100%">
+						</figure>
+						<h3>完全歩合制度の高待遇</h3>
+						<p>給与システム例</p>
+						<table class="sample_01 mb5">
+							<tbody>
+								<tr>
+									<td>90分</td>
+									<td>6,000～8,000円</td>
+								</tr>
+								<tr>
+									<td>120分</td>
+									<td>8,000～11,000円</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>雑費引きなし! ノルマなし!</p>
+
+						<!-- START: Job Contact -->
+						<?php include("common/job_contact.html"); ?>
+						<!-- END: Job Contact  -->
+					</article>
+
+
+				</section>
+
 				<!--/main-->
 
 			</div>

@@ -37,13 +37,17 @@
 
 			<main id="menu">
 			<section id="contents">
-
-				<article class="block-02 cf pricelist">
-					<h3>
+				<h1 class="type1-1">
+					<span class="icon-heart">
 						料金システム
-						<br>
 						<span>（全て税込）</span>
-					</h3>
+					</span>
+				</h1>
+				<h2 class="type2-1">
+					<span class="icon-heart"> コース ＆ オプション</span>
+				</h2>
+				<article class="block-02 cf pricelist">
+
 
 					<div class="box">
 						<dl>
@@ -144,7 +148,10 @@
 
 					<div class="block">
 						<br>
-						<h3>注意事項</h3>
+						<h2 class="type2-1">
+							<span class="icon-heart"> 注意事項</span>
+						</h2>
+
 						<ul>
 							<li>お電話にての御予約を優先させて頂きます。</li>
 							<li>メールでの御予約の際はお 名前電話番号を一緒にお送りくださるとスムーズに御案内ができますので 御協力よろしくお願いします。</li>

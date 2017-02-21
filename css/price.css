@@ -18,9 +18,9 @@
 	#menu h3 span {
 		color: #333;
 		font-size: 14px;
-		font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro",
-			"ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", Verdana, Arial,
-			Helvetica, sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+			"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
+		
 	}
 	#menu .block-01 .box dl dt {
 		/*

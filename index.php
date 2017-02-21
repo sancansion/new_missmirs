@@ -36,8 +36,6 @@
 
 		<!-- START:Navigation-->
 		<?php include("common/navi.html"); ?>
-
-
 		<!-- END:header -->
 		<!-- START:Main -->
 
@@ -46,23 +44,29 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12  text-center fh5co-heading animate-box">
+					<h1 class="type1-1">
+						<span class="icon-heart"> Miss Mrs ミスミセス</span>
+					</h1>
+					<h2 class="type2-1">
+						<span class="icon-heart"> 求人情報</span>
+					</h2>
+					<div class="col-md-3  text-center fh5co-heading animate-box">
 						<a href="recruit/index.php">
 							<img src="images/recruit.png" class="image-witdh100">
 						</a>
 					</div>
-					<div class="col-md-4  text-center fh5co-heading animate-box">
+					<div class="col-md-3  text-center fh5co-heading animate-box">
 						<a href="tel:090-3053-0184">
 							<img src="images/tel.png" class="image-witdh100">
 						</a>
 					</div>
-					<div class="col-md-4  text-center fh5co-heading animate-box">
+					<div class="col-md-3  text-center fh5co-heading animate-box">
 						<a href="http://line.me/ti/p/LIL-_8S4Qh">
 							<img src="images/line.png" class="image-witdh100">
 						</a>
 					</div>
 
-					<div class="col-md-4  text-center fh5co-heading animate-box">
+					<div class="col-md-3  text-center fh5co-heading animate-box">
 						<a href="mailto:missmrs@docomo.ne.jp">
 							<img src="images/mail.png" class="image-witdh100">
 						</a>
@@ -76,6 +80,9 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
+					<h2 class="type2-1">
+						<span class="icon-heart"> ミスミセスのブログ</span>
+					</h2>
 					<div class="col-md-6  text-center fh5co-heading animate-box blog">
 						<h2>Mrs.Miss Blog</h2>
 						<div class="text-left">
@@ -162,6 +169,9 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
+					<h2 class="type2-1">
+						<span class="icon-heart"> ミスミセスのFacebook ＆ Instagram</span>
+					</h2>
 					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<h2>facedbook</h2>
 
@@ -190,8 +200,11 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
+					<h2 class="type2-1">
+						<span class="icon-heart"> About ミスミセス</span>
+					</h2>
 					<div class="col-md-8 col-md-offset-2 text-left fh5co-heading animate-box">
-						<h2>About Miss.Mrs</h2>
+
 						<p>当店Miss.Mrs(ミスミセス)は大阪市北区は南森町.扇町.天六.ミナミ(中央区)には長堀橋にある完全予約制のプライベートメンズエステです。</p>
 						<p>営業時間は午前11:00〜翌朝5:00迄(最終受付午前3:00)全室駅から近く各駅から2分以内の綺麗なシャワー完備の完全個室型になっております。</p>
 						<p>20代〜40代の愛嬌、品、マナーのある素敵な女性が多数在籍しており各セラピストによる貴方様に合った癒しを提供しています。</p>

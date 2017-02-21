@@ -40,9 +40,29 @@
 		<div id="fh5co-couple">
 			<div class="container">
 				<div class="row">
-
 					<a name="tenroku"></a>
-					<h2>天神橋六丁目店</h2>
+					<h1 class="type1-1">
+						<span class="icon-heart"> アクセス</span>
+					</h1>
+					<ul class="shop-list">
+						<li>
+							<a href="access.php#tenroku">＞＞天神橋六丁目店へのアクセス</a>
+						</li>
+						<li>
+							<a href="access.php#ougi">＞＞扇町店へのアクセス</a>
+						</li>
+						<li>
+							<a href="access.php#nanmori">＞＞南森町店へのアクセス</a>
+						</li>
+						<li>
+							<a href="access.php#nagahori">＞＞長堀橋店へのアクセス</a>
+						</li>
+					</ul>
+					<h2 class="type2-1">
+						<span class="icon-heart"> 天神橋六丁目店</span>
+					</h2>
+
+
 					<div class="col-md-8  text-left fh5co-heading animate-box">
 						<div class="ggmap">
 							<iframe
@@ -77,7 +97,10 @@
 				<div class="row">
 
 					<a name="ougi"></a>
-					<h2>扇町店</h2>
+					<h2 class="type2-1">
+						<span class="icon-heart"> 扇町店</span>
+					</h2>
+
 					<div class="col-md-8  text-left fh5co-heading animate-box">
 						<div class="ggmap">
 							<iframe
@@ -113,7 +136,9 @@
 				<div class="row">
 
 					<a name="nanmori"></a>
-					<h2>南森町店</h2>
+					<h2 class="type2-1">
+						<span class="icon-heart"> 南森町店</span>
+					</h2>
 					<div class="col-md-8  text-left fh5co-heading animate-box">
 						<div class="ggmap">
 							<iframe
@@ -149,7 +174,10 @@
 				<div class="row">
 
 					<a name="nagahori"></a>
-					<h2>長堀橋店</h2>
+					<h2 class="type2-1">
+						<span class="icon-heart"> 長堀橋店</span>
+					</h2>
+
 					<div class="col-md-8  text-left fh5co-heading animate-box">
 						<div class="ggmap">
 							<iframe

@@ -18,47 +18,21 @@ table {
 	border-collapse: collapse;
 	font-size: 100%;
 	border-spacing: 0;
+	table-layout: fixed;
 }
 
 /*メインコンテンツ
 ---------------------------------------------------------------------------*/
-#main {
-	width: 100%; /*メインコンテンツ幅*/
-	padding-bottom: 30px;
-}
+
 /*mainコンテンツのh1タグの設定*/
-#main h1 {
-	background-color: #FFF; /*背景色（古いブラウザだとここの色のみが出ます）*/
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
-		to(#e6e6e6)); /*グラデーション*/
-	background-image: -webkit-linear-gradient(#FFF, #FFC0CB); /*同上*/
-	background-image: linear-gradient(#FFF, #FFC0CB); /*同上*/
-	-webkit-box-shadow: 0px 2px 5px #FFC0CB; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
-	box-shadow: 0px 2px 5px #544436; /*同上*/
-	font-size: 150%;
-	padding: 10px 10px 10px 20px; /*左から、上、右、下、左側への余白*/
-	margin-top: 20px;
-	clear: both;
-	border-radius: 10px; /*角丸のサイズ*/
-	color: #36271a;
-	clear: both; /*文字色*/
-}
-/*MENUページで使っている濃い色のh1見出しタグのスタイル*/
-#main h1.type1 {
-	background-color: #41260e; /*背景色（古いブラウザだとここの色のみが出ます）*/
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#41260e),
-		to(#36271a)); /*グラデーション*/
-	background-image: -webkit-linear-gradient(#41260e, #36271a); /*同上*/
-	background-image: linear-gradient(#41260e, #36271a); /*同上*/
-	color: #FFF;
-}
 
 /*menu.html内のメニューブロック
 ---------------------------------------------------------------------------*/
 /*各ボックスの設定*/
-#main section.list article {
-	min-height: 350px; /*ボックスの高さ*/
-	height: auto; width : 280px; /*ボックスの幅*/
+section.list article {
+	min-height: 450px; /*ボックスの高さ*/
+	height: auto;
+	width: 280px; /*ボックスの幅*/
 	border-radius: 10px; /*角丸のサイズ*/
 	-webkit-box-shadow: 0px 2px 5px #544436; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
 	box-shadow: 0px 2px 5px #544436; /*同上*/
@@ -72,23 +46,19 @@ table {
 	margin: 0px 9px 1em;
 	position: relative;
 	width: 280px;
+	
 }
 /*ボックス内の段落タグ設定*/
-#main section.list article p {
+section.list article p {
 	padding: 0px;
 	color: #36271a; /*文字色*/
-	font-size: 16px; /*文字サイズ*/
+	font-size: 12px; /*文字サイズ*/
 }
 
-#main section.list article p.contact {
-	margin-top: 5px;
-	color: #000; /*文字色*/
-	font-size: 90%; /*文字サイズ*/
-	text-decoration: underline;
-}
+
 
 /*ボックス内のh1タグ設定*/
-#main section.list article h1 {
+section.list article h3 {
 	background: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -96,31 +66,37 @@ table {
 	padding: 0;
 	border-radius: 0px;
 	color: #F14E95; /*文字色*/
-	font-wight:bold;
+	font-wight: bold;
 	border-bottom: 2px dotted #36271a; /*下線の幅、線種、色*/
 	margin-bottom: 10px;
 	margin-top: 15px;
+}
+
+section.list article span.contact {
+	margin-left:35px;
+	color: #000; /*文字色*/
 
 }
 
-#main section.list article .job-contact {
-	
-	margin-bottom: 10px;
+section.list article ul.job-contact {
+/* 	position: absolute;
+	bottom: 10%; */
 }
 
-#main section.list article ul li {
+section.list article ul.job-contact-form {
+/* 	position: absolute;
+	bottom: 0; */
+}
+
+section.list article ul li {
 	display: inline;
 	padding: 10px;
 }
 
-#main section.list article ul li p {
+section.list article ul li p {
 	color: #333;
 	display: inline;
 	font-size: 90%;
-}
-
-.mb1em {
-	margin-bottom: 1em;
 }
 
 .shadow {
@@ -158,9 +134,6 @@ table {
 	border: 1px solid #b9b9b9;
 }
 
-@media screen and (min-width: 768px) {
-}
-
 @media screen and (max-width: 768px) {
 	ul.navmenu {
 		text-align: left;
@@ -173,8 +146,24 @@ table {
 	/*menu.html内のメニューブロック
 ---------------------------------------------------------------------------*/
 	/*各ボックスの設定*/
-	#main section.list article {
+	section.list article {
 		float: none;
 		margin: 0px auto 1em;
 	}
+}
+
+.btn-recruit a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px; background : #F6C; /*背景色（古いブラウザ用）*/
+	color: #FFF; /*文字色*/
+	padding: 4px 20px 8px; /*上、左右、下へのボックス内の余白*/
+	border-radius: 8px 8px 8px 8px; /*角丸のサイズ。左上、右上、右下、左下。*/
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	/*右へ、下へ、ぼかし幅の順の影の設定。rgba以降は色の設定。「0,0,0」はrgbでの色で、黒。「0.2」が透明度で20%の意味。*/
+	text-shadow: #25b4b0 0px -1px;
+	background: #F6C;
+	margin:10px 0;
+	/*色、右へ、下へ、テキストの影の設定。下にマイナス設定をしているので上に影が入る事になる。*/
+}
 }

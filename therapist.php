@@ -39,12 +39,13 @@
 		<!-- START: Miss-->
 		<div id="fh5co-gallery">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<h2>Miss</h2>
-					</div>
-				</div>
 				<div class="row row-bottom-padded-md">
+									<h1 class="type1-1">
+						<span class="icon-heart"> セラピスト紹介</span>
+					</h1>
+					<h2 class="type2-1">
+						<span class="icon-heart"> Miss</span>
+					</h2>
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
 
@@ -197,14 +198,11 @@
 
 		<!-- START: Mrs-->
 		<div id="fh5co-gallery">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<h2>Mrs</h2>
-					</div>
-				</div>
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12">
+									<h2 class="type2-1">
+						<span class="icon-heart"> Mrs</span>
+					</h2>
 						<ul id="fh5co-gallery-list">
 
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/therapist/aizawa.jpg);">
