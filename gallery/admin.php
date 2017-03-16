@@ -218,6 +218,12 @@ if ( (isset($_POST['submit']) || isset($_POST['edit_submit']) ) && !isset($_POST
 		if(isset($_POST['dspno'])){
 		  $dspno = $_POST['dspno'];
 		}
+
+		$type = 1;
+		if(isset($_POST['type'])){
+		  $type = replace_func($_POST['type']);
+		}
+		
 		
 		$lines = file($file_path);
 		
@@ -317,7 +323,7 @@ $compMesse = compMesse($mode);
 if(!empty($compMesse)) echo '<p class="fc_red message_com">'.$compMesse.'</p>';
 ?>
 <div class="logout_btn"><a href="?logout=true">ログアウト</a></div>
-<h1>ギャラリー 管理画面</h1>
+<h1>セラピスト管理画面</h1>
 <h2>画像登録・編集フォーム</h2>
 <form method="post" action="admin.php<?php echo "?page={$pager['pageid']}";?>" enctype="multipart/form-data" name="form">
 
@@ -367,7 +373,8 @@ if($mode == 'edit'){
 
 <p>■削除チェック　<input type="checkbox" name="del" value="true" /> <span style="font-size:13px;color:#666">※削除する場合はこちらにチェックを入れて「変更」ボタンを押してください。データ（画像データ含む）は完全に削除されます。</span></p>
 
-<h3>■画像アップロード（jpg、gif、pngのみ）</h3><p>※事前に縮小の必要はありません。横写真または縦写真とも設定ファイル（config.php）で設定した幅、または高さに自動縮小されます。現在は<span style="color:red"><?php $imgWidthHeight;?></span>px<br />※日本語ファイル名でも問題ありません。自動で半角英数字にリネームされます。アニメーションgifは不可。
+<h3>■画像アップロード（jpg、gif、pngのみ）</h3>
+<p>※事前に縮小の必要はありません。横写真または縦写真とも設定ファイル（config.php）で設定した幅、または高さに自動縮小されます。現在は<span style="color:red"><?php $imgWidthHeight;?></span>px<br />※日本語ファイル名でも問題ありません。自動で半角英数字にリネームされます。アニメーションgifは不可。
 <br />
 
 <input type="file" name="upfile" size="50" /> （MAX 5MB）<br /></p>
@@ -382,10 +389,18 @@ if($mode == 'edit'){
 //----------------------------------------------------------------------
 ?>
 <p>日付：<input type="text" name="year" size="5" maxlength="4" value="<?php echo @date("Y",time());?>" /> 年 <input type="text" name="month" size="2" maxlength="2" value="<?php echo @date("n",time());?>" /> 月 <input type="text" name="day" size="2" maxlength="2" value="<?php echo @date("j",time());?>" /> 日　※半角数字のみ</p>
-<h3>写真タイトル、説明など（htmlタグ不可） </h3><p>※未入力も可　※画像拡大時、及びaltに反映されます。<br /><textarea name="title" cols="60" rows="3"></textarea>
+<h3>写真タイトル、説明など（htmlタグ不可） </h3>
+<p>※未入力も可　※画像拡大時、及びaltに反映されます。<br />
+<textarea name="title" cols="60" rows="3"></textarea>
 </p>
 <h3>画像アップロード（jpg、gif、pngのみ）</h3><p>
 ※事前に縮小の必要はありません。横写真または縦写真とも設定ファイル（config.php）で設定した幅、または高さに自動縮小されます。現在は<span style="color:red"><?php echo $imgWidthHeight;?></span>px<br />※日本語ファイル名でも問題ありません。自動で半角英数字にリネームされます。アニメーションgifは不可<br />
+
+
+<p>Miss Or Mrs<br>
+	<input type="radio" name="type" value="1" /> Miss
+	<input type="radio" name="type" value="2" /> Mrs
+</p>
 
 <input type="file" name="upfile" size="50" /> （MAX 5MB）</p>
 <p align="center"><input type="submit" class="submit_btn" name="submit" value="　新規登録　" onclick="return check()"/></p>
