@@ -32,6 +32,7 @@ a:hover {
 body#popup {
 	margin:10px;
 	padding:0;
+	backgroud:#000;
 }
 #detailWrap {
 	padding:10px;
