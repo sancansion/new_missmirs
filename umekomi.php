@@ -116,6 +116,7 @@ $encodingType = 'UTF-8';
 	$pager = pagerOut($lines,$pagelength,$pagerDispLength);//ページャーを起動する
 ?>
 <div class="pager_link"><?php echo $pager['pager_res'];?></div>
+
 <ul id="gallery_list" class="clearfix">
 <?php
 for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
@@ -125,18 +126,31 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 	$lines_array[$i][1] = ymd2format($lines_array[$i][1]);//日付フォーマットの適用
 	if($encodingType!='UTF-8') $lines_array[$i][1]=mb_convert_encoding($lines_array[$i][1],"$encodingType",'UTF-8');
 	if($encodingType!='UTF-8') $lines_array[$i][2]=mb_convert_encoding($lines_array[$i][2],"$encodingType",'UTF-8');
-	$alt_text = str_replace('<br />','',$lines_array[$i][2]);
-
+	$name = str_replace('<br />','',$lines_array[$i][2]);
+		if($lines_array[$i][5] == 1){
+			$type = "Miss.";
+		} else {
+			$type = "Mrs.";
+		}
 //ギャラリー表示部（HTML部は自由に変更可）※デフォルトはサムネイルを表示。imgタグの「 thumb_ 」を取れば元画像を表示
 echo <<<EOF
-<li>{$lines_array[$i][1]} <a class="photo" href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" title="{$lines_array[$i][1]}<br />{$lines_array[$i][2]}"><img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" alt="{$alt_text}" height="135" title="{$alt_text}" /></a>
-<!--本文を表示するにはこのコメントを解除ください<p class="detail_text">{$lines_array[$i][2]}</p>-->
+<li>
+	<!-- Miss/Mrs + Name + (age) -->
+	$type {$lines_array[$i][2]} ({$lines_array[$i][6]})
+	<a class="photo" href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" title="{$lines_array[$i][1]}
+	<br />
+	{$lines_array[$i][2]}"><img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" 
+	alt="{name}" height="135" title="{name}" />
+	</a>
+	<p class="detail_text">{$lines_array[$i][2]}</p>
 </li>
+
 EOF;
   }
 }
 ?>
 </ul>
+
 <div class="pager_link"><?php echo $pager['pager_res'];?></div>
 <?php PHPkoubou($encodingType,$copyright,$warningMesse);}//著作権表記削除不可?>
 </div>

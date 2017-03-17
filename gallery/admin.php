@@ -214,7 +214,7 @@ if ( (isset($_POST['submit']) || isset($_POST['edit_submit']) ) && !isset($_POST
 			$extension = $_POST['extension_type'];
 		}
 		//並び順。デフォルトは空にする
-		$dspno = "";
+		$dspno = "1";
 		if(isset($_POST['dspno'])){
 		  $dspno = $_POST['dspno'];
 		}
@@ -223,13 +223,24 @@ if ( (isset($_POST['submit']) || isset($_POST['edit_submit']) ) && !isset($_POST
 		if(isset($_POST['type'])){
 		  $type = replace_func($_POST['type']);
 		}
+
+		$age = "";
+		if(isset($_POST['age'])){
+		  $age = replace_func($_POST['age']);
+		}
 		
+		$experience = 1;
+		if(isset($_POST['experience'])){
+		  $experience = replace_func($_POST['experience']);
+		}
 		
 		$lines = file($file_path);
 		
 		$fp = @fopen($file_path, "r+b") or die("fopen Error!!DESUYO--!!!");
-		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno.",". "\n";
-		  // 俳他的ロック
+		//$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno.",". "\n";
+		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno."," .$type."," .$age."," .$experience. "," . "\n";
+
+		 // 俳他的ロック
 		if(flock($fp, LOCK_EX)){
 			ftruncate($fp,0);
 			rewind($fp);
@@ -302,7 +313,7 @@ if(isset($_POST['order_submit'])){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="robots" content="noindex,nofollow" />
-<title>ギャラリー管理画面</title>
+<title>セラピスト管理画面</title>
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <link href="style.css" rel="stylesheet" type="text/css" media="all" />
@@ -367,9 +378,34 @@ if($mode == 'edit'){
 <?php if(strpos($id,'no_disp') !== false) $id = str_replace('no_disp','',$id); ?>
 <p class="taC target_photo"><a href="<?php echo $img_updir.'/'.$id.'.'.$lines_array[3];?>" class="photo"><img src="<?php echo $img_updir.'/'.$id.'.'.$lines_array[3];?>" height="200" /></a></p>
 <?php $up_ymd_array = explode("/",$lines_array[1]);?>
+
+0<?php echo $lines_array[0]?><br>
+1<?php echo $lines_array[1]?><br>
+2<?php echo $lines_array[2]?><br>
+3<?php echo $lines_array[3]?><br>
+4<?php echo $lines_array[4]?><br>
+5<?php echo $lines_array[5]?><br>
+6<?php echo $lines_array[6]?><br>
+7<?php echo $lines_array[7]?>
+
 <p>日付：<input type="text" name="year" size="5" maxlength="4" value="<?php echo $up_ymd_array[0];?>" /> 年 <input type="text" name="month" size="2" maxlength="2" value="<?php echo $up_ymd_array[1];?>" /> 月 <input type="text" name="day" size="2" maxlength="2" value="<?php echo $up_ymd_array[2];?>" /> 日　※半角数字のみ</p>
 
 <h3>写真タイトル、説明など（htmlタグ不可） ※未入力も可</h3><p>※画像拡大時、及びaltに反映されます。<br /><textarea name="title" cols="60" rows="3"><?php echo $lines_array[2];?></textarea><br />
+
+
+<br>
+<p>Miss Or Mrs<br>
+	<input type="radio" name="type" value="1"  <?php if($lines_array[5] == 1){ print "checked";}?>> Miss
+	<input type="radio" name="type" value="2" <?php if($lines_array[5] == 2){ print "checked";}?>> Mrs
+</p>
+
+<p>年齢：<input type="text" name="age" size="2" maxlength="2" value="<?php echo $lines_array[6]?>" /> 
+</p>
+
+<p>経験有無<br>
+	<input type="radio" name="experience" value="1" <?php if($lines_array[7] == 1){ print "checked";}?>> あり
+	<input type="radio" name="experience" value="2" <?php if($lines_array[7] == 2){ print "checked";}?>> なし
+</p>
 
 <p>■削除チェック　<input type="checkbox" name="del" value="true" /> <span style="font-size:13px;color:#666">※削除する場合はこちらにチェックを入れて「変更」ボタンを押してください。データ（画像データ含む）は完全に削除されます。</span></p>
 
@@ -401,6 +437,15 @@ if($mode == 'edit'){
 	<input type="radio" name="type" value="1" /> Miss
 	<input type="radio" name="type" value="2" /> Mrs
 </p>
+
+<p>年齢：<input type="text" name="age" size="2" maxlength="2" value="" /> 
+</p>
+
+<p>経験有無<br>
+	<input type="radio" name="experience" value="1" /> あり
+	<input type="radio" name="experience" value="2" /> なし
+</p>
+
 
 <input type="file" name="upfile" size="50" /> （MAX 5MB）</p>
 <p align="center"><input type="submit" class="submit_btn" name="submit" value="　新規登録　" onclick="return check()"/></p>
