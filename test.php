@@ -119,6 +119,16 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 	} else {
 		$experience = "なし";
 	}
+	
+	if($lines_array[$i][8] == 1){
+		$looking = "スレンダー";
+	}else if($lines_array[$i][8] == 2){
+		$looking = "普通";
+	} else {
+		$looking = "むっちり";
+	}
+	
+	
 
 if($lines_array[$i][5] != 3){
 //ギャラリー表示部（HTML部は自由に変更可）※デフォルトはサムネイルを表示。imgタグの「 thumb_ 」を取れば元画像を表示
@@ -130,11 +140,9 @@ echo <<<EOF
 	<figure class="therapist-img" data-animate-effect="fadeIn" style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
 		<a href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" data-size="1000x665">
 			<img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" alt="" style="display:none" />
-				<span class="case-studies-summary">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</span>
-			
+			<span class="case-studies-summary">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</span>
 		</a>
-		
-		<figcaption style="display:none;">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</figcaption>
+		<figcaption style="display:none;">$type {$lines_array[$i][2]} 年齢：{$lines_array[$i][6]} / セラピスト経験：$experience / 体型： $looking</figcaption>
 	</figure>
 	</li>
 
