@@ -45,7 +45,7 @@
 					<h1 class="type1-1">
 						<span class="icon-heart"> アクセス</span>
 					</h1>
-					<ul class="shop-list">
+					<ul class="shop-list mb30">
 						<li>
 							<a href="access.php#tenroku">＞＞天神橋六丁目店へのアクセス</a>
 						</li>
@@ -80,15 +80,8 @@
 							住所：大阪市北区天神橋6丁目
 							<br>
 						</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12  text-left fh5co-heading animate-box">
 						<img src="images/tenroku.jpg">
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -119,16 +112,8 @@
 							<br>
 							大阪市営地下鉄・堺筋線「扇町駅」4番出口から徒歩1分
 						</p>
-
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12  text-left fh5co-heading animate-box">
 						<img src="images/ougi.jpg">
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -157,15 +142,8 @@
 							<br>
 							大阪市営地下鉄・堺筋線 谷町線「南森町駅」1番出口から徒歩3分
 						</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12  text-left fh5co-heading animate-box">
 						<img src="images/minamimorimachi.jpg">
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -195,15 +173,8 @@
 							住所：大阪市中央区島ノ内1-5-11
 							<br>
 						</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12  text-left fh5co-heading animate-box">
 						<img src="images/nagahori.jpg">
 					</div>
-
 				</div>
 			</div>
 		</div>
