@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>セラピスト一覧 | ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
+<title>ミセスセラピスト一覧 | ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Miss Mrs" />
 
@@ -16,34 +16,29 @@
 <meta name="keywords" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>セラピスト一覧 | ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Miss Mrs" />
-
-<meta name="description" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
-<meta name="keywords" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
-
 
 <!-- START:SNS meta-->
 <?php include("common/css.html"); ?>
 <!-- END:SNS meta-->
 
-<link rel="stylesheet" type="text/css" href="lightbox/jquery.lightbox-0.5.css"/>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>   
+<link rel="stylesheet" type="text/css" href="lightbox/jquery.lightbox-0.5.css" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="lightbox/jquery.lightbox-0.5.min.js"></script>
 <script type="text/javascript">
-$(function() {
-	$('#fh5co-gallery-list a.photo').lightBox({
-		    maxWidth       : 300
-		   ,maxHeight      : 600
-		});
-});
+
 </script>
 
 
+<link type="text/css" href="css/photoswipe.css" rel="stylesheet" media="all" />
+<link type="text/css" href="css/default-skin.css" rel="stylesheet" media="all" />
+ 
+<script type="text/javascript" src="js/photoswipe.min.js"></script>
+<script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
 </head>
 <body>
 	<div class="fh5co-loader"></div>
+	<?php include("common/pswp.html"); ?>
 
 	<div id="page">
 		<!-- START:header -->
@@ -54,12 +49,14 @@ $(function() {
 			<!-- END:Navigation-->
 		</header>
 		<!-- END:header -->
+		
+		<div id="page-top"></div>
 		<!-- START:Main -->
 		<!-- START: Miss-->
 		<div id="fh5co-gallery">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
-				
+
 					<h1 class="type1-1">
 						<span class="icon-heart"> セラピスト紹介</span>
 					</h1>
@@ -67,7 +64,7 @@ $(function() {
 						<span class="icon-heart"> Mrs</span>
 					</h2>
 					<div class="col-md-12">
-					<?php
+						<?php
 //----------------------------------------------------------------------
 // 設定ファイルの読み込みとページ独自設定　※必要に応じて変更下さい(START)
 //----------------------------------------------------------------------
@@ -85,19 +82,19 @@ $encodingType = 'UTF-8';
 	$pager = pagerOut($lines,$pagelength,$pagerDispLength);//ページャーを起動する
 ?>
 
-					<div class="pager_link">
-						<?php echo $pager['pager_res'];?>
-					</div>
-					
-						<ul id="fh5co-gallery-list">
+						<div class="pager_link">
+							<?php echo $pager['pager_res'];?>
+						</div>
 
 
 
 
 
 
+<div class="my-gallery">
+<ul id="fh5co-gallery-list">
 
-<?php
+							<?php
 for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
   if(!empty($lines[$i])){
 	$lines_array[$i] = explode(",",$lines[$i]);
@@ -117,26 +114,32 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 	} else {
 		$experience = "なし";
 	}
+	
+	if($lines_array[$i][8] == 1){
+		$looking = "スレンダー";
+	}else if($lines_array[$i][8] == 2){
+		$looking = "普通";
+	} else {
+		$looking = "むっちり";
+	}
+	
+	
 
 if($lines_array[$i][5] == 2){
 //ギャラリー表示部（HTML部は自由に変更可）※デフォルトはサムネイルを表示。imgタグの「 thumb_ 」を取れば元画像を表示
 echo <<<EOF
 
-<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
-	<a class="photo" 
-	href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" 
-	
-	title="
-	$type {$lines_array[$i][2]} ({$lines_array[$i][6]})
-	<br>
-	セラピスト経験：$experience
-	">
-	
-	<div class="case-studies-summary">
-		<h2>$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</h2>
-	</div>
-	</a>
-</li>
+
+<li class="one-third  text-left fh5co-heading animate-box">
+
+	<figure class="therapist-img" data-animate-effect="fadeIn" style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
+		<a href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" data-size="1000x665">
+			<img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" alt="" style="display:none" />
+			<span class="case-studies-summary">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</span>
+		</a>
+		<figcaption style="display:none;">$type {$lines_array[$i][2]} 年齢：{$lines_array[$i][6]} / セラピスト経験：$experience / 体型： $looking</figcaption>
+	</figure>
+	</li>
 
 EOF;
   }
@@ -144,31 +147,32 @@ EOF;
 }
 ?>
 </ul>
-
-<div class="pager_link">
-	<?php echo $pager['pager_res'];?>
-</div>
-<?php PHPkoubou($encodingType,$copyright,$warningMesse);}//著作権表記削除不可?>
 </div>
 
-
-							
-
-						
+						<div class="pager_link">
+							<?php echo $pager['pager_res'];?>
+						</div>
+						<?php PHPkoubou($encodingType,$copyright,$warningMesse);}//著作権表記削除不可?>
 					</div>
+
+
+
+
+
 				</div>
 			</div>
-			<!-- End: Mrs-->
 		</div>
-		<!-- END:Main -->
+		<!-- End: Mrs-->
+	</div>
+	<!-- END:Main -->
 
-		<!-- START:footer -->
-		<?php include("common/footer.html"); ?>
-		<!-- END:footer -->
+	<!-- START:footer -->
+	<?php include("common/footer.html"); ?>
+	<!-- END:footer -->
 
-		<!-- START:footer menu -->
-		<?php include("common/footer_menu.html"); ?>
-		<!-- END:footer menu-->
+	<!-- START:footer menu -->
+	<?php include("common/footer_menu.html"); ?>
+	<!-- END:footer menu-->
 
 
 

@@ -34,6 +34,7 @@
 		<!-- END:Navigation-->
 
 		<!-- END:header -->
+		<div id="page-top"></div>
 		<!-- START:Main -->
 		<!-- START: -->
 

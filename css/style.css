@@ -51,14 +51,6 @@ p {
 	margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
-	color: #000;
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
-		"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
-	font-weight: 400;
-	margin: 0 0 20px 0;
-}
-
 .fh5co-cover {
 	height: 200px;
 	background-size: cover;
@@ -270,16 +262,16 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 480px) {
 	#fh5co-gallery-list li a .case-studies-summary {
-	width: auto;
-	bottom: 2em;
-	left: 2em;
-	right: 2em;
-	position: absolute;
-	z-index: 100;
-	color: #fff;
-	font-weight: bold;
-	font-size: 14px;
-}
+		width: auto;
+		bottom: 2em;
+		left: 2em;
+		right: 2em;
+		position: absolute;
+		z-index: 100;
+		color: #fff;
+		font-weight: bold;
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -340,7 +332,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		border-radius: 7px;
 	}
 	.therapist-img {
-		display: block;	
+		display: block;
 		margin: 0 0 10px 1%;
 		list-style: none;
 		width: 100%;
@@ -885,38 +877,60 @@ form label {
 }
 
 h1.type1-1 {
-	background-color: #FFF; /*背景色（古いブラウザだとここの色のみが出ます）*/
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
-		to(#e6e6e6)); /*グラデーション*/
-	background-image: -webkit-linear-gradient(#FFF, #FFC0CB); /*同上*/
-	background-image: linear-gradient(#FFF, #FFC0CB); /*同上*/
-	-webkit-box-shadow: 0px 2px 5px #FFC0CB; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
-	box-shadow: 0px 2px 5px #544436; /*同上*/
-	font-size: 150%;
-	padding: 10px 10px 10px 20px; /*左から、上、右、下、左側への余白*/
-	margin-top: 20px;
-	clear: both;
-	border-radius: 10px; /*角丸のサイズ*/
-	color: #36271a;
-	clear: both; /*文字色*/
+	font-size: 20px;
+	margin-bottom: 30px;
+	position: relative;
+	padding: 5px;
+	background-color: #FFF0F5;
 }
 
-/*MENUページで使っている濃い色のh1見出しタグのスタイル*/
+h1.type1-1 span {
+	display: block;
+	padding: 10px;
+	border: 1px dashed #DB7093;
+	color: #690303;
+}
+
+h1.type1-1::before, h1.type1-1::after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-color: transparent;
+}
+
+h1.type1-1::before {
+	top: 100%;
+	left: 0;
+	border-width: 0 10px 10px 0;
+	border-right-color: #FFF0F5;
+}
+
+h1.type1-1::after {
+	top: -15px;
+	right: 0;
+	border-style: solid;
+	border-width: 0 15px 15px 0;
+	border-bottom-color: #FFF0F5;
+}
+
 h2.type2-1 {
-	background-color: #41260e; /*背景色（古いブラウザだとここの色のみが出ます）*/
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#41260e),
-		to(#36271a)); /*グラデーション*/
-	background-image: -webkit-linear-gradient(#41260e, #36271a); /*同上*/
-	background-image: linear-gradient(#41260e, #36271a); /*同上*/
-	color: #FFF;
-	border-radius: 10px; /*角丸のサイズ*/
-	box-shadow: 0px 2px 5px #544436; /*同上*/
-	font-size: 150%;
-	padding: 10px 10px 10px 20px; /*左から、上、右、下、左側への余白*/
-	margin-top: 10px;
-	margin-bottom: 30px;
-	clear: both;
-	border-radius: 10px; /*角丸のサイズ*/
+	font-size: 20px; /* 文字の大きさ */
+	font-weight: bold; /* 文字の太さ */
+	color: #fff; /* 文字の色 */
+	border: 2px dashed #ffecef; /* ステッチの太さ・種類・カラー */
+	background: #F9B8CD; /* 背景色 */
+	border-radius: 8px; /* 四隅の丸み */
+	box-shadow: 0 0 3px 3px #F9B8CD;
+	margin: 0 0 1.5em;
+	padding: 0.5em 0.8em;
+}
+
+h3 {
+	font-size: 16px;
+	padding: 1em;
+	border: 2px solid #F9C;
+	border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+	color: #F6C;
 }
 
 ul.shop-list li {
@@ -945,11 +959,6 @@ ul.shop-list li {
 
 .overPagerPattern {
 	padding: 0 2px;
-}
-
-.index-h3 {
-	color: #F14E95;
-	margin: 35px 0;
 }
 
 .about-missmrs {

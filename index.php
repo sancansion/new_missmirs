@@ -37,7 +37,7 @@
 		<!-- END:header -->
 		<!-- START:Main -->
 
-
+		<div id="page-top"></div>
 		<!-- START:contact -->
 		<div id="fh5co-couple">
 			<div class="container">
@@ -48,25 +48,34 @@
 					<h2 class="type2-1">
 						<span class="icon-heart"> 求人情報</span>
 					</h2>
-					<div class="col-md-4  text-center fh5co-heading animate-box">
+					<div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
 						<a href="recruit/index.php">
 							<img src="images/recruit.png" class="image-witdh100">
 						</a>
 					</div>
+					
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
 					<h2 class="type2-1">
 						<span class="icon-heart"> ご予約・お問合せ</span>
 					</h2>
-					<div class="col-md-4  text-center fh5co-heading animate-box">
+					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<a href="tel:090-3053-0184">
 							<img src="images/tel.png" class="image-witdh100">
 						</a>
 					</div>
-					<div class="col-md-4  text-center fh5co-heading animate-box">
+					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<a href="mailto:missmrs@docomo.ne.jp">
 							<img src="images/mail.png" class="image-witdh100">
 						</a>
 					</div>
 				</div>
+			</div>
+			
+			<div class="container">
 				<div class="row">
 					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<a href="sms:090-3053-0184">
@@ -176,8 +185,9 @@
 		<!-- START:SNS -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12  text-center fh5co-heading animate-box">
-					<h3 class="index-h3">instagram（新人情報）</h3>
+			<h2 class="type2-1">Instagram（新人情報）</h2>
+					
+				<div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-md-offset-1   text-center fh5co-heading animate-box">
 					<div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
 						<iframe src="//widgets-code.websta.me/w/7001f4603d51?ck=MjAxNi0xMi0wNFQwNzowMTozOS4wMDBa" class="websta-widgets"
 							allowtransparency="true" frameborder="0" scrolling="no" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
@@ -196,8 +206,7 @@
 					<h2 class="type2-1">
 						<span class="icon-heart"> About ミスミセス</span>
 					</h2>
-					<div class="col-md-12 text-left fh5co-heading animate-box about-missmrs">
-
+					<div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-md-offset-1 text-left fh5co-heading animate-box about-missmrs">
 						<p>当店Miss.Mrs(ミスミセス)は大阪市北区は南森町.扇町.天六.ミナミ(中央区)には長堀橋にある完全予約制のプライベートメンズエステです。</p>
 						<p>営業時間は午前11:00〜翌朝5:00迄(最終受付午前3:00)全室駅から近く各駅から2分以内の綺麗なシャワー完備の完全個室型になっております。</p>
 						<p>20代〜40代の愛嬌、品、マナーのある素敵な女性が多数在籍しており各セラピストによる貴方様に合った癒しを提供しています。</p>
@@ -217,7 +226,7 @@
 			<div class="container">
 				<div class="row">
 					<h2 class="type2-1">
-						<span class="icon-heart">相互リンク</span>
+						<span class="icon-heart"> 相互リンク</span>
 					</h2>
 					<div class="col-md-4 text-center fh5co-heading animate-box">
 						<a href="http://tokyo.aroma-tsushin.com/" target="_blank">

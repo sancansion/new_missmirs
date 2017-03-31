@@ -31,6 +31,7 @@
 		<!-- START:header -->
 		<?php include("common/navi.html"); ?>
 		<!-- END:header -->
+		<div id="page-top"></div>
 		<!-- START:Main -->
 		<!-- START: -->
 		<div id="fh5co-couple">
