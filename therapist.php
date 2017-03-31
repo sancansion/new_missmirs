@@ -122,7 +122,8 @@ if($lines_array[$i][5] == 1){
 //ギャラリー表示部（HTML部は自由に変更可）※デフォルトはサムネイルを表示。imgタグの「 thumb_ 」を取れば元画像を表示
 echo <<<EOF
 
-<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
+<li class="one-third animate-box" data-animate-effect="fadeIn" 
+style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
 	<a class="photo" 
 	href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" 
 	

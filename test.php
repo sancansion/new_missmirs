@@ -97,6 +97,7 @@ $encodingType = 'UTF-8';
 
 
 <div class="my-gallery">
+<ul id="fh5co-gallery-list">
 
 							<?php
 for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
@@ -119,24 +120,30 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 		$experience = "なし";
 	}
 
-if($lines_array[$i][5] == 1){
+if($lines_array[$i][5] != 3){
 //ギャラリー表示部（HTML部は自由に変更可）※デフォルトはサムネイルを表示。imgタグの「 thumb_ 」を取れば元画像を表示
 echo <<<EOF
 
 
-<div class="my-gallery">
-	<figure>
+<li class="one-third  text-left fh5co-heading animate-box">
+
+	<figure class="therapist-img" data-animate-effect="fadeIn" style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
 		<a href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" data-size="1000x665">
-			<img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" alt="" />
+			<img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" alt="" style="display:none" />
+				<span class="case-studies-summary">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</span>
+			
 		</a>
-		<figcaption>$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</figcaption>
+		
+		<figcaption style="display:none;">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</figcaption>
 	</figure>
-  </div>
+	</li>
+
 EOF;
   }
 }
 }
 ?>
+</ul>
 </div>
 
 						<div class="pager_link">

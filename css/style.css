@@ -34,7 +34,6 @@ body {
 	transition: 0.5s;
 }
 
-
 a {
 	color: #F14E95;
 	-webkit-transition: 0.5s;
@@ -60,14 +59,12 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin: 0 0 20px 0;
 }
 
-
 .fh5co-cover {
 	height: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url(../images/top.jpg);
 }
-
 
 @media screen and (max-width: 768px) {
 	.fh5co-cover {
@@ -109,8 +106,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		height: 400px;
 	}
 }
-
-
 
 .timeline-title {
 	margin-top: 0;
@@ -197,6 +192,25 @@ h1, h2, h3, h4, h5, h6, figure {
 	border-radius: 7px;
 }
 
+.therapist-img {
+	display: block;
+	padding: 0;
+	margin: 0 0 10px 1%;
+	list-style: none;
+	width: 100%;
+	min-height: 400px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	clear: left;
+	position: relative;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	border-radius: 7px;
+}
+
 @media screen and (max-width: 480px) {
 	#fh5co-gallery-list li {
 		margin-left: 0;
@@ -242,6 +256,32 @@ h1, h2, h3, h4, h5, h6, figure {
 	z-index: 100;
 }
 
+#fh5co-gallery-list li a .case-studies-summary {
+	width: auto;
+	bottom: 2em;
+	left: 2em;
+	right: 2em;
+	position: absolute;
+	z-index: 100;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+	#fh5co-gallery-list li a .case-studies-summary {
+	width: auto;
+	bottom: 2em;
+	left: 2em;
+	right: 2em;
+	position: absolute;
+	z-index: 100;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+}
+}
+
 @media screen and (max-width: 768px) {
 	#fh5co-gallery-list li a .case-studies-summary {
 		bottom: 1em;
@@ -280,7 +320,53 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 480px) {
 	#fh5co-gallery-list li.one-third {
+		width: 49%;
+	}
+	#fh5co-gallery-list li {
+		display: block;
+		padding: 5px;
+		margin: 0 0 10px 1%;
+		list-style: none;
+		min-height: 250px;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;
+		clear: left;
+		position: relative;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		-ms-border-radius: 7px;
+		border-radius: 7px;
+	}
+	.therapist-img {
+		display: block;	
+		margin: 0 0 10px 1%;
+		list-style: none;
 		width: 100%;
+		min-height: 250px;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;
+		clear: left;
+		position: relative;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		-ms-border-radius: 7px;
+		border-radius: 7px;
+	}
+	@media screen and (max-width: 480px) {
+		#fh5co-gallery-list li {
+			margin-left: 0;
+		}
+	}
+	#fh5co-gallery-list li a {
+		min-height: 250px;
+		padding: 2em;
+		position: relative;
+		width: 100%;
+		display: block;
 	}
 }
 
@@ -329,6 +415,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding: 0;
 	margin: 0;
 }
+
 .fh5co-contact-info ul li {
 	padding: 0 0 0 50px;
 	margin: 0 0 30px 0;
@@ -372,7 +459,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	font-size: 23px;
 	content: "\e9af";
 }
-
 
 form label {
 	font-weight: normal !important;
@@ -442,7 +528,6 @@ form label {
 	position: relative;
 	animation: pulse 1s ease infinite;
 }
-
 
 .simply-countdown>.simply-section>div {
 	/* countdown block inner div */
@@ -535,7 +620,6 @@ form label {
 	color: rgba(0, 0, 0, 0.4);
 }
 
-
 @media screen and (max-width: 768px) {
 	#fh5co-footer .copyright .pull-left, #fh5co-footer .copyright .pull-right
 		{
@@ -547,7 +631,6 @@ form label {
 #fh5co-footer .copyright .block {
 	display: block;
 }
-
 
 .offcanvas #fh5co-offcanvas {
 	-moz-transform: translateX(0px);
@@ -688,14 +771,13 @@ form label {
 
 .blog  dt {
 	font-weight: normal;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
 
 .blog dl {
 	border-bottom: 1px dotted #bbbbbb;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
-
 
 /*--------------------------------
 スマホのフッターメニュー
@@ -748,66 +830,61 @@ form label {
 	width: 100%;
 }
 
-
 @media screen and (min-width: 768px) {
 	.sp-display-none {
 		display: none;
 	}
 }
 
-
-
-.mb5{
-	margin-bottom:5px;
+.mb5 {
+	margin-bottom: 5px;
 }
 
-.mb10{
-	margin-bottom:10px;
+.mb10 {
+	margin-bottom: 10px;
 }
 
-.mb15{
-	margin-bottom:15px;
+.mb15 {
+	margin-bottom: 15px;
 }
 
-.mb20{
-	margin-bottom:20px;
+.mb20 {
+	margin-bottom: 20px;
 }
 
-.mb25{
-	margin-bottom:25px;
+.mb25 {
+	margin-bottom: 25px;
 }
 
-.mb30{
-	margin-bottom:30px;
+.mb30 {
+	margin-bottom: 30px;
 }
 
-
-.mt5{
-	margin-top:5px;
+.mt5 {
+	margin-top: 5px;
 }
 
-.mt10{
-	margin-top:10px;
+.mt10 {
+	margin-top: 10px;
 }
 
-.mt15{
-	margin-top:15px;
+.mt15 {
+	margin-top: 15px;
 }
 
-.mt20{
-	margin-top:20px;
+.mt20 {
+	margin-top: 20px;
 }
 
-.mt25{
-	margin-top:25px;
+.mt25 {
+	margin-top: 25px;
 }
 
-.mt30{
-	margin-top:30px;
+.mt30 {
+	margin-top: 30px;
 }
 
-
-h1.type1-1{
+h1.type1-1 {
 	background-color: #FFF; /*背景色（古いブラウザだとここの色のみが出ます）*/
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
 		to(#e6e6e6)); /*グラデーション*/
@@ -823,7 +900,6 @@ h1.type1-1{
 	color: #36271a;
 	clear: both; /*文字色*/
 }
-
 
 /*MENUページで使っている濃い色のh1見出しタグのスタイル*/
 h2.type2-1 {
@@ -843,44 +919,41 @@ h2.type2-1 {
 	border-radius: 10px; /*角丸のサイズ*/
 }
 
-ul.shop-list li{
-	
-	margin:10px;
+ul.shop-list li {
+	margin: 10px;
 }
 
-
-.pager_link{
-	text-align:right;
-	padding:10px;
+.pager_link {
+	text-align: right;
+	padding: 10px;
 }
 /*ページャーボタン*/
 .pager_link a {
-    border: 1px solid #aaa;
-    border-radius: 5px 5px 5px 5px;
-    color: #333;
-    font-size: 12px;
-    padding: 3px 7px 2px;
-    text-decoration: none;
-	margin:0 1px;
+	border: 1px solid #aaa;
+	border-radius: 5px 5px 5px 5px;
+	color: #333;
+	font-size: 12px;
+	padding: 3px 7px 2px;
+	text-decoration: none;
+	margin: 0 1px;
 }
 /*現在のページ、オーバーボタン*/
-.pager_link a.current,.pager_link a:hover{
-    background: #999;
-    color: #FFFFFF;
-}
-.overPagerPattern{
-	padding:0 2px ;	
+.pager_link a.current, .pager_link a:hover {
+	background: #999;
+	color: #FFFFFF;
 }
 
-
-
-.index-h3{
-	color:#F14E95;
-	margin:35px 0;
+.overPagerPattern {
+	padding: 0 2px;
 }
 
-.about-missmrs{
-	line-height:32x;
+.index-h3 {
+	color: #F14E95;
+	margin: 35px 0;
+}
+
+.about-missmrs {
+	line-height: 32x;
 	color: #828282;
 	font-size: 18px;
 }
