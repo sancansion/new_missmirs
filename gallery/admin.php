@@ -233,12 +233,17 @@ if ( (isset($_POST['submit']) || isset($_POST['edit_submit']) ) && !isset($_POST
 		if(isset($_POST['experience'])){
 		  $experience = replace_func($_POST['experience']);
 		}
+
+		$looking = 2;
+		if(isset($_POST['looking'])){
+			$looking = replace_func($_POST['looking']);
+		}
 		
 		$lines = file($file_path);
 		
 		$fp = @fopen($file_path, "r+b") or die("fopen Error!!DESUYO--!!!");
 		//$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno.",". "\n";
-		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno."," .$type."," .$age."," .$experience. "," . "\n";
+		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno."," .$type."," .$age."," .$experience. "," .$looking. ",". "\n";
 
 		 // 俳他的ロック
 		if(flock($fp, LOCK_EX)){
@@ -410,6 +415,12 @@ if($mode == 'edit'){
 	<input type="radio" name="experience" value="2" <?php if($lines_array[7] == 2){ print "checked";}?>> なし
 </p>
 
+<p>経験有無<br>
+	<input type="radio" name="looking" value="1" <?php if($lines_array[8] == 1){ print "checked";}?>> スレンダー
+	<input type="radio" name="looking" value="2" <?php if($lines_array[8] == 2){ print "checked";}?>> 普通
+	<input type="radio" name="looking" value="3" <?php if($lines_array[8] == 3){ print "checked";}?>> むっちり
+</p>
+
 <p>■削除チェック　<input type="checkbox" name="del" value="true" /> <span style="font-size:13px;color:#666">※削除する場合はこちらにチェックを入れて「変更」ボタンを押してください。データ（画像データ含む）は完全に削除されます。</span></p>
 
 <h3>■画像アップロード（jpg、gif、pngのみ）</h3>
@@ -449,6 +460,11 @@ if($mode == 'edit'){
 	<input type="radio" name="experience" value="2" /> なし
 </p>
 
+<p>体型<br>
+	<input type="radio" name="looking" value="1" /> スレンダー
+	<input type="radio" name="looking" value="2" /> 普通
+	<input type="radio" name="looking" value="3" /> むっちり
+</p>
 
 <input type="file" name="upfile" size="50" /> （MAX 5MB）</p>
 <p align="center"><input type="submit" class="submit_btn" name="submit" value="　新規登録　" onclick="return check()"/></p>
@@ -520,6 +536,16 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelengthAdmin; $i++){
 		} else {
 			$experience = "なし";
 		}
+
+
+		if($lines_array[$i][8] == 1){
+			$looking = "スレンダー";
+		} else if ($lines_array[$i][8] == 2){
+			$looking = "普通";
+		} else {
+			$looking = "むっちり";
+		}
+
 		if(strpos($lines_array[$i][0], 'no_disp') !== false){
 			$img_id = str_replace('no_disp','',$lines_array[$i][0]);
 
@@ -531,9 +557,14 @@ echo <<<EOF
 	title="
 	$type {$lines_array[$i][2]} ({$lines_array[$i][6]})
 	<br />
-	セラピスト経験：$experience
+	セラピスト経験：$experience / 体型：$looking
 	">
-<img src="{$img_updir}/thumb_{$img_id}.{$lines_array[$i][3]}" height="75" alt="{$lines_array[$i][2]}" title="{$alt_text}" /></a><a class="button" href="?mode=disp&id={$id}&page={$pager['pageid']}">表示する</a><a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">[編集・削除]</a><div class="hidden_text">非表示中</div><input type="hidden" name="sort[]" value="{$id}" /></li>
+<img src="{$img_updir}/thumb_{$img_id}.{$lines_array[$i][3]}" height="75" alt="{$lines_array[$i][2]}" title="{$alt_text}" /></a>
+<a class="button" href="?mode=disp&id={$id}&page={$pager['pageid']}">表示する</a>
+<a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">[編集・削除]</a>
+<div class="hidden_text">非表示中</div>
+<input type="hidden" name="sort[]" value="{$id}" />
+</li>
 
 EOF;
 		}else{
@@ -544,7 +575,7 @@ echo <<<EOF
 title="
 	$type {$lines_array[$i][2]} ({$lines_array[$i][6]})
 	<br />
-	セラピスト経験：$experience
+	セラピスト経験：$experience / 体型：$looking
 ">
 <img src="{$img_updir}/thumb_{$id}.{$lines_array[$i][3]}" alt="{$lines_array[$i][2]}" height="75" title="{$alt_text}" /></a><a class="button" href="?mode=no_disp&id={$id}&page={$pager['pageid']}">非表示にする</a><a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">編集・削除</a><input type="hidden" name="sort[]" value="{$id}" /></li>
 
