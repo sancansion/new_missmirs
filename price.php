@@ -40,16 +40,13 @@
 			<section id="contents">
 				<h1 class="type1-1">
 					<span class="icon-heart">
-						料金システム
-						<span>（全て税込）</span>
+						料金システム（税込）
 					</span>
 				</h1>
 				<h2 class="type2-1">
 					<span class="icon-heart"> コース ＆ オプション</span>
 				</h2>
 				<article class="block-02 cf pricelist">
-
-
 					<div class="box">
 						<dl>
 							<dt>

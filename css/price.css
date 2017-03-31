@@ -150,7 +150,7 @@
 		margin-bottom: 20px;
 		position: relative;
 		list-style-type: disc;
-		
+		color:#000;
 	}
 	#menu .block-02 .box .recommend {
 		font-style: bold;
@@ -185,8 +185,10 @@
 		margin-bottom: 6px;
 		margin-top: -10px;
 		text-align: center;
+		color:#000;
 	}
 	#menu .block-02 dl dt {
+		color:#000;
 		font-size: 18px;
 		font-weight: bold;
 		display: block;
@@ -280,6 +282,7 @@
 		text-align: left !important;
 	}
 	#menu .pricelist .box p {
+		color:#000;
 		border-bottom: 1px dashed #bbbbbb;
 		padding-bottom: 15px;
 	}
