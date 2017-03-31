@@ -71,11 +71,24 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
 	.fh5co-cover {
-		height: 270px;
+		height: 310px;
 		background-image: url(../images/top.jpg);
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.fh5co-cover {
+		height: 440px;
+		background-image: url(../images/top.jpg);
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.fh5co-cover {
+		height: 560px;
+		background-image: url(../images/top.jpg);
+	}
+}
 
 @media screen and (max-width: 768px) {
 	.fh5co-cover.fh5co-cover-sm {
@@ -469,7 +482,7 @@ form label {
 	#fh5co-testimonial, #fh5co-services, #fh5co-started, #fh5co-footer,
 		#fh5co-event, #fh5co-couple-story, #fh5co-couple, #fh5co-gallery,
 		.fh5co-section {
-		padding: 3em 0;
+		padding: 1em 0;
 	}
 }
 
@@ -512,12 +525,6 @@ form label {
 	.fh5co-heading h2 {
 		font-size: 24px;
 	}
-}
-
-.fh5co-heading p {
-	font-size: 18px;
-	line-height: 1.5;
-	color: #828282;
 }
 
 .fh5co-heading span {
@@ -667,7 +674,7 @@ form label {
 		vertical-align: middle;
 		font-size: 14px;
 		padding: 8px 8px;
-		margin: 15px 40px 0 40px;
+		margin: 30px 40px 0 40px;
 		text-align: center;
 		border-radius: 6px;
 		-webkit-border-radius: 6px;
@@ -830,10 +837,10 @@ h2.type2-1 {
 	box-shadow: 0px 2px 5px #544436; /*同上*/
 	font-size: 150%;
 	padding: 10px 10px 10px 20px; /*左から、上、右、下、左側への余白*/
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	clear: both;
 	border-radius: 10px; /*角丸のサイズ*/
-	margin-bottom: 1em;
 }
 
 ul.shop-list li{
@@ -841,3 +848,39 @@ ul.shop-list li{
 	margin:10px;
 }
 
+
+.pager_link{
+	text-align:right;
+	padding:10px;
+}
+/*ページャーボタン*/
+.pager_link a {
+    border: 1px solid #aaa;
+    border-radius: 5px 5px 5px 5px;
+    color: #333;
+    font-size: 12px;
+    padding: 3px 7px 2px;
+    text-decoration: none;
+	margin:0 1px;
+}
+/*現在のページ、オーバーボタン*/
+.pager_link a.current,.pager_link a:hover{
+    background: #999;
+    color: #FFFFFF;
+}
+.overPagerPattern{
+	padding:0 2px ;	
+}
+
+
+
+.index-h3{
+	color:#F14E95;
+	margin:35px 0;
+}
+
+.about-missmrs{
+	line-height:32x;
+	color: #828282;
+	font-size: 18px;
+}

@@ -26,9 +26,7 @@
 <body>
 
 	<div class="fh5co-loader"></div>
-	<!-- START:Facebook js -->
-	<?php include("common/facebook_js.html"); ?>
-	<!-- END:Facebook js -->
+
 	<div id="page">
 
 
@@ -50,41 +48,51 @@
 					<h2 class="type2-1">
 						<span class="icon-heart"> 求人情報</span>
 					</h2>
-					<div class="col-md-3  text-center fh5co-heading animate-box">
+					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="recruit/index.php">
 							<img src="images/recruit.png" class="image-witdh100">
 						</a>
 					</div>
-					<div class="col-md-3  text-center fh5co-heading animate-box">
+					<h2 class="type2-1">
+						<span class="icon-heart"> ご予約・お問合せ</span>
+					</h2>
+					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="tel:090-3053-0184">
 							<img src="images/tel.png" class="image-witdh100">
 						</a>
 					</div>
-					<div class="col-md-3  text-center fh5co-heading animate-box">
-						<a href="http://line.me/ti/p/LIL-_8S4Qh">
-							<img src="images/line.png" class="image-witdh100">
-						</a>
-					</div>
-
-					<div class="col-md-3  text-center fh5co-heading animate-box">
+					<div class="col-md-4  text-center fh5co-heading animate-box">
 						<a href="mailto:missmrs@docomo.ne.jp">
 							<img src="images/mail.png" class="image-witdh100">
 						</a>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-md-6  text-center fh5co-heading animate-box">
+						<a href="sms:090-3053-0184">
+							<img src="images/sms.png" class="image-witdh100">
+						</a>
+					</div>
+										
+					<div class="col-md-6  text-center fh5co-heading animate-box">
+						<a href="http://line.me/ti/p/LIL-_8S4Qh">
+							<img src="images/line.png" class="image-witdh100">
+						</a>
+					</div>
+				</div>
 			</div>
-		</div>
+		
 		<!-- END:contact -->
 
 		<!-- START:blog -->
-		<div id="fh5co-couple">
+		
 			<div class="container">
 				<div class="row">
 					<h2 class="type2-1">
 						<span class="icon-heart"> ミスミセスのブログ</span>
 					</h2>
 					<div class="col-md-6  text-center fh5co-heading animate-box blog">
-						<h2>Mrs.Miss Blog</h2>
+						<h3 class="index-h3">Miss Mrsの出勤ブログ</h3>
 						<div class="text-left">
 							<?php
                                 // モジュールを読み込む
@@ -125,7 +133,7 @@
 					</div>
 
 					<div class="col-md-6  text-center fh5co-heading animate-box blog">
-						<h2>Schedule</h2>
+						<h3 class="index-h3">週間出勤情報とMrsのお知らせブログ</h3>
 						<div class="text-left">
 							<?php
                         // モジュールを読み込む
@@ -155,55 +163,40 @@
                         ?>
 
 							<a href="http://missmrs05.blog.fc2.com/" target="_blank" class="more">
-								出勤情報Blogはこちら
+								週間出勤情報とお知らせブログ
 								<span>▲</span>
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		
 		<!-- END:blog -->
 
 		<!-- START:SNS -->
-		<div id="fh5co-couple">
-			<div class="container">
-				<div class="row">
-					<h2 class="type2-1">
-						<span class="icon-heart"> ミスミセスのFacebook ＆ Instagram</span>
-					</h2>
-					<div class="col-md-6  text-center fh5co-heading animate-box">
-						<h2>facedbook</h2>
-
-						<div class="fb-page" data-href="https://www.facebook.com/MissMrs-747337258740161/" data-small-header="false"
-							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-							<blockquote cite="https://www.facebook.com/MissMrs-747337258740161/" class="fb-xfbml-parse-ignore">
-								<a href="https://www.facebook.com/MissMrs-747337258740161/">Miss.Mrs</a>
-							</blockquote>
-						</div>
-					</div>
-
-					<div class="col-md-6  text-center fh5co-heading animate-box">
-						<h2>instagram</h2>
-						<div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
-							<iframe src="//widgets-code.websta.me/w/7001f4603d51?ck=MjAxNi0xMi0wNFQwNzowMTozOS4wMDBa" class="websta-widgets"
-								allowtransparency="true" frameborder="0" scrolling="no" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-							WEBSTA WIDGETS - widgets.websta.me
-						</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12  text-center fh5co-heading animate-box">
+					<h3 class="index-h3">instagram（新人情報）</h3>
+					<div style="position: relative; height: 16px; width: 100%; overflow: hidden; padding-top: 100%;">
+						<iframe src="//widgets-code.websta.me/w/7001f4603d51?ck=MjAxNi0xMi0wNFQwNzowMTozOS4wMDBa" class="websta-widgets"
+							allowtransparency="true" frameborder="0" scrolling="no" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+						WEBSTA WIDGETS - widgets.websta.me
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		<!-- END:SNS -->
 
 		<!-- START:About MissMrs -->
-		<div id="fh5co-couple">
+
 			<div class="container">
 				<div class="row">
 					<h2 class="type2-1">
 						<span class="icon-heart"> About ミスミセス</span>
 					</h2>
-					<div class="col-md-8 col-md-offset-2 text-left fh5co-heading animate-box">
+					<div class="col-md-12 text-left fh5co-heading animate-box about-missmrs">
 
 						<p>当店Miss.Mrs(ミスミセス)は大阪市北区は南森町.扇町.天六.ミナミ(中央区)には長堀橋にある完全予約制のプライベートメンズエステです。</p>
 						<p>営業時間は午前11:00〜翌朝5:00迄(最終受付午前3:00)全室駅から近く各駅から2分以内の綺麗なシャワー完備の完全個室型になっております。</p>
@@ -216,14 +209,31 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- END:About MissMrs -->
+
+			<!-- END:About MissMrs -->
 
 		<!-- START:Refnavi -->
-		<div id="fh5co-couple">
+		
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-left fh5co-heading animate-box">
+					<h2 class="type2-1">
+						<span class="icon-heart">相互リンク</span>
+					</h2>
+					<div class="col-md-4 text-center fh5co-heading animate-box">
+						<a href="http://tokyo.aroma-tsushin.com/" target="_blank">
+							<img src="http://tokyo.aroma-tsushin.com/banner/banner-300x060.gif" width="300" height="60" border="0"
+								alt="東京のメンズエステと出張マッサージが厳選掲載！アロマパンダ通信" />
+							<br />
+							優良メンズエステ・出張マッサージはここ
+						</a>
+					</div>
+					<div class="col-md-4 text-center fh5co-heading animate-box">
+						<a href="http://momi-lg.com/" target="_blank">
+							<img src="http://momi-lg.com/img/300_50.gif" alt="モミろぐ" border="0">
+						</a>
+					</div>
+
+					<div class="col-md-4 text-center fh5co-heading animate-box">
 						<a href="http://osaka.refle.info/">
 							<img src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="マッサージ店を探すならリフナビ大阪">
 						</a>

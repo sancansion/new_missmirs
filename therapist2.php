@@ -28,16 +28,16 @@
 <?php include("common/css.html"); ?>
 <!-- END:SNS meta-->
 
-<link rel="stylesheet" type="text/css" href="lightbox/jquery.lightbox-0.5.css" />
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="lightbox/jquery.lightbox-0.5.css"/>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>   
 <script type="text/javascript" src="lightbox/jquery.lightbox-0.5.min.js"></script>
 <script type="text/javascript">
-	$(function() {
-		$('#fh5co-gallery-list a.photo').lightBox({
-			maxWidth : 300,
-			maxHeight : 600
+$(function() {
+	$('#fh5co-gallery-list a.photo').lightBox({
+		    maxWidth       : 300
+		   ,maxHeight      : 600
 		});
-	});
+});
 </script>
 
 
@@ -59,15 +59,15 @@
 		<div id="fh5co-gallery">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
-
+				
 					<h1 class="type1-1">
 						<span class="icon-heart"> セラピスト紹介</span>
 					</h1>
 					<h2 class="type2-1">
-						<span class="icon-heart"> Miss</span>
+						<span class="icon-heart"> Mrs</span>
 					</h2>
 					<div class="col-md-12">
-						<?php
+					<?php
 //----------------------------------------------------------------------
 // 設定ファイルの読み込みとページ独自設定　※必要に応じて変更下さい(START)
 //----------------------------------------------------------------------
@@ -85,10 +85,10 @@ $encodingType = 'UTF-8';
 	$pager = pagerOut($lines,$pagelength,$pagerDispLength);//ページャーを起動する
 ?>
 
-						<div class="pager_link">
-							<?php echo $pager['pager_res'];?>
-						</div>
-
+					<div class="pager_link">
+						<?php echo $pager['pager_res'];?>
+					</div>
+					
 						<ul id="fh5co-gallery-list">
 
 
@@ -97,7 +97,7 @@ $encodingType = 'UTF-8';
 
 
 
-							<?php
+<?php
 for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
   if(!empty($lines[$i])){
 	$lines_array[$i] = explode(",",$lines[$i]);
@@ -118,7 +118,7 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 		$experience = "なし";
 	}
 
-if($lines_array[$i][5] == 1){
+if($lines_array[$i][5] == 2){
 //ギャラリー表示部（HTML部は自由に変更可）※デフォルトはサムネイルを表示。imgタグの「 thumb_ 」を取れば元画像を表示
 echo <<<EOF
 
@@ -143,32 +143,32 @@ EOF;
 }
 }
 ?>
-						</ul>
+</ul>
 
-						<div class="pager_link">
-							<?php echo $pager['pager_res'];?>
-						</div>
-						<?php PHPkoubou($encodingType,$copyright,$warningMesse);}//著作権表記削除不可?>
+<div class="pager_link">
+	<?php echo $pager['pager_res'];?>
+</div>
+<?php PHPkoubou($encodingType,$copyright,$warningMesse);}//著作権表記削除不可?>
+</div>
+
+
+							
+
+						
 					</div>
-
-
-
-
-
 				</div>
 			</div>
+			<!-- End: Mrs-->
 		</div>
-		<!-- End: Mrs-->
-	</div>
-	<!-- END:Main -->
+		<!-- END:Main -->
 
-	<!-- START:footer -->
-	<?php include("common/footer.html"); ?>
-	<!-- END:footer -->
+		<!-- START:footer -->
+		<?php include("common/footer.html"); ?>
+		<!-- END:footer -->
 
-	<!-- START:footer menu -->
-	<?php include("common/footer_menu.html"); ?>
-	<!-- END:footer menu-->
+		<!-- START:footer menu -->
+		<?php include("common/footer_menu.html"); ?>
+		<!-- END:footer menu-->
 
 
 

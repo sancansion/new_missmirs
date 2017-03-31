@@ -390,7 +390,10 @@ if($mode == 'edit'){
 
 <p>日付：<input type="text" name="year" size="5" maxlength="4" value="<?php echo $up_ymd_array[0];?>" /> 年 <input type="text" name="month" size="2" maxlength="2" value="<?php echo $up_ymd_array[1];?>" /> 月 <input type="text" name="day" size="2" maxlength="2" value="<?php echo $up_ymd_array[2];?>" /> 日　※半角数字のみ</p>
 
-<h3>写真タイトル、説明など（htmlタグ不可） ※未入力も可</h3><p>※画像拡大時、及びaltに反映されます。<br /><textarea name="title" cols="60" rows="3"><?php echo $lines_array[2];?></textarea><br />
+<h3>写真タイトル、説明など（htmlタグ不可） ※未入力も可</h3><p>※画像拡大時、及びaltに反映されます。
+<br />
+<textarea name="title" cols="60" rows="3"><?php echo $lines_array[2];?></textarea>
+<br />
 
 
 <br>
@@ -506,19 +509,44 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelengthAdmin; $i++){
 		$lines_array[$i][3] = rtrim($lines_array[$i][3]);
 		$lines_array[$i][1] = ymd2format($lines_array[$i][1]);//日付フォーマットの適用
 		$alt_text = str_replace('<br />','',$lines_array[$i][2]);
-		
+		if($lines_array[$i][5] == 1){
+			$type = "Miss.";
+		} else {
+			$type = "Mrs.";
+		}
+
+		if($lines_array[$i][7] == 1){
+			$experience = "あり";
+		} else {
+			$experience = "なし";
+		}
 		if(strpos($lines_array[$i][0], 'no_disp') !== false){
 			$img_id = str_replace('no_disp','',$lines_array[$i][0]);
 
 echo <<<EOF
 
-<li class="no_disp"> {$lines_array[$i][1]} <a class="photo" href="{$img_updir}/{$img_id}.{$lines_array[$i][3]}" title="{$lines_array[$i][1]}<br />{$lines_array[$i][2]}"><img src="{$img_updir}/thumb_{$img_id}.{$lines_array[$i][3]}" height="75" alt="{$lines_array[$i][2]}" title="{$alt_text}" /></a><a class="button" href="?mode=disp&id={$id}&page={$pager['pageid']}">表示する</a><a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">[編集・削除]</a><div class="hidden_text">非表示中</div><input type="hidden" name="sort[]" value="{$id}" /></li>
+<li class="no_disp"> 
+{$lines_array[$i][1]} 
+<a class="photo" href="{$img_updir}/{$img_id}.{$lines_array[$i][3]}" 
+	title="
+	$type {$lines_array[$i][2]} ({$lines_array[$i][6]})
+	<br />
+	セラピスト経験：$experience
+	">
+<img src="{$img_updir}/thumb_{$img_id}.{$lines_array[$i][3]}" height="75" alt="{$lines_array[$i][2]}" title="{$alt_text}" /></a><a class="button" href="?mode=disp&id={$id}&page={$pager['pageid']}">表示する</a><a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">[編集・削除]</a><div class="hidden_text">非表示中</div><input type="hidden" name="sort[]" value="{$id}" /></li>
 
 EOF;
 		}else{
 echo <<<EOF
 
-<li>{$lines_array[$i][1]}  <a class="photo" href="{$img_updir}/{$id}.{$lines_array[$i][3]}" title="{$lines_array[$i][1]}<br />{$lines_array[$i][2]}"><img src="{$img_updir}/thumb_{$id}.{$lines_array[$i][3]}" alt="{$lines_array[$i][2]}" height="75" title="{$alt_text}" /></a><a class="button" href="?mode=no_disp&id={$id}&page={$pager['pageid']}">非表示にする</a><a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">編集・削除</a><input type="hidden" name="sort[]" value="{$id}" /></li>
+<li>{$lines_array[$i][1]}  
+<a class="photo" href="{$img_updir}/{$id}.{$lines_array[$i][3]}" 
+title="
+	$type {$lines_array[$i][2]} ({$lines_array[$i][6]})
+	<br />
+	セラピスト経験：$experience
+">
+<img src="{$img_updir}/thumb_{$id}.{$lines_array[$i][3]}" alt="{$lines_array[$i][2]}" height="75" title="{$alt_text}" /></a><a class="button" href="?mode=no_disp&id={$id}&page={$pager['pageid']}">非表示にする</a><a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">編集・削除</a><input type="hidden" name="sort[]" value="{$id}" /></li>
 
 EOF;
 		}
