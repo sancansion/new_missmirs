@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-
-
-ul {
-	list-style-type: none;
-}
-
 table {
 	border-collapse: collapse;
 	font-size: 100%;
@@ -20,11 +14,9 @@ table {
 
 /*menu.html内のメニューブロック
 ---------------------------------------------------------------------------*/
-/*各ボックスの設定*/
-section.list article {
+article {
 	min-height: 450px; /*ボックスの高さ*/
 	height: auto;
-	width: 280px; /*ボックスの幅*/
 	border-radius: 10px; /*角丸のサイズ*/
 	-webkit-box-shadow: 0px 2px 5px #544436; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
 	box-shadow: 0px 2px 5px #544436; /*同上*/
@@ -37,58 +29,40 @@ section.list article {
 	float: left;
 	margin: 0px 9px 1em;
 	position: relative;
-	width: 280px;
-	
 }
-/*ボックス内の段落タグ設定*/
-section.list article p {
+
+article p {
 	padding: 0px;
 	color: #36271a; /*文字色*/
 	font-size: 12px; /*文字サイズ*/
+	text-align: left;
 }
 
-
-
-/*ボックス内のh1タグ設定*/
-section.list article h3 {
-	background: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	font-size: 160%;
-	padding: 0;
-	border-radius: 0px;
-	color: #F14E95; /*文字色*/
-	font-wight: bold;
-	border-bottom: 2px dotted #36271a; /*下線の幅、線種、色*/
-	margin-bottom: 10px;
-	margin-top: 15px;
+article p.btn-recruit {
+	text-align: center;
 }
 
-section.list article span.contact {
-	margin-left:35px;
-	color: #000; /*文字色*/
-
+article ul li {
+	margin-left: -30px; text-align : left;
+	display: block;
+	text-align: left;
 }
 
-section.list article ul.job-contact {
-/* 	position: absolute;
-	bottom: 10%; */
+article ul li p {
+	color: #333;
+	font-size: 90%;
+	text-align: left;
 }
 
-section.list article ul.job-contact-form {
-/* 	position: absolute;
-	bottom: 0; */
+article ul li {
+	padding: 5px;
 }
 
-section.list article ul li {
-	display: inline;
-	padding: 10px;
-}
-
-section.list article ul li p {
+article ul li p {
 	color: #333;
 	display: inline;
-	font-size: 90%;
+	font-size: 16px;
+	margin-left: 10px;
 }
 
 .shadow {
@@ -138,24 +112,32 @@ section.list article ul li p {
 	/*menu.html内のメニューブロック
 ---------------------------------------------------------------------------*/
 	/*各ボックスの設定*/
-	section.list article {
+	article {
 		float: none;
 		margin: 0px auto 1em;
 	}
 }
 
 .btn-recruit a {
-	text-decoration: none;
 	display: inline-block;
-	font-size: 14px; background : #F6C; /*背景色（古いブラウザ用）*/
+	font-size: 14px;
+	background: #F6C; /*背景色（古いブラウザ用）*/
 	color: #FFF; /*文字色*/
-	padding: 4px 20px 8px; /*上、左右、下へのボックス内の余白*/
+	padding: 4px 20px 4px; /*上、左右、下へのボックス内の余白*/
 	border-radius: 8px 8px 8px 8px; /*角丸のサイズ。左上、右上、右下、左下。*/
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 	/*右へ、下へ、ぼかし幅の順の影の設定。rgba以降は色の設定。「0,0,0」はrgbでの色で、黒。「0.2」が透明度で20%の意味。*/
 	text-shadow: #25b4b0 0px -1px;
 	background: #F6C;
-	margin:10px 0;
+	text-decoration: none;
 	/*色、右へ、下へ、テキストの影の設定。下にマイナス設定をしているので上に影が入る事になる。*/
 }
+
+
+strong {
+color:#2e3436;
+  background: linear-gradient(transparent 30%, #fbd 30%);
+  font-weight:normal;
+  font-size:16px;
+  line-height:18px;
 }

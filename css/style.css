@@ -20,7 +20,6 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.7;
-	color: #828282;
 	background: #fff;
 }
 
@@ -47,10 +46,10 @@ a:hover, a:active, a:focus {
 	text-decoration: none;
 }
 
-p {
+/* p {
 	margin-bottom: 20px;
 }
-
+ */
 .fh5co-cover {
 	height: 200px;
 	background-size: cover;
@@ -933,6 +932,20 @@ h3 {
 	color: #F6C;
 }
 
+h4{
+		background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 160%;
+	padding: 0;
+	border-radius: 0px;
+	color: #F14E95; /*文字色*/
+	font-wight: bold;
+	border-bottom: 2px dotted #36271a; /*下線の幅、線種、色*/
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
 ul.shop-list li {
 	margin: 10px;
 }
@@ -965,4 +978,9 @@ ul.shop-list li {
 	line-height: 32x;
 	color: #828282;
 	font-size: 18px;
+}
+
+.clear{
+	clear:both;
+}
 }

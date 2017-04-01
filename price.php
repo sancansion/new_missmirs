@@ -36,7 +36,6 @@
 		<!-- START: -->
 		<div id="fh5co-couple">
 
-			<main id="menu">
 			<section id="contents">
 				<h1 class="type1-1">
 					<span class="icon-heart">
@@ -46,7 +45,7 @@
 				<h2 class="type2-1">
 					<span class="icon-heart"> コース ＆ オプション</span>
 				</h2>
-				<article class="block-02 cf pricelist">
+				<div class="block-02 cf pricelist">
 					<div class="box">
 						<dl>
 							<dt>
@@ -137,11 +136,11 @@
 					</div>
 
 
-				</article>
+				</div>
 				<!-- block-02 End -->
 
 				<!-- block-02 End -->
-				<article class="block-02">
+				<div class="block-02">
 
 
 					<div class="block">
@@ -171,9 +170,9 @@
 					</div>
 
 
-				</article>
+				</div>
 			</section>
-			</main>
+		
 		</div>
 
 

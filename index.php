@@ -228,20 +228,18 @@
 					<h2 class="type2-1">
 						<span class="icon-heart"> 相互リンク</span>
 					</h2>
-					<div class="col-md-4 text-center fh5co-heading animate-box">
-						<a href="http://tokyo.aroma-tsushin.com/" target="_blank">
-							<img src="http://tokyo.aroma-tsushin.com/banner/banner-300x060.gif" width="300" height="60" border="0"
-								alt="東京のメンズエステと出張マッサージが厳選掲載！アロマパンダ通信" />
-							<br />
-							優良メンズエステ・出張マッサージはここ
-						</a>
-					</div>
+
 					<div class="col-md-4 text-center fh5co-heading animate-box">
 						<a href="http://momi-lg.com/" target="_blank">
 							<img src="http://momi-lg.com/img/300_50.gif" alt="モミろぐ" border="0">
 						</a>
 					</div>
-
+					<div class="col-md-4 text-center fh5co-heading animate-box">
+						<a href="http://tokyo.aroma-tsushin.com/" target="_blank">
+							<img src="http://tokyo.aroma-tsushin.com/banner/banner-300x060.gif" width="300" height="60" border="0"
+								alt="東京のメンズエステと出張マッサージが厳選掲載！アロマパンダ通信" />
+						</a>
+					</div>
 					<div class="col-md-4 text-center fh5co-heading animate-box">
 						<a href="http://osaka.refle.info/">
 							<img src="http://osaka.refle.info/images/area/bunner200_2.gif" alt="マッサージ店を探すならリフナビ大阪">
