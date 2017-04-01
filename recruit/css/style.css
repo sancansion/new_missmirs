@@ -9,9 +9,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #444; /*全体の文字色*/
-	font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3",
-		"Hiragino Mincho Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
-		"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+		"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
 	/*フォント指定*/
 	font-size: 14px; /*文字サイズ*/
 	line-height: 2; /*行間*/
@@ -100,18 +99,6 @@ header #tel a{
 text-decoration: none;
 }
 
-header #line {
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo;
-	/*フォント種類*/
-	position: absolute;
-	right: 280px; /*header #innerに対して右から10pxの場所に配置*/
-	top: 75px; /*header #innerに対して上から50pxの場所に配置*/
-	background: url(../images/line_icon.png) no-repeat left center/15px;
-	/*電話アイコンの読み込み*/
-	padding-left: 25px;
-	font-size: 24px; /*文字サイズ*/
-	letter-spacing: 0.1em; /*文字間隔を少し広くとる設定。通常がいいならこの行削除。*/
-}
 
 /*電話番号パーツの受付時間部分*/
 header #tel span {
@@ -124,6 +111,13 @@ header #tel span {
 #contact {
 	position: absolute;
 	right: 10px; /*header #innerに対して右から10pxの場所に配置*/
+	top: 0px; /*header #innerに対して上から0pxの場所に配置*/
+	font-size: 18px; /*文字サイズ*/
+}
+
+#line {
+	position: absolute;
+	right: 250px; /*header #innerに対して右から10pxの場所に配置*/
 	top: 0px; /*header #innerに対して上から0pxの場所に配置*/
 	font-size: 18px; /*文字サイズ*/
 }
@@ -144,8 +138,30 @@ header #tel span {
 	text-shadow: #25b4b0 0px -1px;
 	/*色、右へ、下へ、テキストの影の設定。下にマイナス設定をしているので上に影が入る事になる。*/
 }
+
+#line a {
+	text-decoration: none;
+	display: inline-block;
+	background: #5ae628; /*背景色（古いブラウザ用）*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#F6C),
+		to(#5ae628)); /*グラデーション*/
+	background: -webkit-linear-gradient(#5ae628,#008000); /*同上*/
+	background: linear-gradient(#5ae628, #008000); /*同上*/
+	color: #FFF; /*文字色*/
+	padding: 4px 20px 8px; /*上、左右、下へのボックス内の余白*/
+	border-radius: 0px 0px 8px 8px; /*角丸のサイズ。左上、右上、右下、左下。*/
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	/*右へ、下へ、ぼかし幅の順の影の設定。rgba以降は色の設定。「0,0,0」はrgbでの色で、黒。「0.2」が透明度で20%の意味。*/
+	text-shadow: #25b4b0 0px -1px;
+	/*色、右へ、下へ、テキストの影の設定。下にマイナス設定をしているので上に影が入る事になる。*/
+}
+
 /*マウスオン時*/
 #contact a:hover {
+	padding: 8px 20px 12px; /*上、左右、下へのボックス内の余白*/
+}
+
+#line a:hover {
 	padding: 8px 20px 12px; /*上、左右、下へのボックス内の余白*/
 }
 
@@ -664,11 +680,6 @@ ul.disc {
 		line-height: 1.2;
 		text-align: right;
 	}
-	header #line {
-		background: none;
-		line-height: 1.2;
-		text-align: right;
-	}
 
 	/*電話番号パーツの受付時間部分*/
 	header #tel span {
@@ -681,6 +692,13 @@ ul.disc {
 		font-size: 14px;
 	}
 	#contact span {
+		display: none;
+	}
+	
+	#line{
+		font-size: 14px;
+	}
+	#line span {
 		display: none;
 	}
 }
@@ -696,7 +714,7 @@ ul.disc {
 	}
 	/*サイト幅にしたheader内のブロック*/
 	header #inner {
-		height: 185px;
+		height: 210px;
 	}
 	/*ロゴ画像*/
 	header #logo {
@@ -713,6 +731,19 @@ ul.disc {
 		top: 100px;
 	}
 	#contact a {
+		display: block;
+		text-align: center;
+		border-radius: 8px;
+		text-decoration: none;
+	}
+	
+	#line {
+		position: absolute;
+		left: 10px;
+		top: 150px;
+		width:95%;
+	}
+	#line a {
 		display: block;
 		text-align: center;
 		border-radius: 8px;
