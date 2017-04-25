@@ -59,28 +59,28 @@ a:hover, a:active, a:focus {
 
 @media screen and (max-width: 768px) {
 	.fh5co-cover {
-		height: 310px;
+		height: 380px;
 		background-image: url(../images/top.jpg);
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.fh5co-cover {
-		height: 440px;
+		height: 380px;
 		background-image: url(../images/top.jpg);
 	}
 }
 
 @media screen and (max-width: 360px) {
 	.fh5co-cover {
-		height: 560px;
+		height: 380px;
 		background-image: url(../images/top.jpg);
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.fh5co-cover.fh5co-cover-sm {
-		height: 400px;
+		height: 380px;
 	}
 }
 

@@ -37,161 +37,154 @@ ul {
 	padding: 8px 20px 12px; /*上、左右、下へのボックス内の余白*/
 }
 
-@media screen and (min-width: 768px) {
-	nav#mainmenu ul {
-		font-size: 13px; /*文字サイズ*/
-		height: 120px; /*ブロックの高さ*/
-		width: 640px; /*ブロックの幅*/
-		position: absolute;
-		top: 70px; /*ヘッダーブロックに対して上から50pxの位置に配置*/
-		right: 10px; /*ヘッダーブロックに対して右から30pxの位置に配置*/
-	}
-	nav#mainmenu ul li a {
-		height: 60px; /*メニューの高さ*/
-		width: 60px; /*メニューの幅*/
-		line-height: 60px; /*行間（heightの数値と合わせる）*/
-		color: #FFF; /*文字色*/
-		text-decoration: none;
-		text-align: center;
-		display: block;
-		background: rgba(000, 4, 0, 0.3);
-		/*背景色。左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
-		border-radius: 70px; /*角丸のサイズ*/
-		-webkit-transition: 0.8s; /*マウスオン時の移り変わるまでの時間設定。0.8秒。*/
-		transition: 0.8s; /*同上*/
-		border: 5px solid rgba(255, 105, 180, 0.5);
-		/*枠線の幅、線種、色。色については左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
-		overflow: hidden;
-		float: left;
-		margin-right: 10px;
-	}
-	/*マウスオン時の設定*/
-	nav#mainmenu ul li a:hover {
-		background: #FFF; /*背景色*/
-		color: #36271a; /*文字色*/
-		border: 10px solid #F14E95; /*枠線の幅、線種、色*/
-	}
-	header {
-		height: auto;
-		position: static;
-		text-align: center;
-	}
-
-	/*h1ロゴの設定*/
-	header h1 {
-		padding-top: 50px;
-		text-align: right;
-		position: static;
-	}
-	nav#mainmenu div.shopname {
-		font-family: "Sacramento", Arial, serif;
-		font-size: 24px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		color: #fff;
-		font-weight: bold;
-	}
-	nav#mainmenu ul {
-		height: auto;
-		width: auto;
-		 position: static;
-		top: 60px;
-		right: auto;
-		text-align: center;
-	}
-	nav#mainmenu ul li {
-		display: inline-block;
-		margin-bottom: 20px;
-	}
-	nav#mainmenu ul li a {
-		float: none;
-		height: 100px;
-		width: 100px;
-		line-height: 100px;
-		border: 3px solid rgba(255, 255, 255, 0.8);
-		margin-right: 0;
-	}
-	nav#mainmenu ul li a:hover {
-		border: 1px dotted #F14E95;
-		color: #F14E95;
-	}
+@media
+screen
+and
+(min-width:
+768px)
+{
+nav#mainmenu-s {
+	display: none;
 }
 
+nav#mainmenu ul {
+	font-size: 13px; /*文字サイズ*/
+	height: 120px; /*ブロックの高さ*/
+	width: 640px; /*ブロックの幅*/
+	position: absolute;
+	top: 70px; /*ヘッダーブロックに対して上から50pxの位置に配置*/
+	right: 10px; /*ヘッダーブロックに対して右から30pxの位置に配置*/
+}
+
+nav#mainmenu ul li a {
+	height: 60px; /*メニューの高さ*/
+	width: 60px; /*メニューの幅*/
+	line-height: 60px; /*行間（heightの数値と合わせる）*/
+	color: #FFF; /*文字色*/
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background: rgba(000, 4, 0, 0.3);
+	/*背景色。左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
+	border-radius: 70px; /*角丸のサイズ*/
+	-webkit-transition: 0.8s; /*マウスオン時の移り変わるまでの時間設定。0.8秒。*/
+	transition: 0.8s; /*同上*/
+	border: 5px solid rgba(255, 105, 180, 0.5);
+	/*枠線の幅、線種、色。色については左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+/*マウスオン時の設定*/
+nav#mainmenu ul li a:hover {
+	background: #FFF; /*背景色*/
+	color: #36271a; /*文字色*/
+	border: 10px solid #F14E95; /*枠線の幅、線種、色*/
+}
+
+header {
+	height: auto;
+	position: static;
+	text-align: center;
+}
+
+/*h1ロゴの設定*/
+header h1 {
+	padding-top: 50px;
+	text-align: right;
+	position: static;
+}
+
+nav#mainmenu div.shopname {
+	font-family: "Sacramento", Arial, serif;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+
+nav#mainmenu div.shopname a {
+	font-family: "Sacramento", Arial, serif;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff important!;
+	font-weight: bold;
+}
+
+nav#mainmenu ul {
+	height: auto;
+	width: auto;
+	position: static;
+	top: 60px;
+	right: auto;
+	text-align: center;
+}
+
+nav#mainmenu ul li {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+nav#mainmenu ul li a {
+	float: none;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	border: 3px solid rgba(255, 255, 255, 0.8);
+	margin-right: 0;
+}
+
+nav#mainmenu ul li a:hover {
+	border: 1px dotted #F14E95;
+	color: #F14E95;
+}
+
+}
 @media screen and (max-width: 768px) {
-	nav#mainmenu ul {
-		font-size: 13px; /*文字サイズ*/
-		height: 120px; /*ブロックの高さ*/
-		width: 640px; /*ブロックの幅*/
-		position: absolute;
-		top: 70px; /*ヘッダーブロックに対して上から50pxの位置に配置*/
-		right: 10px; /*ヘッダーブロックに対して右から30pxの位置に配置*/
+	nav#mainmenu {
+		display: none;
 	}
-	nav#mainmenu ul li a {
-		height: 60px; /*メニューの高さ*/
-		width: 60px; /*メニューの幅*/
-		line-height: 60px; /*行間（heightの数値と合わせる）*/
-		color: #FFF; /*文字色*/
-		font-size:12px;
-		text-decoration: none;
-		text-align: center;
+	nav#mainmenu-s {
 		display: block;
-		background: rgba(000, 4, 0, 0.5);
-		/*背景色。左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
-		border-radius: 70px; /*角丸のサイズ*/
-		-webkit-transition: 0.8s; /*マウスオン時の移り変わるまでの時間設定。0.8秒。*/
-		transition: 0.8s; /*同上*/
-		border: 5px solid rgba(255, 255, 255, 0.5);
-		/*枠線の幅、線種、色。色については左３つの数値はRGBカラーでの色指定。一番右は透明度（0.5＝50％）の指定。*/
-		overflow: hidden;
-		http: //localhost/access.php float: left;
-		margin-right: 10px;
+	}
+	nav#mainmenu-s ul {
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+	}
+	nav#mainmenu-s ul li {
+		display: inline;
+		padding: 0;
+		margin: 0 auto;
+	}
+	nav#mainmenu-s ul li a {
+		display: block;
+		border-bottom: 1px solid #FFF;
+		padding: 10px 10px;
+		text-decoration: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 16px; color : #fff;
+		background: rgba(000, 4, 0, 0.3);
+		color: #fff;
 	}
 	/*マウスオン時の設定*/
-	nav#mainmenu ul li a:hover {
-		background: #FFF; /*背景色*/
-		color: #36271a; /*文字色*/
-		border: 10px solid #F14E95; /*枠線の幅、線種、色*/
+	nav#mainmenu-s ul li a:hover {
+		border-botom: 1px solid #FFF;
+		background-color: rgba(255, 255, 255, 0.3);
+		color: #F14E95;
 	}
 	header {
 		height: auto;
 		position: static;
 	}
-
-	/*h1ロゴの設定*/
-	header h1 {
-		padding-top: 50px;
-		text-align: right;
-		position: static;
-	}
-	nav#mainmenu div.shopname {
+	nav#mainmenu-s div.shopname {
 		font-family: "Sacramento", Arial, serif;
 		font-size: 24px;
 		padding: 10px;
 		color: #fff;
-		font-weight: bold;
-	}
-	nav#mainmenu ul {
-		height: auto;
-		width: auto;
-		/* position: static; */
-		top: 55px;
-		right: auto;
-		text-align: center;
-	}
-	nav#mainmenu ul li {
-		display: inline-block;
-		margin-bottom: 20px;
-	}
-	nav#mainmenu ul li a {
-		float: none;
-		height: 110px;
-		width: 110px;
-		line-height: 110px;
-		border: 3px solid rgba(255, 255, 255, 0.8);
-		margin-right: 0;
-	}
-	nav#mainmenu ul li a:hover {
-		border: 1px dotted #F14E95;
-		color: #F14E95;
 	}
 }
