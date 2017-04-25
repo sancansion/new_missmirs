@@ -45,12 +45,23 @@
 					<h1 class="type1-1">
 						<span class="icon-heart"> Miss Mrs ミスミセス</span>
 					</h1>
+					
+					<div class="col-md-6 text-center fh5co-heading animate-box">
 					<h2 class="type2-1">
 						<span class="icon-heart"> 求人情報</span>
 					</h2>
-					<div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
 						<a href="recruit/index.php">
 							<img src="images/recruit.png" class="image-witdh100">
+						</a>
+					</div>
+					
+					
+					<div class="col-md-6 text-center fh5co-heading animate-box">
+					<h2 class="type2-1">
+						<span class="icon-heart"> お財布に優しいお店作りました</span>
+					</h2>
+						<a href="http://honey-bee.skr.jp/">
+							<img src="images/preopen.png" class="image-witdh100">
 						</a>
 					</div>
 					

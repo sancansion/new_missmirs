@@ -603,13 +603,13 @@ form label {
 	}
 }
 
-.fh5co-heading span {
+/* .fh5co-heading span {
 	text-transform: uppercase;
 	font-size: 13px;
 	letter-spacing: 2px;
 	font-weight: 600;
 	color: rgba(0, 0, 0, 0.4);
-}
+} */
 
 @media screen and (max-width: 768px) {
 	#fh5co-footer .copyright .pull-left, #fh5co-footer .copyright .pull-right
