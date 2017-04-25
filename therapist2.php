@@ -122,7 +122,10 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 	} else {
 		$looking = "むっちり";
 	}
-	
+		$filePath = $img_updir."/"."thumb_".$lines_array[$i][0].".".$lines_array[$i][3];
+ 	list($width,$height) = getimagesize($filePath);
+$width = $width * 2;
+$height = $height * 2;
 	
 
 if($lines_array[$i][5] == 2){
@@ -133,11 +136,11 @@ echo <<<EOF
 <li class="one-third  text-left fh5co-heading animate-box">
 
 	<figure class="therapist-img" data-animate-effect="fadeIn" style="background-image: url({$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]});">
-		<a href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" data-size="1000x665">
+		<a href="{$img_updir}/{$lines_array[$i][0]}.{$lines_array[$i][3]}" data-size="{$width}x{$height}">
 			<img src="{$img_updir}/thumb_{$lines_array[$i][0]}.{$lines_array[$i][3]}" alt="" style="display:none" />
 			<span class="case-studies-summary">$type {$lines_array[$i][2]} ({$lines_array[$i][6]})</span>
 		</a>
-		<figcaption style="display:none;">$type {$lines_array[$i][2]} 年齢：{$lines_array[$i][6]} / セラピスト経験：$experience / 体型： $looking</figcaption>
+		<figcaption style="display:none;">$type {$lines_array[$i][2]} / 年齢：{$lines_array[$i][6]} / セラピスト経験：$experience / 体型： $looking</figcaption>
 	</figure>
 	</li>
 
