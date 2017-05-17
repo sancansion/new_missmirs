@@ -58,10 +58,10 @@
 					
 					<div class="col-md-6 text-center fh5co-heading animate-box">
 					<h2 class="type2-1">
-						<span class="icon-heart"> お財布に優しいお店作りました</span>
+						<span class="icon-heart"> 系列店オープンしました！</span>
 					</h2>
 						<a href="http://honey-bee.skr.jp/">
-							<img src="images/preopen.png" class="image-witdh100">
+							<img src="images/mitsubachibanner.png" class="image-witdh100">
 						</a>
 					</div>
 					

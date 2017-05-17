@@ -160,7 +160,7 @@
 					<div class="col-md-8  text-left fh5co-heading animate-box">
 						<div class="ggmap">
 							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.250418456839!2d135.5079651152315!3d34.67362878044139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e73ec1341fb1%3A0x8ef9d2a41c81608c!2z44CSNTQyLTAwODIg5aSn6Ziq5bqc5aSn6Ziq5biC5Lit5aSu5Yy65bO25LmL5YaF77yR5LiB55uu77yV4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1481193403019"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.2431568839784!2d135.50569311477733!3d34.67381208044133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e73e7669c1a9%3A0x182cc9cbdac47795!2z5pel5pysLCDjgJI1NDItMDA4MiDlpKfpmKrlupzlpKfpmKrluILkuK3lpK7ljLrls7bkuYvlhoXvvJHkuIHnm67vvJHvvJXiiJLvvJHvvJE!5e0!3m2!1sja!2sus!4v1494226954350"
 								width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
 						</div>
 					</div>
@@ -170,7 +170,7 @@
 							<br>
 							営業時間：11時～翌5時（最終受付3時30分）
 							<br>
-							住所：大阪市中央区島ノ内1-5-11
+							住所：大阪市中央区島ノ内1-15-11
 							<br>
 						</p>
 						<img src="images/nagahori.jpg">

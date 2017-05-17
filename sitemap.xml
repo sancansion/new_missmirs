@@ -27,11 +27,11 @@
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>http://www.missmrs.biz/recruit/index.php</loc>
-  <priority>0.8</priority>
+  <loc>http://www.missmrs.biz/access.php</loc>
+  <priority>1.0</priority>
 </url>
 <url>
-  <loc>http://www.missmrs.biz/job.php</loc>
+  <loc>http://www.missmrs.biz/recruit/index.php</loc>
   <priority>0.8</priority>
 </url>
 <url>
