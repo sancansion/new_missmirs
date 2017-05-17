@@ -1,0 +1,311 @@
+@media screen and (min-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0; /* for Opera8 */
+		background: #fff;
+		color: #333333; /* ※サイトにより変更 */
+		font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+			"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px; /* ※サイトにより変更　基本は12px */
+		line-height: 1.6; /* ※サイトにより変更　基本は1.6 */
+		-webkit-text-size-adjust: 100%;
+	}
+	#menu h3 {
+		color: #555753;
+		font-size: 37px;
+		text-align: center;
+	}
+	#menu h3 span {
+		color: #333;
+		font-size: 14px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+			"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
+		
+	}
+	#menu .block-01 .box dl dt {
+		/*
+	vertical-align:bottom;
+	*/
+		font-size: 23px;
+		font-weight: bold;
+		border-bottom: 1px solid #bbbbbb;
+		/*border-top: 1px solid #bbbbbb;*/
+		line-height: 0.1;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+	#menu .block-02 {
+		width: 900px;
+		margin: 0 auto 60px;
+	}
+	#menu .block-02 h3 {
+		font-family: 'Josefin Sans', sans-serif;
+		line-height: 0.7;
+		margin-bottom: 20px;
+	}
+	#menu .block-02 .box {
+		margin-bottom: 40px;
+		position: relative;
+	}
+	#menu .block-02 .block {
+		margin-bottom: 15px;
+		position: relative;
+	}
+	#menu .block-02 .box .recommend {
+		font-style: normal;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #FFF;
+		border: 1px solid #F6C;
+		color: #F6C;
+		padding: 1px 7px;
+	}
+	#menu .block-02 dl {
+		display: table;
+		border-bottom: 1px solid #bbbbbb;
+		width: 100%;
+		vertical-align: bottom;
+		line-height: 1;
+		margin-bottom: 5px;
+	}
+	#menu .block-02 dl dt {
+		display: table-cell;
+		text-align: left;
+		width: 60%;
+		font-size: 23px;
+		font-weight: bold;
+	}
+	#menu .block-02 dl span {
+		font-family: 'Playfair Display', serif;
+		color: #F6C;
+		font-size: 60px;
+		letter-spacing: -0.05em;
+		font-style: italic;
+		margin-left: 3px;
+		margin-right: 12px;
+	}
+	#menu .block-02 dl dd {
+		display: table-cell;
+		text-align: right;
+		font-size: 23px;
+		font-weight: bold;
+		width: 40%;
+	}
+	#menu .block-02 .left {
+		float: left;
+		width: 430px;
+		margin-bottom: 10px;
+	}
+	#menu .block-02 .right {
+		float: right;
+		width: 430px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0; /* for Opera8 */
+		background: #fff;
+		color: #333333; /* ※サイトにより変更 */
+		font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+			"ＭＳ Ｐゴシック", Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px; /* ※サイトにより変更　基本は12px */
+		line-height: 1.6; /* ※サイトにより変更　基本は1.6 */
+		-webkit-text-size-adjust: 100%;
+	}
+	#menu h3 {
+		color: #555753;
+		font-size: 34px;
+		text-align: center;
+		font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial,
+			sans-serif;
+	}
+	#menu h3 span {
+		color: #333;
+		font-size: 13px;
+		font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro",
+			"ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", Verdana, Arial,
+			Helvetica, sans-serif;
+	}
+	#menu .block-02 {
+		margin: 0 5px 20px;
+		border-bottom: 1px solid #bbbbbb;
+	}
+	#menu .block-02 h3 {
+		line-height: 0.7;
+		margin-bottom: 40px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#menu .block-02 .box {
+		margin-bottom: 20px;
+		position: relative;
+		/* text-align: center; */
+	}
+	#menu .block-02 .block {
+		margin-bottom: 20px;
+		position: relative;
+	}
+	#menu .block-02 .block ul li {
+		margin-bottom: 20px;
+		position: relative;
+		list-style-type: disc;
+		
+	}
+	#menu .block-02 .box .recommend {
+		font-style: bold;
+		text-align: left;
+		left: 0;
+		border: 1px solid #F6C;
+		color: #F6C;
+		padding: 3px 8px;
+		font-size: 11px;
+		display: inline-block;
+		border: 1px solid #F6C;
+		color: #F6C;
+		background: #FFF;
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	#menu .block-02 p {
+		text-align: left;
+		font-size: 12px;
+		margin-top: -6px;
+	}
+	#menu .block-02 .box .recommend {
+		margin-bottom: 30px;
+	}
+	#menu .block-02 dl {
+		/*border-bottom:1px solid #bbbbbb;*/
+		width: 100%;
+		vertical-align: bottom;
+		line-height: inherit;
+		padding-bottom: 2px;
+		margin-bottom: 6px;
+		margin-top: -10px;
+		text-align: center;
+	}
+	#menu .block-02 dl dt {
+		font-size: 18px;
+		font-weight: bold;
+		display: block;
+		text-align: center;
+	}
+	#menu .block-02 dl span {
+		font-family: 'Playfair Display', serif;
+		color: #F6C;
+		font-size: 30px;
+		letter-spacing: -0.05em;
+		font-style: italic;
+		margin-left: 3px;
+		margin-right: 12px;
+		line-height: 1;
+	}
+	#menu .block-02 dl span.time {
+		font-size: 20px;
+		font-family: inherit;
+		letter-spacing: inherit;
+		font-style: inherit;
+		margin: 0px;
+		font-weight: bold;
+	}
+	#menu .block-02 dl dd {
+		/* text-align: center;
+		 */
+		font-size: 16px;
+		font-weight: bold;
+		display: block;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	#menu .block-02 .left {
+		margin-bottom: 0;
+	}
+	#menu .block-02 .right {
+		margin-bottom: 0px;
+	}
+	#menu .block-02 .left dl, #menu .block-02 .right dl {
+		display: table;
+		width: 100%;
+		vertical-align: bottom;
+		line-height: 1;
+		margin-bottom: 10px;
+		border-bottom: 1px dashed #bbbbbb;
+		padding-bottom: 15px;
+		/* 		text-align: center; */
+	}
+	#menu .block-02 .left dl dt, #menu .block-02 .right dl dt {
+		/*display:table-cell;*/
+		width: auto;
+		margin: 0 auto;
+		/* 		text-align: center; */
+		font-size: 12px;
+		font-weight: bold;
+		display: block;
+	}
+	#menu .block-02 .left dl span, #menu .block-02 .right dl span {
+		font-family: 'Playfair Display', serif;
+		color: #F6C;
+		font-size: 30px;
+		letter-spacing: -0.05em;
+		font-style: italic;
+		margin-left: 3px;
+		margin-right: 12px;
+		/* 		text-align: center; */
+	}
+	#menu .block-02 .left dl span.time, #menu .block-02 .right dl span.time
+		{
+		font-size: inherit;
+		font-family: inherit;
+		letter-spacing: inherit;
+		font-style: inherit;
+		margin: 0px;
+		font-weight: bold;
+	}
+	#menu .block-02 .left dl dd, #menu .block-02 .right dl dd {
+		width: auto;
+		margin: 0 auto;
+		/*display:table-cell;*/
+		/* 		text-align: center; */
+		font-size: 16px;
+		font-weight: bold;
+		display: inline-block;
+	}
+	#menu .block-02 .a-l dl {
+		padding-bottom: 4px !important;
+		margin-bottom: 6px !important;
+	}
+	#menu .block-02 .a-l dt {
+		text-align: left !important;
+	}
+	#menu .pricelist .box p {
+		border-bottom: 1px dashed #bbbbbb;
+		padding-bottom: 15px;
+	}
+	#menu .pricelist .box:last-child p {
+		border-bottom: none;
+		padding-bottom: 0px;
+	}
+	#menu .option :nth-child(1) dl {
+		border-bottom: 1px dashed #bbbbbb;
+		padding-bottom: 15px;
+	}
+	#menu .block-02.option h3 {
+		margin-bottom: 30px;
+	}
+	#menu .option .block {
+		border-bottom: 1px dashed #bbbbbb;
+		padding-bottom: 15px;
+	}
+	#menu .option .block p {
+		/* text-align: center; */
+		
+	}
+	#menu .option .block:last-child {
+		border-bottom: none;
+		padding-bottom: 0px;
+	}
+}

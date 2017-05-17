@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*CSSスライドショー（アニメーション設定）
+---------------------------------------------------------------------------*/
+/*１枚目*/
+@keyframes slide1 {
+	0% {opacity: 0;}
+	10% {opacity: 1;}
+	30% {opacity: 1;}
+	40% {opacity: 0;}
+	100% {opacity: 0;}
+}
+/*２枚目*/
+@keyframes slide2 {
+	0% {opacity: 0;}
+	30% {opacity: 0;}
+	40% {opacity: 1;}
+	60% {opacity: 1;}
+	70% {opacity: 0;}
+	100% {opacity: 0;}
+}
+/*３枚目*/
+@keyframes slide3 {
+	0% {opacity: 0;}
+	60% {opacity: 0;}
+	70% {opacity: 1;}
+	90% {opacity: 1;}
+	100% {opacity: 0;}
+}
+/*もみじ画像*/
+@keyframes headerimg {
+	0% {opacity: 0;}
+	10% {opacity: 0;}
+	60% {opacity: 1;}
+	90% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+/*CSSスライドショー（画像設定）
+---------------------------------------------------------------------------*/
+/*スライドショーとメニューを囲むブロック*/
+#menu-mainimg {
+	position: relative;
+	margin-bottom: 40px;
+	background: #f29c9f;
+}
+/*スライドショー画像を囲むブロック*/
+#mainimg {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+/*スマホ用スライドショーを表示させない設定*/
+#mainimg-s {
+	display: none;
+}
+/*スライドショー画像を囲むブロック（※トップページ）*/
+#top #mainimg,
+#top #mainimg-s {
+	width: 100%;	/*画面幅一杯になるよう設定*/
+	height: auto;
+}
+/*スライドショーの３枚画像の共通設定*/
+#mainimg img,
+#mainimg-s img {
+	-webkit-animation-duration: 15s;	/*実行する時間。「s」は秒の事。*/
+	animation-duration: 15s;			/*同上*/
+	-webkit-animation-iteration-count:infinite;	/*実行する回数。「infinite」は無限に繰り返す意味。*/
+	animation-iteration-count:infinite;			/*同上*/
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+/*１枚目*/
+#slide1,#slide1s {
+	-webkit-animation-name: slide1;		/*上で設定しているキーフレーム（keyframes）の名前*/
+	animation-name: slide1;				/*同上*/
+	position: relative;
+}
+/*２枚目*/
+#slide2,#slide2s {
+	-webkit-animation-name: slide2;		/*上で設定しているキーフレーム（keyframes）の名前*/
+	animation-name: slide2;				/*同上*/
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+/*３枚目*/
+#slide3,#slide3s {
+	-webkit-animation-name: slide3;		/*上で設定しているキーフレーム（keyframes）の名前*/
+	animation-name: slide3;				/*同上*/
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+/*もみじ画像*/
+#headerimg {
+	-webkit-animation-duration: 15s;	/*実行する時間。「s」は秒の事。*/
+	animation-duration: 15s;			/*同上*/
+	-webkit-animation-iteration-count:infinite;	/*実行する回数。「infinite」は無限に繰り返す意味。*/
+	animation-iteration-count:infinite;			/*同上*/
+	position:absolute;
+	left:500px;
+	top:-140px;
+	width: 50%;
+	-webkit-animation-name: headerimg;		/*上で設定しているキーフレーム（keyframes）の名前*/
+	animation-name: headerimg;				/*同上*/
+}
+
+/*画面幅800px以下の設定
+---------------------------------------------------------------------------*/
+@media screen and (max-width:800px){
+	
+#mainimg {
+	width: auto;
+	padding-bottom: 140px;
+	overflow: hidden;
+}
+/*もみじ画像の場所*/
+#headerimg {
+	position:absolute;
+	left:40%;
+	top:-50px;
+}
+
+}
+
+
+
+/*画面幅480px以下の設定
+---------------------------------------------------------------------------*/
+@media screen and (max-width:480px){
+
+/*PC用スライドショーを表示させない設定*/
+#top #mainimg {
+	display: none;
+}
+#mainimg {
+	padding-bottom: 0;
+}
+/*スマホ用スライドショーを表示させる設定*/
+#mainimg-s {
+	display: block;
+}
+/*もみじ画像を表示させない*/
+#headerimg {
+	display: none;
+}
+
+}

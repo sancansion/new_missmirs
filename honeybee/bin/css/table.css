@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+section table {
+	width: 100%;
+}
+
+section th, section td {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+section th {
+	background: #f4f4f4;
+}
+
+/*----------------------------------------------------
+  .demo01
+----------------------------------------------------*/
+.responsive_table th {
+	width: 30%;
+	text-align: left;
+}
+
+@media only screen and (max-width:480px) {
+	.responsive_table {
+		margin: 0 -10px;
+	}
+	.responsive_table th, .responsive_table td {
+		width: 100%;
+		display: block;
+		border-top: none;
+	}
+	.responsive_table tr:first-child th {
+		border-top: 1px solid #ddd;
+	}
+}

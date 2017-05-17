@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+table {
+	border-collapse: collapse;
+	font-size: 100%;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+/*メインコンテンツ
+---------------------------------------------------------------------------*/
+
+/*mainコンテンツのh1タグの設定*/
+
+/*menu.html内のメニューブロック
+---------------------------------------------------------------------------*/
+article {
+	min-height: 450px; /*ボックスの高さ*/
+	height: auto;
+	border-radius: 10px; /*角丸のサイズ*/
+	-webkit-box-shadow: 0px 2px 5px #544436; /*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
+	box-shadow: 0px 2px 5px #544436; /*同上*/
+	background-color: #FFF; /*背景色（古いブラウザだとここの色のみが出ます）*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
+		to(#FFFACD)); /*グラデーション*/
+	background-image: -webkit-linear-gradient(#FFF, #FFFACD); /*同上*/
+	background-image: linear-gradient(#FFF, #FFFACD); /*同上*/
+	padding: 15px; /*ボックス内の余白*/
+	float: left;
+	margin: 0px 9px 1em;
+	position: relative;
+}
+
+article p {
+	padding: 0px;
+	color: #36271a; /*文字色*/
+	font-size: 12px; /*文字サイズ*/
+	text-align: left;
+}
+
+article p.btn-recruit {
+	text-align: center;
+}
+
+article ul li {
+	margin-left: -30px; text-align : left;
+	display: block;
+	text-align: left;
+}
+
+article ul li p {
+	color: #333;
+	font-size: 90%;
+	text-align: left;
+}
+
+article ul li {
+	padding: 5px;
+}
+
+article ul li p {
+	color: #333;
+	display: inline;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.shadow {
+	padding: 20px;
+	border: 1px solid #f0f0f0;
+	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#777777,
+		direction=0, strength=3, enabled=true);
+	/* IE以外なら丸角も！ */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.sample_01 {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sample_01 th {
+	padding: 0px 5px 0px 0px; /*左から、上、右、下、左側への余白*/
+	color: #333; /*文字色*/
+	border: 1px solid #b9b9b9;
+	background: #fff;
+	text-align: right;
+}
+
+.sample_01 td {
+	padding: 0px 0px 0px 5px; /*左から、上、右、下、左側への余白*/
+	color: #333; /*文字色*/
+	background: #fff;
+	border: 1px solid #b9b9b9;
+}
+
+@media screen and (max-width: 768px) {
+	ul.navmenu {
+		text-align: left;
+		padding: 10px 0px 10px 20px;
+	}
+	ul.navmenu li {
+		display: block;
+	}
+
+	/*menu.html内のメニューブロック
+---------------------------------------------------------------------------*/
+	/*各ボックスの設定*/
+	article {
+		float: none;
+		margin: 0px auto 1em;
+	}
+}
+
+.btn-recruit a {
+	display: inline-block;
+	font-size: 14px;
+	background: #FF7F50; /*背景色（古いブラウザ用）*/
+	color: #FFF; /*文字色*/
+	padding: 4px 20px 4px; /*上、左右、下へのボックス内の余白*/
+	border-radius: 8px 8px 8px 8px; /*角丸のサイズ。左上、右上、右下、左下。*/
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	/*右へ、下へ、ぼかし幅の順の影の設定。rgba以降は色の設定。「0,0,0」はrgbでの色で、黒。「0.2」が透明度で20%の意味。*/
+	background: #FF7F50;
+	text-decoration: none;
+	/*色、右へ、下へ、テキストの影の設定。下にマイナス設定をしているので上に影が入る事になる。*/
+}
+
+
+strong {
+color:#2e3436;
+  background: linear-gradient(transparent 30%, #FFD700 30%);
+  font-weight:normal;
+  font-size:16px;
+  line-height:18px;
+}
