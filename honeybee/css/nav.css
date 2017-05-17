@@ -69,7 +69,7 @@ ul {
 	nav#mainmenu ul li a:hover {
 		background: #FFF; /*背景色*/
 		color: #36271a; /*文字色*/
-		border: 10px solid #F14E95; /*枠線の幅、線種、色*/
+		border: 10px solid #ed801d; /*枠線の幅、線種、色*/
 	}
 	header {
 		height: auto;

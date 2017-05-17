@@ -8,12 +8,12 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>料金システム | ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
+<title>料金システム | みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Miss Mrs" />
 
-<meta name="description" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
-<meta name="keywords" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
+<meta name="description" content="みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋" />
+<meta name="keywords" content="みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋" />
 
 <!-- START:SNS meta-->
 <?php include("common/sns_meta.html"); ?>
@@ -37,101 +37,257 @@
 		<div id="fh5co-couple">
 
 			<section id="contents">
-				<h1 class="type1-1">
+				<!-- レギュラー -->
+				<div class="block-02">
+					<div class="block">
+						<br>
+						<h1 class="type1-1">
+							<span> 料金システム （レギュラーセラピスト）</span>
+						</h1>
+						<div class="">
+							<span style="font-size: 14px; color: #FF8C00; text-align: center">
+								※セラピストランクにより料金が異なりますので受付時にご確認ください！
+								<br>
+								※料金はすべて税込み金額です。
+							</span>
+						</div>
+						<br>
+						<h2 class="type2-1">
+							<span> コース ＆ オプション</span>
+						</h2>
+						<div class="block-02 cf pricelist">
+						<div class="box">
+								<div class="recommend">オススメ</div>
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">60</span>
+										分コース
+									</dt>
+									<dd>
+										<span>7,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									※セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+							<div class="box">
+								<div class="recommend">オススメ</div>
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">90</span>
+										分コース
+									</dt>
+									<dd>
+										<span>9,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									※セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+							<div class="box ">
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">120</span>
+										分コース
+									</dt>
+									<dd>
+										<span>12,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+							<div class="box ">
+								<em class="recommend">NEW!!</em>
 
-					<span> 料金システム（税込） </span>
-				</h1>
-				<div class="">
-					<span style="font-size: 14px; color: #FF8C00;">※セラピストにより料金が異なりますので受付時にご確認ください！ </span>
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">150</span>
+										分コース
+									</dt>
+									<dd>
+										<span>15,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									※セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+
+							<div class="box ">
+								<dl>
+									<dt>
+										延長
+										<span class="time">30</span>
+										分コース
+									</dt>
+									<dd>
+										<span>5,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>※セラピストにより料金が異なりますので受付時にご確認ください！</p>
+							</div>
+
+							<div class="box ">
+								<dl>
+									<dt>セラピスト指名料</dt>
+									<dd>
+										<span>1,000</span>
+										yen
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
 				</div>
-				<br>
-				<h2 class="type2-1">
-					<span> コース ＆ オプション</span>
-				</h2>
-				<div class="block-02 cf pricelist">
-					
-					<div class="box">
-						<div class="recommend">オススメ</div>
-						<dl>
-							<dt>
-								アロママッサージ
-								<span class="time">90</span>
-								分コース
-							</dt>
-							<dd>
-								<span>9,000〜</span>
-								yen
-							</dd>
-						</dl>
-						<p>※セラピストにより料金が異なりますので受付時にご確認ください！
-						<br>※120分以上のコースはセラピストオリジナルメニューを実施します。</p>
+				<!-- /レギュラー -->
+
+				<!-- プレミアム -->
+				<div class="block-02">
+					<div class="block">
+						<br>
+						<h1 class="type1-1">
+							<span> 料金システム （プレミアムセラピスト）</span>
+						</h1>
+						<div class="">
+							<span style="font-size: 14px; color: #FF8C00; text-align: center">
+								※セラピストランクにより料金が異なりますので受付時にご確認ください！
+								<br>
+								※料金はすべて税込み金額です。
+							</span>
+						</div>
+						<br>
+						<h2 class="type2-1">
+							<span> コース ＆ オプション</span>
+						</h2>
+						<div class="block-02 cf pricelist">
+						<div class="box">
+								<div class="recommend">オススメ</div>
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">60</span>
+										分コース
+									</dt>
+									<dd>
+										<span>8,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									※セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+							<div class="box">
+								<div class="recommend">オススメ</div>
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">90</span>
+										分コース
+									</dt>
+									<dd>
+										<span>10,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									※セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+							<div class="box ">
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">120</span>
+										分コース
+									</dt>
+									<dd>
+										<span>14,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+							<div class="box ">
+								<em class="recommend">NEW!!</em>
+
+								<dl>
+									<dt>
+										アロママッサージ
+										<span class="time">150</span>
+										分コース
+									</dt>
+									<dd>
+										<span>18,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>
+									※セラピストにより料金が異なりますので受付時にご確認ください！
+									<br>
+									※120分以上のコースはセラピストオリジナルメニューを実施します。
+								</p>
+							</div>
+
+							<div class="box ">
+								<dl>
+									<dt>
+										延長
+										<span class="time">30</span>
+										分コース
+									</dt>
+									<dd>
+										<span>5,000</span>
+										yen
+									</dd>
+								</dl>
+								<p>※セラピストにより料金が異なりますので受付時にご確認ください！</p>
+							</div>
+
+							<div class="box ">
+								<dl>
+									<dt>セラピスト指名料</dt>
+									<dd>
+										<span>1,000</span>
+										yen
+									</dd>
+								</dl>
+							</div>
+						</div>
 					</div>
-					<div class="box ">
-						<dl>
-							<dt>
-								アロママッサージ
-								<span class="time">120</span>
-								分コース
-							</dt>
-							<dd>
-								<span>12,000〜</span>
-								yen
-							</dd>
-						</dl>
-						<p>セラピストにより料金が異なりますので受付時にご確認ください！
-						<br>※120分以上のコースはセラピストオリジナルメニューを実施します。</p>
-					</div>
-					<div class="box ">
-						<em class="recommend">NEW!!</em>
-
-						<dl>
-							<dt>
-								アロママッサージ
-								<span class="time">150〜</span>
-								分コース
-							</dt>
-							<dd>
-								<span>15,000〜</span>
-								yen
-							</dd>
-						</dl>
-						<p>※セラピストにより料金が異なりますので受付時にご確認ください！<br>
-						※120分以上のコースはセラピストオリジナルメニューを実施します。</p>
-					</div>
-
-					<div class="box ">
-
-						<dl>
-							<dt>
-								延長
-								<span class="time">30</span>
-								分コース
-							</dt>
-							<dd>
-								<span>5,000〜</span>
-								yen
-							</dd>
-						</dl>
-						<p>※セラピストにより料金が異なりますので受付時にご確認ください！</p>
-					</div>
-
-
-					<div class="box ">
-
-						<dl>
-							<dt>セラピスト指名料</dt>
-							<dd>
-								<span>1,000</span>
-								yen
-							</dd>
-						</dl>
-					</div>
-
-
 				</div>
-				<!-- block-02 End -->
 
-				<!-- block-02 End -->
+				<!-- /プレミアム -->
+
 				<div class="block-02">
 
 

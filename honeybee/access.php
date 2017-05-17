@@ -9,12 +9,12 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>アクセス | ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋</title>
+<title>アクセス | みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Miss Mrs" />
 
-<meta name="description" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
-<meta name="keywords" content="ミスミセス | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 南森町 | 長堀橋" />
+<meta name="description" content="みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋" />
+<meta name="keywords" content="みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋" />
 
 <!-- START:SNS meta-->
 <?php include("common/sns_meta.html"); ?>
