@@ -96,7 +96,7 @@
 										
 					<div class="col-md-6  text-center fh5co-heading animate-box">
 						<a href="http://line.me/ti/p/LIL-_8S4Qh">
-							<img src="images/line.png" class="image-witdh100">
+							<img src="images/line.jpg" class="image-witdh100">
 						</a>
 					</div>
 				</div>

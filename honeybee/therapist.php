@@ -8,12 +8,12 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>セラピスト一覧 | Mitsubachi | みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 </title>
+<title>セラピスト一覧 | Mitsubachi | みつばち | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Mitsubachi" />
 
-<meta name="description" content="Mitsubachi | ミツバチ | メンズエステ | 大阪 | 天神橋六丁目 | 扇町" />
-<meta name="keywords" content="Mitsubachi | ミツバチ | メンズエステ | 大阪 | 天神橋六丁目 | 扇町" />
+<meta name="description" content="Mitsubachi | ミツバチ | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋" />
+<meta name="keywords" content="Mitsubachi | ミツバチ | メンズエステ | 大阪 | 天神橋六丁目 | 扇町 | 長堀橋" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -114,6 +114,13 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelength; $i++){
 		$looking = "むっちり";
 	}
 	
+	if($lines_array[$i][8] == 1){
+		$rank = "レギュラー";
+	} else {
+		$rank = "プレミアム";
+	}
+	
+
 	if(($i % 3 ) == 0){ 
 		$start_tag = "<div class=\"container text margin0auto\"><div class=\"row\">";
 		$end_tag ="";
@@ -134,6 +141,8 @@ $start_tag
 	<div class="mybox col-md-3">
 		<div class="inner-box">セラピスト名</div>
 		<p class="inner-text">{$lines_array[$i][2]}</p>
+		<div class="inner-box">セラピストランク</div>
+		<p class="inner-text">$rank</p>
 		<div class="inner-box">年齢</div>
 		<p class="inner-text">{$lines_array[$i][5]}</p>
 		<div class="inner-box">セラピスト経験</div>

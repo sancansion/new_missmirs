@@ -11,10 +11,10 @@
 		margin: 0;
 		padding: 0; /* for Opera8 */
 		background: #fff;
-		font-family: "繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3", "Hiragino Kaku Gothic Pro", "繝｡繧､繝ｪ繧ｪ", Meiryo,
-			"�ｼｭ�ｼｳ �ｼｰ繧ｴ繧ｷ繝�繧ｯ", Verdana, Arial, Helvetica, sans-serif;
-		font-size: 14px; /* 窶ｻ繧ｵ繧､繝医↓繧医ｊ螟画峩縲�蝓ｺ譛ｬ縺ｯ12px */
-		line-height: 1.6; /* 窶ｻ繧ｵ繧､繝医↓繧医ｊ螟画峩縲�蝓ｺ譛ｬ縺ｯ1.6 */
+		font-family: "郢晏�ｵﾎ帷ｹｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺� Pro W3", "Hiragino Kaku Gothic Pro", "郢晢ｽ｡郢ｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ", Meiryo,
+			"�ｿｽ�ｽｼ�ｽｭ�ｿｽ�ｽｼ�ｽｳ �ｿｽ�ｽｼ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ郢ｧ�ｽｯ", Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px; /* 遯ｶ�ｽｻ郢ｧ�ｽｵ郢ｧ�ｽ､郢晏現竊鍋ｹｧ蛹ｻ�ｽ願棔逕ｻ蟲ｩ邵ｲ�ｿｽ陜難ｽｺ隴幢ｽｬ邵ｺ�ｽｯ12px */
+		line-height: 1.6; /* 遯ｶ�ｽｻ郢ｧ�ｽｵ郢ｧ�ｽ､郢晏現竊鍋ｹｧ蛹ｻ�ｽ願棔逕ｻ蟲ｩ邵ｲ�ｿｽ陜難ｽｺ隴幢ｽｬ邵ｺ�ｽｯ1.6 */
 		-webkit-text-size-adjust: 100%;
 	}
 
@@ -110,8 +110,8 @@
 
 	.block-02 {
 		margin: 0 5px 20px;
-		border-bottom: 1px solid #bbbbbb;
-	}
+		/* border-bottom: 1px solid #bbbbbb;
+ */	}
 
 	.block-02 .box {
 		margin-bottom: 20px;

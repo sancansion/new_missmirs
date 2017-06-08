@@ -91,7 +91,7 @@
 						<p class="btn-recruit">
 							<a href="recruit/index.php">▼ 詳しくは専用サイトへ...▼</a>
 						</p>
-						<strong>セラピストの80％が未経験からのスタート!! </strong>
+						<strong>セラピストのほとんどが未経験からのスタート!! </strong>
 						<!-- START: Job Contact -->
 						<?php include("common/job_contact.html"); ?>
 						<!-- END: Job Contact  -->

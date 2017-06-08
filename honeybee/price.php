@@ -37,12 +37,12 @@
 		<div id="fh5co-couple">
 
 			<section id="contents">
-				<!-- レギュラー -->
+				
 				<div class="block-02">
 					<div class="block">
 						<br>
 						<h1 class="type1-1">
-							<span> 料金システム （レギュラーセラピスト）</span>
+							<span> 料金システム </span>
 						</h1>
 						<div class="">
 							<span style="font-size: 14px; color: #FF8C00; text-align: center">
@@ -52,8 +52,9 @@
 							</span>
 						</div>
 						<br>
+						<!-- レギュラー -->
 						<h2 class="type2-1">
-							<span> コース ＆ オプション</span>
+							<span> コース ＆ オプション （レギュラーセラピスト）</span>
 						</h2>
 						<div class="block-02 cf pricelist">
 						<div class="box">
@@ -165,20 +166,9 @@
 				<!-- プレミアム -->
 				<div class="block-02">
 					<div class="block">
-						<br>
-						<h1 class="type1-1">
-							<span> 料金システム （プレミアムセラピスト）</span>
-						</h1>
-						<div class="">
-							<span style="font-size: 14px; color: #FF8C00; text-align: center">
-								※セラピストランクにより料金が異なりますので受付時にご確認ください！
-								<br>
-								※料金はすべて税込み金額です。
-							</span>
-						</div>
-						<br>
+						
 						<h2 class="type2-1">
-							<span> コース ＆ オプション</span>
+							<span> コース ＆ オプション （プレミアムセラピスト）</span>
 						</h2>
 						<div class="block-02 cf pricelist">
 						<div class="box">

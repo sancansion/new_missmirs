@@ -391,8 +391,8 @@ if($mode == 'edit'){
 4<?php echo $lines_array[4]?><br>
 5<?php echo $lines_array[5]?><br>
 6<?php echo $lines_array[6]?><br>
-7<?php echo $lines_array[7]?>
-
+7<?php echo $lines_array[7]?><br>
+8<?php echo $lines_array[8]?><br>
 <p>日付：<input type="text" name="year" size="5" maxlength="4" value="<?php echo $up_ymd_array[0];?>" /> 年 <input type="text" name="month" size="2" maxlength="2" value="<?php echo $up_ymd_array[1];?>" /> 月 <input type="text" name="day" size="2" maxlength="2" value="<?php echo $up_ymd_array[2];?>" /> 日　※半角数字のみ</p>
 
 <h3>写真タイトル、説明など（htmlタグ不可） ※未入力も可</h3><p>※画像拡大時、及びaltに反映されます。

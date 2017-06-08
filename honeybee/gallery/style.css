@@ -141,7 +141,7 @@ body#admin p {
 	font-size:12px;
 }
 body#admin #wrapper {
-	width:840px;
+	width:90%;
 	border: 1px solid #ccc;
 	border-top:0;
 	border-bottom:0;
@@ -179,20 +179,20 @@ body#admin h3{
 	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 body#admin #gallery_wrap {
-	width:840px;
+	width:100%;
 }
 
 
 body#admin #gallery_list li{
-	width:200px;
-	min-height:300px;
+	width:90%;
+	/* min-height:300px; */
 	border:1px solid #ccc;
 	float:left;
 	margin:0 5px 5px 0;
 	overflow:hidden;
 	padding:5px;
 	text-align:left;
-	font-size:12px;
+	font-size:16px;
 	position:relative;
 		
 }

@@ -87,13 +87,18 @@ if ( (isset($_POST['submit']) || isset($_POST['edit_submit']) ) && !isset($_POST
 		if(isset($_POST['looking'])){
 			$looking = replace_func($_POST['looking']);
 		}
+
+		$rank = 1;
+		if(isset($_POST['rank'])){
+			$rank = replace_func($_POST['rank']);
+		}
 		
 		$lines = file($file_path);
 		
 		$fp = @fopen($file_path, "r+b") or die("fopen Error!!DESUYO--!!!");
 		//$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno.",". "\n";
 //		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$extension. ",".$dspno."," .$age."," .$experience. "," .$looking. ",". "\n";
-		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$desc. ",".$dspno."," .$age."," .$experience. "," .$looking. ",". "\n";
+		$writeData = $id  . "," .$up_ymd. "," .$title. "," .$desc. ",".$dspno."," .$age."," .$experience. "," .$looking. "," .$rank. ",". "\n";
 
 		 // 俳他的ロック
 		if(flock($fp, LOCK_EX)){
@@ -180,6 +185,7 @@ if(isset($_POST['order_submit'])){
 <script type="text/javascript" src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/lightbox/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body id="admin">
 <div id="wrapper">
@@ -223,7 +229,8 @@ if($mode == 'edit'){
 		}
 	}
 	$lines_array[3] = rtrim($lines_array[3]);
-	$lines_array[2] = str_replace(array("<br />","<br>"),"\n",$lines_array[2]);//改行（<br />）を改行コードに変換
+	$lines_array[2] = str_replace(array("<br>","<br>"),"\n",$lines_array[2]);//改行（<br>）を改行コードに変換
+$lines_array[3] = str_replace(array("<br />","<br />"),"\n",$lines_array[3]);//改行（<br>）を改行コードに変換
 ?>
 <p style="color:red;font-size:16px;">下記内容を編集後「変更」ボタンを押してください。<a href="admin.php<?php echo "?page={$pager['pageid']}";?>">編集をキャンセル⇒</a></p>
 
@@ -237,28 +244,34 @@ if($mode == 'edit'){
 
 <h3>セラピスト名</h3>
 <input type="text" name="title" value="<?php echo $lines_array[2];?>">
-<br /><br />
+<br>
+<h3>セラピストランク</h3>
+	<input type="radio" name="rank" value="1" <?php if($lines_array[8] == 1){ print "checked";}?>> レギュラー
+	<input type="radio" name="rank" value="2" <?php if($lines_array[8] == 2){ print "checked";}?>> プレミアム
+
+
+<br>
 <h3>セラピスト説明</h3>
 <textarea name="desc" cols="60" rows="3"><?php echo $lines_array[3];?></textarea>
-<br /><br />
-<p>年齢：<input type="text" name="age" size="2" maxlength="2" value="<?php echo $lines_array[5]?>" /> 
-</p>
+<br><br>
+<h3>年齢：</h3><input type="text" name="age" size="2" maxlength="2" value="<?php echo $lines_array[5]?>" /> 
+<br>
 
-<p>経験有無<br>
+<h3>経験有無</h3>
 	<input type="radio" name="experience" value="1" <?php if($lines_array[6] == 1){ print "checked";}?>> あり
 	<input type="radio" name="experience" value="2" <?php if($lines_array[6] == 2){ print "checked";}?>> なし
-</p>
+<br>
 
-<p>経験有無<br>
+<h3>経験有無</h3>
 	<input type="radio" name="looking" value="1" <?php if($lines_array[7] == 1){ print "checked";}?>> スレンダー
 	<input type="radio" name="looking" value="2" <?php if($lines_array[7] == 2){ print "checked";}?>> 普通
 	<input type="radio" name="looking" value="3" <?php if($lines_array[7] == 3){ print "checked";}?>> むっちり
-</p>
+<br>	
 
 <p>■削除チェック　<input type="checkbox" name="del" value="true" /> <span style="font-size:13px;color:#666">※削除する場合はこちらにチェックを入れて「変更」ボタンを押してください。データ（画像データ含む）は完全に削除されます。</span></p>
 
-<br />
-<br /></p>
+<br>
+<br></p>
 <p align="center"><input type="submit" class="submit_btn" name="edit_submit" value="　変更、または削除実行　" /></p>
 <?php
 //----------------------------------------------------------------------
@@ -272,25 +285,31 @@ if($mode == 'edit'){
 <p>日付：<input type="text" name="year" size="5" maxlength="4" value="<?php echo @date("Y",time());?>" /> 年 <input type="text" name="month" size="2" maxlength="2" value="<?php echo @date("n",time());?>" /> 月 <input type="text" name="day" size="2" maxlength="2" value="<?php echo @date("j",time());?>" /> 日　※半角数字のみ</p>
 <h3>セラピスト名</h3>
 <input type="text" name="title" cols="60" rows="3"></textarea>
-<br /><br />
+<br><br>
+
+<h3>セラピストランク</h3>
+	<input type="radio" name="rank" value="1" /> レギュラー
+	<input type="radio" name="rank" value="2" /> プレミアム
+<br><br>
+
 <h3>セラピスト説明</h3>
 
 <textarea name="desc" cols="60" rows="3"></textarea>
+<br><br>
 
-<br /><br />
-<p>年齢：<input type="text" name="age" size="2" maxlength="2" value="" /> 
-</p>
+<h3>年齢：</h3><input type="text" name="age" size="2" maxlength="2" value="" /> 
+<br><br>
 
-<p>経験有無<br>
+<h3>経験有無</h3>
 	<input type="radio" name="experience" value="1" /> あり
 	<input type="radio" name="experience" value="2" /> なし
-</p>
+<br><br>
 
-<p>体型<br>
+<h3>体型</h3>
 	<input type="radio" name="looking" value="1" /> スレンダー
 	<input type="radio" name="looking" value="2" /> 普通
 	<input type="radio" name="looking" value="3" /> むっちり
-</p>
+<br><br>
 
 
 <p align="center"><input type="submit" class="submit_btn" name="submit" value="　新規登録　" onclick="return check()"/></p>
@@ -343,7 +362,7 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelengthAdmin; $i++){
 		$id=$lines_array[$i][0];
 		$lines_array[$i][3] = rtrim($lines_array[$i][3]);
 		$lines_array[$i][1] = ymd2format($lines_array[$i][1]);//日付フォーマットの適用
-		$alt_text = str_replace('<br />','',$lines_array[$i][2]);
+		$alt_text = str_replace('<br>','',$lines_array[$i][2]);
 
 		if($lines_array[$i][6] == 1){
 			$experience = "あり";
@@ -360,6 +379,13 @@ for($i = $pager['index']; ($i-$pager['index']) < $pagelengthAdmin; $i++){
 			$looking = "むっちり";
 		}
 
+		if($lines_array[$i][8] == 1){
+			$rank = "レギュラー";
+		} else {
+			$rank = "プレミアム";
+		}
+
+
 		if(strpos($lines_array[$i][0], 'no_disp') !== false){
 			$img_id = str_replace('no_disp','',$lines_array[$i][0]);
 
@@ -370,7 +396,7 @@ echo <<<EOF
 <a class="photo" href="{$img_updir}/{$img_id}.{$lines_array[$i][3]}" 
 	title="
   {$lines_array[$i][2]} ({$lines_array[$i][5]})
-	<br />
+	<br>
 	セラピスト経験：$experience / 体型：$looking
 	">
 </a>
@@ -384,25 +410,29 @@ EOF;
 		}else{
 echo <<<EOF
 
-<li>登録・更新日:{$lines_array[$i][1]}  
-<p>
-【セラピスト名】<br />
+<li>
+【セラピスト名】<br>
 {$lines_array[$i][2]}
-<br />
-【セラピスト説明】<br />
+<br><br>
+
+ 【セラピストランク】<br>
+$rank
+<br><br>
+
+【セラピスト説明】<br>
 {$lines_array[$i][3]}
-<br />
+<br><br>
 
-【年齢】<br />
+【年齢】<br>
 {$lines_array[$i][5]}
-<br />
+<br><br>
 
-【セラピスト経験】<br />
+【セラピスト経験】<br>
 $experience 
-<br />
- 【体型】<br />
-$looking</p>
-<br />
+<br><br>
+ 【体型】<br>
+$looking
+
 <a class="button" href="?mode=no_disp&id={$id}&page={$pager['pageid']}">非表示にする</a>
 <a class="button" href="?mode=edit&id={$id}&page={$pager['pageid']}">編集・削除</a>
 <input type="hidden" name="sort[]" value="{$id}" /></li>
@@ -425,8 +455,8 @@ EOF;
 <?php if($mode != 'img_order') echo '<div class="pager_link">'.$pager['pager_res'].'</div>';//ページャー表示?>
 
 </div>
-<br />
-<br />
+<br>
+<br>
 <?php echo $copyright;}//著作権表記リンク無断削除禁止?>
 </div>
 </body>
