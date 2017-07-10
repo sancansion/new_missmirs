@@ -38,9 +38,7 @@
 
 			<section id="contents">
 				<h1 class="type1-1">
-					<span class="icon-heart">
-						料金システム（税込）
-					</span>
+					<span class="icon-heart"> 料金システム（税込） </span>
 				</h1>
 				<h2 class="type2-1">
 					<span class="icon-heart"> コース ＆ オプション</span>
@@ -136,6 +134,14 @@
 					</div>
 
 
+					<div class="box ">
+						<a href="https://credit.bpmc.jp/ez/f0266s001">
+							<img src="images/credit.png" alt="クレジットカード決済のカードイージー" width="90%">
+						</a>
+
+					</div>
+
+
 				</div>
 				<!-- block-02 End -->
 
@@ -172,7 +178,7 @@
 
 				</div>
 			</section>
-		
+
 		</div>
 
 
